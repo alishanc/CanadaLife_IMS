@@ -1,0 +1,23 @@
+projectPath: ./vlocity
+gitCheck: true
+autoUpdateSettings: true
+autoRetryErrors: true
+queries:
+  - Product2
+  - Promotion
+  - Rule
+  - EntityFilter
+  - Catalog
+OverrideSettings:
+  DataPacks:
+    Product2:
+      FilterFields:
+      - EID__c
+    Pricebook2:
+      - ADV_Price_Book_Language__c
+  SObjects:
+    Product2:
+      FilterFields:
+      - EID__c
+    Pricebook2:
+      - ADV_Price_Book_Language__c
