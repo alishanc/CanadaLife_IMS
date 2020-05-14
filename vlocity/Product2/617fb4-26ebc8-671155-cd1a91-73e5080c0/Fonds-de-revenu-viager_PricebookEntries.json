@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Fonds de revenu viager",
+        "Pricebook2.Name": "Gestion du patrimoine : fonds distincts",
+        "Pricebook2Id": {
+            "Name": "Gestion du patrimoine : fonds distincts",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Gestion du patrimoine : fonds distincts",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "617fb4-26ebc8-671155-cd1a91-73e5080c0",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "617fb4-26ebc8-671155-cd1a91-73e5080c0",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/617fb4-26ebc8-671155-cd1a91-73e5080c0",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Gestion du patrimoine : fonds distincts/Product2/617fb4-26ebc8-671155-cd1a91-73e5080c0"
+    }
+]

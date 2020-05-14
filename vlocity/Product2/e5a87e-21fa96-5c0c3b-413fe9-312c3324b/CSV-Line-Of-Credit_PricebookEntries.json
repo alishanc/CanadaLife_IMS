@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "CSV Line Of Credit",
+        "Pricebook2.Name": "Solutions Banking",
+        "Pricebook2Id": {
+            "Name": "Solutions Banking",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Solutions Banking",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "e5a87e-21fa96-5c0c3b-413fe9-312c3324b",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "e5a87e-21fa96-5c0c3b-413fe9-312c3324b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/e5a87e-21fa96-5c0c3b-413fe9-312c3324b",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Solutions Banking/Product2/e5a87e-21fa96-5c0c3b-413fe9-312c3324b"
+    }
+]

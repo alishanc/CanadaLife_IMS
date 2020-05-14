@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Assurance vie temporaire Simplicité privilégiée – Temporaire jusqu’à 65ans",
+        "Pricebook2.Name": "Produits d’assurance-vie individuelle",
+        "Pricebook2Id": {
+            "Name": "Produits d’assurance-vie individuelle",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Produits d’assurance-vie individuelle",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "c213ae-4902b4-7bb448-310485-0adb60e5d",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "c213ae-4902b4-7bb448-310485-0adb60e5d",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/c213ae-4902b4-7bb448-310485-0adb60e5d",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Produits d’assurance-vie individuelle/Product2/c213ae-4902b4-7bb448-310485-0adb60e5d"
+    }
+]

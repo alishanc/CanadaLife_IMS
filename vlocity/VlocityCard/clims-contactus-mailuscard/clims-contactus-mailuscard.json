@@ -1,0 +1,40 @@
+{
+    "GlobalKey__c": "clims-contactus-mailuscard/CanadaLife/1/1588187723116",
+    "dataSource": {
+        "type": null
+    },
+    "enableLwc": true,
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "lwc": {
+                "DeveloperName": "mailUs",
+                "Id": "0Rb4g00000004WzCAI",
+                "MasterLabel": "mailUs",
+                "name": "mailUs"
+            },
+            "name": "Active",
+            "smartAction": {
+            }
+        }
+    ],
+    "title": "Mail Us"
+}

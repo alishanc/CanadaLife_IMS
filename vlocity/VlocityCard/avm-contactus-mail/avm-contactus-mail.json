@@ -1,0 +1,312 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "enableLwc": false,
+    "filter": {
+    },
+    "states": [
+        {
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['ContactCenters']['health']",
+                        "logicalOperator": "&&",
+                        "operator": "!=",
+                        "type": "custom",
+                        "value": "null"
+                    },
+                    {
+                        "field": "['ContactCenters']['wealth']",
+                        "logicalOperator": "&&",
+                        "operator": "!=",
+                        "type": "custom",
+                        "value": "null"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Health",
+                    "name": "Health title",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ContactCenters']['health']['address']['line1']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['ContactCenters']['health']['address']['line1']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ContactCenters']['health']['address']['line2']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['ContactCenters']['health']['address']['line2']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ContactCenters']['health']['address']['line4']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['ContactCenters']['health']['address']['line4']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Wealth",
+                    "name": "<<Custom Field>>",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ContactCenters']['wealth']['address']['line1']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['ContactCenters']['wealth']['address']['line1']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ContactCenters']['wealth']['address']['line2']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['ContactCenters']['wealth']['address']['line2']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ContactCenters']['wealth']['address']['line4']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['ContactCenters']['wealth']['address']['line4']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['ContactCenters']['health'] != null && $scope.obj['ContactCenters']['wealth'] != null",
+            "isSmartAction": false,
+            "lwc": {
+                "DeveloperName": "cardActiveState",
+                "Id": "0Rb4g000000045OCAQ",
+                "MasterLabel": "card-active-state",
+                "name": "cardActiveState"
+            },
+            "name": "Health and wealth",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Title",
+                    "type": "string",
+                    "value": "Mail us"
+                }
+            ],
+            "smartAction": {
+            },
+            "templateUrl": "clims-contactus-placeholders-noicon-slds"
+        },
+        {
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['ContactCenters']['health']",
+                        "logicalOperator": "&&",
+                        "operator": "!=",
+                        "type": "custom",
+                        "value": "null"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Health",
+                    "name": "Health title",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ContactCenters']['health']['address']['line1']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['ContactCenters']['health']['address']['line1']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ContactCenters']['health']['address']['line2']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['ContactCenters']['health']['address']['line2']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ContactCenters']['health']['address']['line4']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['ContactCenters']['health']['address']['line4']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['ContactCenters']['health'] != null",
+            "isSmartAction": false,
+            "lwc": {
+                "DeveloperName": "cardActiveState",
+                "Id": "0Rb4g000000045OCAQ",
+                "MasterLabel": "card-active-state",
+                "name": "cardActiveState"
+            },
+            "name": "Health",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Title",
+                    "type": "string",
+                    "value": "Mail us"
+                }
+            ],
+            "smartAction": {
+            },
+            "templateUrl": "clims-contactus-placeholders-noicon-slds"
+        },
+        {
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['ContactCenters']['wealth']",
+                        "logicalOperator": "&&",
+                        "operator": "!=",
+                        "type": "custom",
+                        "value": "null"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Wealth",
+                    "name": "Wealth Title",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ContactCenters']['wealth']['address']['line1']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['ContactCenters']['wealth']['address']['line1']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ContactCenters']['wealth']['address']['line2']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['ContactCenters']['wealth']['address']['line2']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ContactCenters']['wealth']['address']['line4']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['ContactCenters']['wealth']['address']['line4']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['ContactCenters']['wealth'] != null",
+            "isSmartAction": false,
+            "lwc": {
+                "DeveloperName": "cardActiveState",
+                "Id": "0Rb4g000000045OCAQ",
+                "MasterLabel": "card-active-state",
+                "name": "cardActiveState"
+            },
+            "name": "Wealth",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Title",
+                    "type": "string",
+                    "value": "Mail us"
+                }
+            ],
+            "smartAction": {
+            },
+            "templateUrl": "clims-contactus-placeholders-noicon-slds"
+        }
+    ],
+    "title": "Mail us"
+}

@@ -1,0 +1,23 @@
+{
+    "Cards": [
+        "ak_lwc_test_card"
+    ],
+    "GlobalKey__c": "ak_lwc_test/1/ak/1588008972659",
+    "bypassSave": true,
+    "componentName": "cfAk_lwc_test",
+    "dataSource": {
+        "type": null
+    },
+    "enableLwc": true,
+    "lwc": {
+        "DeveloperName": "cardCanvas1x",
+        "Id": "0Rb4g000000045PCAQ",
+        "MasterLabel": "cardCanvas1x",
+        "name": "cardCanvas1x"
+    },
+    "previewType": "runTime",
+    "repeatCards": false,
+    "workspace": [
+        "ak_lwc_test_card/ak/1/1588102361669"
+    ]
+}

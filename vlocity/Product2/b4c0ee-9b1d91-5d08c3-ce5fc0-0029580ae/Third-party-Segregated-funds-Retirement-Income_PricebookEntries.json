@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Third party Segregated funds - Retirement Income",
+        "Pricebook2.Name": "Wealth: Segregated Funds",
+        "Pricebook2Id": {
+            "Name": "Wealth: Segregated Funds",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Wealth: Segregated Funds",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "b4c0ee-9b1d91-5d08c3-ce5fc0-0029580ae",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "b4c0ee-9b1d91-5d08c3-ce5fc0-0029580ae",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/b4c0ee-9b1d91-5d08c3-ce5fc0-0029580ae",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Wealth: Segregated Funds/Product2/b4c0ee-9b1d91-5d08c3-ce5fc0-0029580ae"
+    }
+]

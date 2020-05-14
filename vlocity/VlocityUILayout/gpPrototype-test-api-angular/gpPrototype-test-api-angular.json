@@ -1,0 +1,24 @@
+{
+    "Cards": [
+        "gpPrototype-testapi-card"
+    ],
+    "componentName": "cfGpPrototypeTestApiAngular",
+    "dataSource": {
+        "type": "IntegrationProcedures",
+        "value": {
+            "ipMethod": "gpPrototype_GetApigeeAccessToken",
+            "optionsMap": {
+                "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+            }
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-simple-slds"
+        }
+    },
+    "workspace": [
+        "gpPrototype-testapi-card/CanadaLife/1/1588799208922"
+    ]
+}

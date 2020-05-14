@@ -1,0 +1,35 @@
+{
+    "Cards": [
+        "avm-contactus-mail"
+    ],
+    "GlobalKey__c": "avm-contactus-mail/1/Great-West Life Co./1587645169536",
+    "bypassSave": true,
+    "componentName": "cfAvmContactusMail",
+    "dataSource": {
+        "type": "IntegrationProcedures",
+        "value": {
+            "ipMethod": "gpPrototype_ReadContactCentersForCustomer",
+            "optionsMap": {
+                "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+            }
+        }
+    },
+    "enableLwc": false,
+    "lwc": {
+        "DeveloperName": "cardCanvas1x",
+        "Id": "0Rb4g000000045PCAQ",
+        "MasterLabel": "cardCanvas1x",
+        "name": "cardCanvas1x"
+    },
+    "previewType": "runTime",
+    "repeatCards": false,
+    "requiredPermission": "",
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-simple-slds"
+        }
+    },
+    "workspace": [
+        "avm-contactus-mail/Great-West Life Co./1/1587645285470"
+    ]
+}

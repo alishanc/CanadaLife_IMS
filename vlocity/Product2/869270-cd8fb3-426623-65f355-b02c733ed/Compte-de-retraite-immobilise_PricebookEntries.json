@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Compte de retraite immobilise",
+        "Pricebook2.Name": "Gestion du patrimoine : fonds distincts",
+        "Pricebook2Id": {
+            "Name": "Gestion du patrimoine : fonds distincts",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Gestion du patrimoine : fonds distincts",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "869270-cd8fb3-426623-65f355-b02c733ed",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "869270-cd8fb3-426623-65f355-b02c733ed",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/869270-cd8fb3-426623-65f355-b02c733ed",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Gestion du patrimoine : fonds distincts/Product2/869270-cd8fb3-426623-65f355-b02c733ed"
+    }
+]

@@ -1,0 +1,264 @@
+{
+    "dataSource": {
+        "type": null
+    },
+    "enableLwc": false,
+    "filter": {
+    },
+    "states": [
+        {
+            "blankCardState": false,
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['ContactCenters']['wealth']",
+                        "logicalOperator": "&&",
+                        "operator": "!=",
+                        "type": "custom",
+                        "value": "null"
+                    },
+                    {
+                        "field": "['ContactCenters']['health']",
+                        "logicalOperator": "&&",
+                        "operator": "!=",
+                        "type": "custom",
+                        "value": "null"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "disableAddCondition": false,
+            "editMode": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Health",
+                    "name": "Health title",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ContactCenters']['health']['phone']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['ContactCenters']['health']['phone']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ContactCenters']['health']['hours']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['ContactCenters']['health']['hours']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Wealth",
+                    "name": "Wealth title",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ContactCenters']['wealth']['phone']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['ContactCenters']['wealth']['phone']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ContactCenters']['wealth']['hours']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['ContactCenters']['wealth']['hours']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['ContactCenters']['wealth'] != null && $scope.obj['ContactCenters']['health'] != null",
+            "isSmartAction": false,
+            "name": "Health & Wealth",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Title",
+                    "type": "string",
+                    "value": "Call us"
+                }
+            ],
+            "smartAction": {
+            },
+            "templateUrl": "clims-contactus-placeholders-noicon-slds"
+        },
+        {
+            "blankCardState": false,
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['ContactCenters']['health']",
+                        "logicalOperator": "&&",
+                        "operator": "!=",
+                        "type": "custom",
+                        "value": "null"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "disableAddCondition": false,
+            "editMode": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Health",
+                    "name": "Health title",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ContactCenters']['health']['phone']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['ContactCenters']['health']['phone']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ContactCenters']['health']['hours']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['ContactCenters']['health']['hours']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['ContactCenters']['health'] != null",
+            "isSmartAction": false,
+            "name": "Health",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Title",
+                    "type": "string",
+                    "value": "Call us"
+                }
+            ],
+            "smartAction": {
+            },
+            "templateUrl": "clims-contactus-placeholders-noicon-slds"
+        },
+        {
+            "blankCardState": false,
+            "collapse": true,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    },
+                    {
+                        "field": "['ContactCenters']['wealth']",
+                        "logicalOperator": "&&",
+                        "operator": "!=",
+                        "type": "custom",
+                        "value": "null"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "disableAddCondition": false,
+            "editMode": false,
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "<<Custom Field>>",
+                    "editing": false,
+                    "fieldType": "custom",
+                    "label": "Wealth",
+                    "name": "Wealth title",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ContactCenters']['wealth']['phone']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['ContactCenters']['wealth']['phone']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['ContactCenters']['wealth']['hours']",
+                    "editing": false,
+                    "group": "Custom Properties",
+                    "label": "",
+                    "name": "['ContactCenters']['wealth']['hours']",
+                    "type": "string"
+                }
+            ],
+            "filter": "$scope.data.status === 'active' && $scope.obj['ContactCenters']['wealth'] != null",
+            "isSmartAction": false,
+            "name": "Wealth",
+            "placeholderExpand": true,
+            "placeholders": [
+                {
+                    "collapse": true,
+                    "editing": false,
+                    "label": "",
+                    "name": "Title",
+                    "type": "string",
+                    "value": "Call us"
+                }
+            ],
+            "smartAction": {
+            },
+            "templateUrl": "clims-contactus-placeholders-noicon-slds"
+        }
+    ],
+    "title": "Contact by Phone"
+}

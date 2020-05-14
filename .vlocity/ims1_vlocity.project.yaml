@@ -1,0 +1,915 @@
+Name: IMS1_vlocity
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - CalculationMatrix/climsConfigSettings
+    - CpqConfigurationSetup/PricebookEntryToContractLineItem__c
+    - CpqConfigurationSetup/PricebookEntryToOpportunityLineItem
+    - CpqConfigurationSetup/PricebookEntryToQuoteLineItem
+    - CpqConfigurationSetup/RetainProductAttribJSON
+    - DataRaptor/AccountSearch
+    - DataRaptor/climsCreateCase
+    - DataRaptor/climsCreateCaseWithAttachment
+    - DataRaptor/climsCreateCaseWithAttachmentDoNotUse
+    - DataRaptor/climsCreateCaseWithoutAttachment
+    - DataRaptor/climsCreateCaseWithoutAttachmentDoNotUse
+    - DataRaptor/climsCreateNewCase
+    - DataRaptor/climsGetCaseRecord
+    - DataRaptor/climsGetCaseWithContentDocuments
+    - DataRaptor/climsGetContactRecord
+    - DataRaptor/climsGetContactRecord_v2
+    - DataRaptor/climsGetContactRecord_v3
+    - DataRaptor/climsGetContactRecordsForGroupEmailing
+    - DataRaptor/climsGetContactUsInbxDetails
+    - DataRaptor/climsGetUserLanguage
+    - DataRaptor/climsValidateAttachmentFiles
+    - DataRaptor/climsXFormContactCenterAPIResponse
+    - DataRaptor/CreateContactInteractionTopic
+    - DataRaptor/CreateInteraction
+    - DataRaptor/CreateInteractionContact
+    - DataRaptor/CreateInteractionTopics
+    - DataRaptor/DRTestLookUp
+    - DataRaptor/ExtractAccountFromContact
+    - DataRaptor/ExtractAssetBasedOnAccount
+    - DataRaptor/ExtractContactName
+    - DataRaptor/gpPrototypeGetCustomerIdfromUser
+    - DataRaptor/gpPrototypeXFormContactCenterFormulas
+    - DataRaptor/gpProtoTypeXFormHealthContactCenter
+    - DataRaptor/gpPrototypeXFormWealthContactCenter
+    - DataRaptor/PrototypeGetCaseNumber
+    - DataRaptor/PrototypeGetContact
+    - DataRaptor/PrototypeGetGroupEmailContacts
+    - DataRaptor/PrototypePostAttachments
+    - DataRaptor/PrototypePostNewCase
+    - DataRaptor/PrototypeTransformAttachmentId
+    - DataRaptor/testingAttachmentValidation
+    - DataRaptor/TransformDataRaptor
+    - DataRaptor/TransformNewInteraction
+    - DataRaptor/tsTestingAttachmentValidation
+    - DataRaptor/vjPrototypeCreateCase
+    - DataRaptor/vjPrototypeGetContactDetails
+    - DataRaptor/vjPrototypeGetUserDetails
+    - DataRaptor/vjTestMap2
+    - DataRaptor/vjTestTransformer
+    - DataRaptor/VPLCreateNewCase100
+    - IntegrationProcedure/climsContactUs_AggregateContactUsInitialData
+    - IntegrationProcedure/climsContactUs_ContactUsSendEmails
+    - IntegrationProcedure/climsContactUs_ReadContactCentersForCustomer
+    - IntegrationProcedure/CustomerInteractionAccount_Creation
+    - IntegrationProcedure/CustomerInteractionAccountCMT_Creation
+    - IntegrationProcedure/CustomerInteractionContact_Creation
+    - IntegrationProcedure/CustomerInteractionContactCMT_Creation
+    - IntegrationProcedure/gpPrototype_ReadContactCentersForCustomer
+    - IntegrationRetryPolicy/e70f3f84-1aa1-4f50-9975-9dd54563687c
+    - IntegrationRetryPolicy/ee28973a-6a66-4ee0-9495-24e101fc253c
+    - ItemImplementation/Assetize
+    - ItemImplementation/AssetizeOrderItem
+    - ItemImplementation/BackPropagate
+    - ItemImplementation/Calculate
+    - ItemImplementation/NoOp
+    - OmniScript/climsContactUs_ContactUsFlowForCase_English
+    - OmniScript/imsCase_contactus_English
+    - OmniScript/InteractionLauncher_AccountSearch_English
+    - OmniScript/lwcPrototype_CreateCaseWithFileEmail_English
+    - OmniScript/nbportal_dashboard_English
+    - OmniScript/vjPrototypPortal_contactus_English
+    - OrchestrationItemDefinition/OffPlatform_AutoTask_Template_OffPlatform_PlanDefinition
+    - OrchestrationItemDefinition/OffPlatform_Callout_Template_OffPlatform_PlanDefinition
+    - OrchestrationItemDefinition/OffPlatform_ItemDefinition_OffPlatform_PlanDefinition
+    - OrchestrationPlanDefinition/OffPlatform_PlanDefinition
+    - Pricebook2/Assurance-maladie individuelle
+    - Pricebook2/Collective
+    - Pricebook2/Gestion du patrimoine : autres
+    - Pricebook2/Gestion du patrimoine : fonds communs
+    - Pricebook2/Gestion du patrimoine : fonds distincts
+    - Pricebook2/Gestion du patrimoine : produits garantis
+    - Pricebook2/Group
+    - Pricebook2/Individual Health
+    - Pricebook2/Individual Life
+    - Pricebook2/Living Benefits
+    - Pricebook2/Mortgages
+    - Pricebook2/Prets hypothecaires
+    - Pricebook2/Produits d’assurance-vie individuelle
+    - Pricebook2/Protection du vivant
+    - Pricebook2/Solutions Bancaires
+    - Pricebook2/Solutions Banking
+    - Pricebook2/Standard Price Book
+    - Pricebook2/Wealth: Guaranteed Products
+    - Pricebook2/Wealth: Mutual Funds
+    - Pricebook2/Wealth: Other
+    - Pricebook2/Wealth: Segregated Funds
+    - Product2/20 Pay
+    - Product2/20 primes
+    - Product2/All-in-One
+    - Product2/Assur. Vie universelle de la London Life
+    - Product2/Assurance vie temporaire Simplicité privilégiée – Temporaire 10 ans
+    - Product2/Assurance vie temporaire Simplicité privilégiée – Temporaire 20 ans
+    - Product2/Assurance vie temporaire Simplicité privilégiée – Temporaire 30 ans
+    - Product2/Assurance vie temporaire Simplicité privilégiée – Temporaire jusqu’à 65ans
+    - Product2/Assurance-maladie Sonate
+    - Product2/Automatical partial redemption
+    - Product2/Autre - enregistre
+    - Product2/Autre ass. - fonds dist. - Rev.retraite
+    - Product2/Autre ass.- fonds dist. - Ep. Retraite
+    - Product2/Autre assureur - ass.-mal. et dent. ind.
+    - Product2/Autre assureur - CPG/OIG
+    - Product2/Autre assureur - fonds communs
+    - Product2/Autre assureur - groupe de grande taille
+    - Product2/Autre assureur - groupe de petite taille
+    - Product2/Autre assureur - invalidite
+    - Product2/Autre assureur - maladies graves
+    - Product2/Autre assureur - rente
+    - Product2/Autre assureur-vie
+    - Product2/Autre régime enregistré
+    - Product2/Bank Account
+    - Product2/Boss Expense
+    - Product2/BOSSplus
+    - Product2/CDA croissant annuellement, primes payables jusqu’à 85 ans
+    - Product2/CDA uniforme, primes payables jusqu’à 85 ans
+    - Product2/CDA à période déterminée de versement
+    - Product2/Child Life Advance
+    - Product2/Child Oasis Level Benefit, 25 Years
+    - Product2/Competitor
+    - Product2/Compte bancaire
+    - Product2/Compte d'epargne libre d'impot
+    - Product2/Compte d'epargne libre d'impot
+    - Product2/Compte de retraite immobilise
+    - Product2/Compte de retraite immobilise
+    - Product2/Compte de retraite immobilise
+    - Product2/Contrat d’Option à intérêt garanti
+    - Product2/CPG/OAG
+    - Product2/CSV Line Of Credit
+    - Product2/Enhanced Legacy
+    - Product2/Enhanced Legacy- Guaranteed 20 Pay
+    - Product2/Enhanced Wealth
+    - Product2/Enhanced Wealth- Guaranteed 20 Pay
+    - Product2/Estate Achiever Plus, Max 10
+    - Product2/Estate Achiever Plus, Max 20
+    - Product2/Estate Achiever Plus, Pay To Age 100
+    - Product2/Fonds de revenu de retraite immobilise
+    - Product2/Fonds de revenu de retraite immobilise
+    - Product2/Fonds de revenu de retraite immobilise
+    - Product2/Fonds de revenu de retraite prescrit
+    - Product2/Fonds de revenu de retraite visé par règlement
+    - Product2/Fonds de revenu viager
+    - Product2/Fonds de revenu viager
+    - Product2/Fonds de revenu viager
+    - Product2/Fonds de revenu viager restreint
+    - Product2/Fonds de revenu viager restreint
+    - Product2/Fonds enr. de rev. de retr. de conj.
+    - Product2/Fonds enr. de rev. de retr. Prescrit
+    - Product2/Fonds enr. de rev. de retr. Prescrit
+    - Product2/Fonds enr. de rev. de retraite prescrit
+    - Product2/Fonds enreg. de rev. de retr. de conj.
+    - Product2/Fonds enregistre de revenu de retraite
+    - Product2/Fonds enregistre de revenu de retraite
+    - Product2/Fonds enregistre de revenu de retraite
+    - Product2/Frais generaux de La PME
+    - Product2/Frais generaux du Professionnel
+    - Product2/Generateur de patrimoine, 100 ans
+    - Product2/Generateur de patrimoine, 20 primes
+    - Product2/Generateur de succession, 100 ans
+    - Product2/Generateur de succession, 20 primes
+    - Product2/GICs/GIOs
+    - Product2/Groupe de grande taille
+    - Product2/Groupe de grande taille
+    - Product2/Guaranteed Interest Option
+    - Product2/Income annuity - Joint life
+    - Product2/Income annuity - Single life
+    - Product2/Income annuity - Term certain
+    - Product2/Independence Plan
+    - Product2/Investment Loan Or Line Of Credit
+    - Product2/Jubile Vie entiere
+    - Product2/Jubilee Whole Life
+    - Product2/La PMEplus
+    - Product2/Large Group
+    - Product2/Le Competiteur
+    - Product2/Le FERR de conjoint
+    - Product2/Le Professionnel
+    - Product2/Le REER de conjoint
+    - Product2/Le RER immobilisé
+    - Product2/Le RER immobilisé
+    - Product2/Legacy Generator 20 pay
+    - Product2/Legacy Generator pay to 100
+    - Product2/Life Advance
+    - Product2/Life Income Fund
+    - Product2/Life Income Fund
+    - Product2/Life Income Fund
+    - Product2/Life Pay to 65
+    - Product2/Lifestyle Protection Plan
+    - Product2/Locked-in Registered Retirement Savings Plan
+    - Product2/Locked-in registered retirement savings plan
+    - Product2/Locked-in Registered Retirement Savings Plan
+    - Product2/Locked-In Retirement Account
+    - Product2/Locked-In Retirement Account
+    - Product2/Locked-In Retirement Account
+    - Product2/Locked-in Retirement Income Fund
+    - Product2/Locked-in Retirement Income Fund
+    - Product2/Locked-in Retirement Income Fund
+    - Product2/London Life Universal Life Insurance
+    - Product2/Marge de crédit sur valeur de rachat
+    - Product2/Mortgages
+    - Product2/Non-registered investment plan
+    - Product2/Non-registered investment plan
+    - Product2/Non-registered investment plan
+    - Product2/Oas Temp 10 ans ren a 75 ans, prest unif
+    - Product2/Oasis - Enfant Prest. decroiss., 25 ans
+    - Product2/Oasis Decreasing Benefit, 10 Years
+    - Product2/Oasis Decreasing Benefit, 15 Years
+    - Product2/Oasis Decreasing Benefit, 20 Years
+    - Product2/Oasis Decreasing Benefit, 25 Years
+    - Product2/Oasis Level Benefit Lifetime (paid-up at age 100)
+    - Product2/Oasis Level Benefit to Age 65
+    - Product2/Oasis Level Benefit to Age 75
+    - Product2/Oasis Level Benefit to Age 75 (20 year pay)
+    - Product2/Oasis Level Benefit to Age 75 (30 year pay)
+    - Product2/Oasis Level Benefit, Term 10 Renewable to Age 75
+    - Product2/Oasis Prest. unif. a 75 ans (pr. 20 ans)
+    - Product2/Oasis Prest. unif. a 75 ans (pr. 30 ans)
+    - Product2/Oasis Prest. unif. la vie dur. (lib. a 100 ans)
+    - Product2/Oasis Prestation decroissante, 10 ans
+    - Product2/Oasis Prestation decroissante, 15 ans
+    - Product2/Oasis Prestation decroissante, 20 ans
+    - Product2/Oasis Prestation decroissante, 25 ans
+    - Product2/Oasis Prestation uniforme jusqu'a 65 ans
+    - Product2/Oasis Prestation uniforme jusqu'a 75 ans
+    - Product2/Other - Registered
+    - Product2/Other - Registered
+    - Product2/Partner Buy-Out
+    - Product2/Patrimoine plus
+    - Product2/Patrimoine plus-20 primes garanties
+    - Product2/Patrimoine prestige, max 10
+    - Product2/Patrimoine prestige, max 20
+    - Product2/Patrimoine prestige, primes payables jusqu’à 100 ans
+    - Product2/PlanDirect
+    - Product2/PlanDirect
+    - Product2/Police Protection Indépendance
+    - Product2/Police Protection Niveau de vie
+    - Product2/Prescribed registered retirement income fund
+    - Product2/Prescribed Registered Retirement Income Fund
+    - Product2/Prescribed registered retirement income fund
+    - Product2/Prescribed Retirement Income Fund
+    - Product2/Prescribed Retirement Income Fund
+    - Product2/Prets hypothecaires
+    - Product2/PrioritéVie
+    - Product2/PriosritéVie – Enfant
+    - Product2/Professional
+    - Product2/Professional Expense
+    - Product2/Protector
+    - Product2/Prêt d'investissement ou marges de crédit
+    - Product2/Prêt REER
+    - Product2/Rachat de parts de l'associe
+    - Product2/Rachat partiel automatique
+    - Product2/Reg. enr. d'epargne-retraite de conj.
+    - Product2/Regime d'epargne immobilise restreint
+    - Product2/Regime de placement non enregistre
+    - Product2/Regime de placement non enregistre
+    - Product2/Regime enr. d'ep. et. - reg.familial
+    - Product2/Regime enr. d'ep. et. - reg.Individuel
+    - Product2/Regime enr. d'ep.- retraite immobilise
+    - Product2/Regime enr. d'ep.-retraite de conjoint
+    - Product2/Regime enregistre d'epargne-invalidite
+    - Product2/Regime enregistre d'epargne-retraite
+    - Product2/Regime enregistre d'epargne-retraite
+    - Product2/Regime enregistre d'epargne-retraite
+    - Product2/Registered Disability Savings Plan
+    - Product2/Registered Education Savings Plan - Family
+    - Product2/Registered Education Savings Plan - Individual
+    - Product2/Registered Retirement Income Fund
+    - Product2/Registered Retirement Income Fund
+    - Product2/Registered Retirement Income Fund
+    - Product2/Registered Retirement Savings Plan
+    - Product2/Registered Retirement Savings Plan
+    - Product2/Registered Retirement Savings Plan
+    - Product2/Rente de rev. - rente viag. sur une tete
+    - Product2/Rente de revenu - rente certaine
+    - Product2/Rente de revenu - reversible
+    - Product2/Restricted Life Income Fund
+    - Product2/Restricted Life Income Fund
+    - Product2/Restricted Locked-in Savings Plan
+    - Product2/Restricted Locked-in Savings Plan
+    - Product2/RRSP Loan
+    - Product2/Régime d'épargne immobilisé restreint
+    - Product2/Régime de placement non enregistre
+    - Product2/Securities (QTrade)
+    - Product2/Selectpac
+    - Product2/Selectpac
+    - Product2/Simply Preferred Term Life Insurance – Term 10
+    - Product2/Simply Preferred Term Life Insurance – Term 20
+    - Product2/Simply Preferred Term Life Insurance – Term 30
+    - Product2/Simply Preferred Term Life Insurance – Term To Age 65
+    - Product2/Solutions Bancaires
+    - Product2/Solutions Banking
+    - Product2/Sonata Health
+    - Product2/Spousal Registered Retirement Income Fund
+    - Product2/Spousal registered retirement income fund
+    - Product2/Spousal registered retirement income fund
+    - Product2/Spousal registered retirement savings plan
+    - Product2/Spousal Registered Retirement Savings Plan
+    - Product2/Spousal registered retirement savings plan
+    - Product2/Succession plus
+    - Product2/Succession plus - 20 primes garanties
+    - Product2/Succession prestige, max 10
+    - Product2/Succession prestige, max 20
+    - Product2/Succession prestige, primes payables jusqu’à 100 ans
+    - Product2/Tax free savings account
+    - Product2/Tax-free savings account
+    - Product2/Temporaire 10 ans
+    - Product2/Temporaire 20 ans
+    - Product2/Term 10
+    - Product2/Term 20
+    - Product2/Third party Annuity
+    - Product2/Third party Critical Illness Insurance
+    - Product2/Third party Disability Insurance
+    - Product2/Third party GIC's/GIO's
+    - Product2/Third Party Individual Health and Dental Plan
+    - Product2/Third party Large Group
+    - Product2/Third party Life Insurance
+    - Product2/Third party Mutual funds
+    - Product2/Third party Segregated funds - Retirement Income
+    - Product2/Third party Segregated funds - Retirement Savings
+    - Product2/Third party Small Group
+    - Product2/Tout-En-Un
+    - Product2/Universal Life: Annually Increasing Pay To 85 COI
+    - Product2/Universal Life: Level COI
+    - Product2/Universal Life: Limited Pay COI
+    - Product2/Valeurs mobilieres (Qtrade)
+    - Product2/Vie, primes jusqu'a 65 ans
+    - Product2/Wealth Achiever Plus, Max 10
+    - Product2/Wealth Achiever Plus, Max 20
+    - Product2/Wealth Achiever Plus, Pay To Age 100
+    - Product2/Wealth Generator 20 pay
+    - Product2/Wealth Generator pay to 100
+    - StoryObjectConfiguration/Account_Case
+    - StoryObjectConfiguration/Account_Event
+    - StoryObjectConfiguration/Account_NonHeldPolicy
+    - StoryObjectConfiguration/Account_Note
+    - StoryObjectConfiguration/Account_Opportunity
+    - StoryObjectConfiguration/Account_Policy
+    - StoryObjectConfiguration/Account_Task
+    - StoryObjectConfiguration/CampaignMember_Action
+    - StoryObjectConfiguration/Contact_Campaign
+    - StoryObjectConfiguration/Contact_Case
+    - StoryObjectConfiguration/Contact_Claim1
+    - StoryObjectConfiguration/Contact_Claim2
+    - StoryObjectConfiguration/Contact_Event
+    - StoryObjectConfiguration/Contact_Event2
+    - StoryObjectConfiguration/Contact_Note
+    - StoryObjectConfiguration/Contact_Opportunity
+    - StoryObjectConfiguration/Contact_Task
+    - StoryObjectConfiguration/Lead_Compaign
+    - StoryObjectConfiguration/Lead_Event
+    - StoryObjectConfiguration/Lead_Event2
+    - StoryObjectConfiguration/Lead_Note
+    - StoryObjectConfiguration/Lead_Task
+    - StoryObjectConfiguration/Opportunity_Event
+    - StoryObjectConfiguration/Opportunity_Note
+    - StoryObjectConfiguration/Opportunity_Quote
+    - StoryObjectConfiguration/Opportunity_Task
+    - System/Thor
+    - VlocityAction/AcceptQuote
+    - VlocityAction/Configure Order
+    - VlocityAction/Edit Record
+    - VlocityAction/Opportunity-PersonalMarketing
+    - VlocityAction/Policy-Log Dispute
+    - VlocityAction/Policy-PolicyDetails
+    - VlocityAction/SampleInteractionAccount-ViewDetails
+    - VlocityAction/Story_updateTask
+    - VlocityAction/VerifyActionProcessService
+    - VlocityAction/View Provisioning Status
+    - VlocityAction/View Record
+    - VlocityCard/acuity-sidebar-offer-card
+    - VlocityCard/ak_lwc_test_card
+    - VlocityCard/avm-contactus-mail
+    - VlocityCard/avm-contactus-phone
+    - VlocityCard/avm-test-card
+    - VlocityCard/bar-chart
+    - VlocityCard/Campaign Attribute Categories
+    - VlocityCard/Campaign Campaign Story
+    - VlocityCard/Campaign Case Story
+    - VlocityCard/Campaign Claim Story
+    - VlocityCard/Campaign Detail
+    - VlocityCard/Campaign Event Story
+    - VlocityCard/Campaign Member Action Log Story
+    - VlocityCard/Campaign Member Detail
+    - VlocityCard/Campaign Member Detail Active
+    - VlocityCard/Campaign Member Detail Card
+    - VlocityCard/Campaign Member Log Actions2
+    - VlocityCard/Campaign Non Held Policy Story
+    - VlocityCard/Campaign Note Story
+    - VlocityCard/Campaign Opportunity Story
+    - VlocityCard/Campaign Policy Story
+    - VlocityCard/Campaign Saved OmniScript Story
+    - VlocityCard/Campaign Story
+    - VlocityCard/Campaign Story LWC
+    - VlocityCard/Campaign Task Story
+    - VlocityCard/campaign-member
+    - VlocityCard/Case Story
+    - VlocityCard/Case Story LWC
+    - VlocityCard/Claim Story
+    - VlocityCard/Claim Story LWC
+    - VlocityCard/clims-callus-mailuscard
+    - VlocityCard/clims-contactus-calluscard
+    - VlocityCard/clims-contactus-mailuscard
+    - VlocityCard/column-chart
+    - VlocityCard/Community-account-card-sample
+    - VlocityCard/community-content-layout-flyout-sample
+    - VlocityCard/Contact
+    - VlocityCard/ContactUsBaseCard
+    - VlocityCard/Customer Interaction Story
+    - VlocityCard/Customer Interaction Story LWC
+    - VlocityCard/donut-chart
+    - VlocityCard/Event Story
+    - VlocityCard/Event Story LWC
+    - VlocityCard/gauge-chart
+    - VlocityCard/Held Product Story
+    - VlocityCard/ins-action-dropdown
+    - VlocityCard/ins-add-product-dropdown
+    - VlocityCard/ins-attribute-claim-properties-spec
+    - VlocityCard/ins-attribute-claims
+    - VlocityCard/ins-attribute-claims-injuries-spec
+    - VlocityCard/ins-attributes-coverage
+    - VlocityCard/ins-attributes-default
+    - VlocityCard/ins-attributes-insured
+    - VlocityCard/ins-attributes-product
+    - VlocityCard/ins-broker-quote
+    - VlocityCard/ins-claims-admin-association-card
+    - VlocityCard/ins-claims-admin-injuries-association-card
+    - VlocityCard/ins-coverage
+    - VlocityCard/ins-coverage-policy
+    - VlocityCard/ins-coverage-quote
+    - VlocityCard/ins-coverages-attributes-config
+    - VlocityCard/ins-enrollment-card
+    - VlocityCard/ins-enrollment-future-card
+    - VlocityCard/ins-enrollment-manage-accounts-card
+    - VlocityCard/ins-enrollment-page-actions
+    - VlocityCard/ins-insured-items
+    - VlocityCard/ins-large-group-csv-upload-mapping-card
+    - VlocityCard/ins-large-group-quote-groups-card
+    - VlocityCard/ins-large-group-quote-product-card
+    - VlocityCard/ins-product-attributes-config
+    - VlocityCard/ins-product-attributes-Coverages
+    - VlocityCard/ins-product-attributes-Default
+    - VlocityCard/ins-product-attributes-Insured-Items
+    - VlocityCard/ins-product-config-ClaimInjurySpec
+    - VlocityCard/ins-product-config-ClaimPropertiesSpec
+    - VlocityCard/ins-product-config-Claims
+    - VlocityCard/ins-product-model-insured-items
+    - VlocityCard/ins-product-rules-eligibility-card
+    - VlocityCard/ins-product-rules-requirements-card
+    - VlocityCard/ins-product-selection-item
+    - VlocityCard/ins-product-taxes-card
+    - VlocityCard/ins-product-taxes-config
+    - VlocityCard/ins-quote-census
+    - VlocityCard/ins-quote-header
+    - VlocityCard/ins-quote-plan
+    - VlocityCard/ins-quote-plans
+    - VlocityCard/ins-rating-fact-card
+    - VlocityCard/ins-required-documents-category
+    - VlocityCard/ins-small-group-add-product-dropdown
+    - VlocityCard/Interaction Campaign Story
+    - VlocityCard/Interaction Case Story
+    - VlocityCard/Interaction Claim Story
+    - VlocityCard/Interaction Customer Interaction Story
+    - VlocityCard/Interaction Event Story
+    - VlocityCard/Interaction Non Held Policy Story
+    - VlocityCard/Interaction Note Story
+    - VlocityCard/Interaction Opportunity Story
+    - VlocityCard/Interaction Order Story
+    - VlocityCard/Interaction Policy Story
+    - VlocityCard/Interaction Saved OmniScript Story
+    - VlocityCard/Interaction Task Story
+    - VlocityCard/interaction-feed
+    - VlocityCard/interaction-profile-account-info-slds
+    - VlocityCard/interaction-profile-account-slds
+    - VlocityCard/interaction-profile-contact
+    - VlocityCard/interaction-profile-contact-info
+    - VlocityCard/jle-callcentre-mailus
+    - VlocityCard/jle-ims-contactus-callus
+    - VlocityCard/jle-test-contact
+    - VlocityCard/jleFraudCardTest
+    - VlocityCard/kc-contactus
+    - VlocityCard/Non Held Policy Story
+    - VlocityCard/Non Held Policy Story LWC
+    - VlocityCard/Non Held Product Story
+    - VlocityCard/Note Story
+    - VlocityCard/Note Story LWC
+    - VlocityCard/Opportunity Story
+    - VlocityCard/Opportunity Story LWC
+    - VlocityCard/Order Story
+    - VlocityCard/Order Story LWC
+    - VlocityCard/PhoneDetails
+    - VlocityCard/pie-chart
+    - VlocityCard/Policy Story
+    - VlocityCard/Policy Story LWC
+    - VlocityCard/profile-account
+    - VlocityCard/profile-account-ActionGrid-slds
+    - VlocityCard/profile-account-info
+    - VlocityCard/profile-account-info-slds
+    - VlocityCard/profile-account-slds
+    - VlocityCard/Saved OmniScript Story
+    - VlocityCard/Saved OmniScript Story LWC
+    - VlocityCard/Task Story
+    - VlocityCard/Task Story LWC
+    - VlocityCard/tzGonzoCard1
+    - VlocityCard/vjLWCMigrationCard
+    - VlocityCard/vjTestDebugCard0427
+    - VlocityCard/vlocity-interaction-acuity-sidebar-offer-card
+    - VlocityScheduledJob/AutoSyncUsersBatchTest
+    - VlocitySearchWidgetSetup/InteractionAccount
+    - VlocitySearchWidgetSetup/InteractionContact
+    - VlocityUILayout/ak_lwc_test
+    - VlocityUILayout/avm-contactus-mail
+    - VlocityUILayout/avm-contactus-phone
+    - VlocityUILayout/avm-test-template
+    - VlocityUILayout/campaign-add-member
+    - VlocityUILayout/campaign-add-member-list
+    - VlocityUILayout/campaign-base-grid
+    - VlocityUILayout/campaign-detail
+    - VlocityUILayout/campaign-member-detail
+    - VlocityUILayout/campaign-member-filter
+    - VlocityUILayout/campaign-member-list
+    - VlocityUILayout/campaign-member-log-actions
+    - VlocityUILayout/campaign-member-manager
+    - VlocityUILayout/campaign-member-stories
+    - VlocityUILayout/campaign-results
+    - VlocityUILayout/campaign-status
+    - VlocityUILayout/Charts
+    - VlocityUILayout/clims-contactus-callus
+    - VlocityUILayout/clims-contactus-callus-mailus
+    - VlocityUILayout/clims-contactus-mailus
+    - VlocityUILayout/community-content-layout
+    - VlocityUILayout/community-content-layout-flyout-sample
+    - VlocityUILayout/console-right-sidebar-slds
+    - VlocityUILayout/console-sidebar
+    - VlocityUILayout/console-sidebar-slds
+    - VlocityUILayout/Grid
+    - VlocityUILayout/ins-action-dropdown
+    - VlocityUILayout/ins-attributes-set-value-rules
+    - VlocityUILayout/ins-broker-overview-application-col
+    - VlocityUILayout/ins-broker-overview-container
+    - VlocityUILayout/ins-broker-overview-dynamic-quote
+    - VlocityUILayout/ins-claims-injuries-admin-container
+    - VlocityUILayout/ins-claims-involved-injuries-container
+    - VlocityUILayout/ins-claims-involved-properties-container
+    - VlocityUILayout/ins-claims-properties-admin-container
+    - VlocityUILayout/ins-coverage-attr-modal
+    - VlocityUILayout/ins-coverage-container
+    - VlocityUILayout/ins-coverage-dependent-opt-modal
+    - VlocityUILayout/ins-coverages-attributes-config
+    - VlocityUILayout/ins-enrollment-billing-and-contact
+    - VlocityUILayout/ins-enrollment-home-container
+    - VlocityUILayout/ins-enrollment-home-page-header
+    - VlocityUILayout/ins-enrollment-manage-accounts
+    - VlocityUILayout/ins-insured-items-attrs-container
+    - VlocityUILayout/ins-insured-items-container
+    - VlocityUILayout/ins-large-group-csv-upload
+    - VlocityUILayout/ins-large-group-csv-upload-modal
+    - VlocityUILayout/ins-large-group-csv-upload-table
+    - VlocityUILayout/ins-large-group-quote-groups-card-modal
+    - VlocityUILayout/ins-large-group-quote-groups-modal
+    - VlocityUILayout/ins-large-group-quote-plans-container
+    - VlocityUILayout/ins-large-group-root-attributes-container
+    - VlocityUILayout/ins-policy-coverages
+    - VlocityUILayout/ins-policy-revenue-schedule
+    - VlocityUILayout/ins-product-attributes-config
+    - VlocityUILayout/ins-product-attributes-container
+    - VlocityUILayout/ins-product-attributes-json-modal
+    - VlocityUILayout/ins-product-attributes-rules-modal
+    - VlocityUILayout/ins-product-methods-helper
+    - VlocityUILayout/ins-product-model-container
+    - VlocityUILayout/ins-product-model-quote-container
+    - VlocityUILayout/ins-product-rating-output-input-map
+    - VlocityUILayout/ins-product-rules
+    - VlocityUILayout/ins-product-selection-compare-modal
+    - VlocityUILayout/ins-product-selection-container
+    - VlocityUILayout/ins-product-selection-details-modal
+    - VlocityUILayout/ins-product-selection-grid
+    - VlocityUILayout/ins-product-taxes-config
+    - VlocityUILayout/ins-product-taxes-container
+    - VlocityUILayout/ins-product-taxes-modal
+    - VlocityUILayout/ins-quote-add-class-modal
+    - VlocityUILayout/ins-quote-class-detail-modal
+    - VlocityUILayout/ins-quote-classes-and-plans
+    - VlocityUILayout/ins-quote-container
+    - VlocityUILayout/ins-quote-coverages
+    - VlocityUILayout/ins-quote-coverages-add-modal
+    - VlocityUILayout/ins-quote-details-modal
+    - VlocityUILayout/ins-quote-header
+    - VlocityUILayout/ins-quote-insured-items
+    - VlocityUILayout/ins-quote-line-card-modal
+    - VlocityUILayout/ins-quote-line-items-container
+    - VlocityUILayout/ins-quote-line-items-large-group
+    - VlocityUILayout/ins-quote-line-items-small-group
+    - VlocityUILayout/ins-rating-fact-container
+    - VlocityUILayout/ins-required-documents
+    - VlocityUILayout/ins-small-group-quote-plans-container
+    - VlocityUILayout/interaction-action-layout
+    - VlocityUILayout/interaction-feed-layout
+    - VlocityUILayout/jle-callcentre-card2
+    - VlocityUILayout/jle-test-card
+    - VlocityUILayout/jleFraud
+    - VlocityUILayout/kc-contactus
+    - VlocityUILayout/kcContactUs2
+    - VlocityUILayout/layout-aura-lwc-communication
+    - VlocityUILayout/mobile-account-highlight
+    - VlocityUILayout/mobile-action-grid
+    - VlocityUILayout/mobile-action-grid-account
+    - VlocityUILayout/mobile-action-grid-contact
+    - VlocityUILayout/mobile-action-grid-home
+    - VlocityUILayout/mobile-action-grid-lead
+    - VlocityUILayout/mobile-contact-highlight
+    - VlocityUILayout/mobile-home-list
+    - VlocityUILayout/mobile-lead-highlight
+    - VlocityUILayout/mobile-policy-summary
+    - VlocityUILayout/story-slds
+    - VlocityUILayout/tzTestCard3
+    - VlocityUILayout/vjPrototypeContactUsTemplate
+    - VlocityUILayout/vjTestCardIssue0427
+    - VlocityUILayout/vlocity-interaction-console-right-sidebar-slds
+    - VlocityUILayout/vlocity-interaction-console-sidebar-slds
+    - VlocityUILayout/vlocity-interaction-story-slds
+    - VlocityUITemplate/action-grid-card
+    - VlocityUITemplate/action-grid-card-slds
+    - VlocityUITemplate/acuity-sidebar-offer-card
+    - VlocityUITemplate/aura-lwc-communication
+    - VlocityUITemplate/bar-chart-card
+    - VlocityUITemplate/campaign-add-member
+    - VlocityUITemplate/campaign-add-member-list
+    - VlocityUITemplate/campaign-base-grid
+    - VlocityUITemplate/campaign-column
+    - VlocityUITemplate/campaign-column-middle
+    - VlocityUITemplate/campaign-detail
+    - VlocityUITemplate/campaign-member-detail
+    - VlocityUITemplate/campaign-member-detail-blank
+    - VlocityUITemplate/campaign-member-filter
+    - VlocityUITemplate/campaign-member-list
+    - VlocityUITemplate/campaign-member-log-actions
+    - VlocityUITemplate/campaign-member-manager
+    - VlocityUITemplate/campaign-member-stories
+    - VlocityUITemplate/campaign-member-story-card
+    - VlocityUITemplate/campaign-mixins
+    - VlocityUITemplate/campaign-results
+    - VlocityUITemplate/campaign-status
+    - VlocityUITemplate/campaign-variables
+    - VlocityUITemplate/card-active
+    - VlocityUITemplate/card-active-placeholders-slds
+    - VlocityUITemplate/card-active-slds
+    - VlocityUITemplate/card-active-slds-trackField
+    - VlocityUITemplate/card-canvas
+    - VlocityUITemplate/card-canvas-1x-simple-slds
+    - VlocityUITemplate/card-canvas-1x-slds
+    - VlocityUITemplate/card-canvas-3x-slds
+    - VlocityUITemplate/card-canvas-3x-zones-slds
+    - VlocityUITemplate/card-canvas-zones-3x-slds-NotificationBanner
+    - VlocityUITemplate/card-highlight-totals
+    - VlocityUITemplate/card-horiz-actions-slds
+    - VlocityUITemplate/card-horiz-noActions-slds
+    - VlocityUITemplate/card-horiz-open-slds
+    - VlocityUITemplate/card-open
+    - VlocityUITemplate/card-open-slds
+    - VlocityUITemplate/card-simple-slds
+    - VlocityUITemplate/Chart-layout
+    - VlocityUITemplate/clims-contactus-placeholders-noicon-slds
+    - VlocityUITemplate/column
+    - VlocityUITemplate/column-chart-card
+    - VlocityUITemplate/community-brand-header
+    - VlocityUITemplate/community-content
+    - VlocityUITemplate/community-content-account
+    - VlocityUITemplate/community-content-detail
+    - VlocityUITemplate/community-content-frame
+    - VlocityUITemplate/community-flyout-grid
+    - VlocityUITemplate/community-flyout-grid-actions
+    - VlocityUITemplate/community-flyout-grid-items
+    - VlocityUITemplate/community-grid
+    - VlocityUITemplate/community-header
+    - VlocityUITemplate/community-sidebar
+    - VlocityUITemplate/community-sidebar-ads
+    - VlocityUITemplate/community-sidebar-payment
+    - VlocityUITemplate/community-sidebar-profile
+    - VlocityUITemplate/community-variables
+    - VlocityUITemplate/console-right-sidebar-slds
+    - VlocityUITemplate/console-sidebar
+    - VlocityUITemplate/console-sidebar-old
+    - VlocityUITemplate/console-sidebar-slds
+    - VlocityUITemplate/donut-chart-card
+    - VlocityUITemplate/flyout
+    - VlocityUITemplate/flyout-grid
+    - VlocityUITemplate/flyout-grid-actions
+    - VlocityUITemplate/flyout-grid-actions-slds
+    - VlocityUITemplate/flyout-grid-items
+    - VlocityUITemplate/flyout-grid-items-slds
+    - VlocityUITemplate/flyout-grid-noActions-slds
+    - VlocityUITemplate/flyout-grid-slds
+    - VlocityUITemplate/gauge-chart-card
+    - VlocityUITemplate/gpPrototype-column
+    - VlocityUITemplate/gpPrototype-contactuscard-simple-slds
+    - VlocityUITemplate/health-ins-os-product-selection
+    - VlocityUITemplate/infinite-list
+    - VlocityUITemplate/ins-action-dropdown
+    - VlocityUITemplate/ins-action-dropdown-container
+    - VlocityUITemplate/ins-attributes-set-value-rules-container
+    - VlocityUITemplate/ins-broker-overview-application-col
+    - VlocityUITemplate/ins-broker-overview-dynamic-quote
+    - VlocityUITemplate/ins-broker-overview-left-col
+    - VlocityUITemplate/ins-broker-quote-card
+    - VlocityUITemplate/ins-claims-injury-card
+    - VlocityUITemplate/ins-claims-involved-injuries
+    - VlocityUITemplate/ins-claims-involved-properties
+    - VlocityUITemplate/ins-claims-involved-properties-card
+    - VlocityUITemplate/ins-claims-property-card
+    - VlocityUITemplate/ins-coverage-attr-modal
+    - VlocityUITemplate/ins-coverage-card
+    - VlocityUITemplate/ins-coverage-container
+    - VlocityUITemplate/ins-coverage-dependent-opt-modal
+    - VlocityUITemplate/ins-coverage-quote-runtime-container
+    - VlocityUITemplate/ins-coverage-runtime-container
+    - VlocityUITemplate/ins-coverage-runtime-row
+    - VlocityUITemplate/ins-coverage-runtime-row-disabled
+    - VlocityUITemplate/ins-coverages-attributes-config
+    - VlocityUITemplate/ins-coverages-attributes-config-container
+    - VlocityUITemplate/ins-coverages-os-template
+    - VlocityUITemplate/ins-enrollment-contact-and-billing
+    - VlocityUITemplate/ins-enrollment-home-card
+    - VlocityUITemplate/ins-enrollment-home-container
+    - VlocityUITemplate/ins-enrollment-home-page-header
+    - VlocityUITemplate/ins-enrollment-manage-accounts
+    - VlocityUITemplate/ins-enrollment-manage-accounts-container
+    - VlocityUITemplate/ins-enrollment-page-header-actions
+    - VlocityUITemplate/ins-insured-item-card
+    - VlocityUITemplate/ins-insured-items-attr-container
+    - VlocityUITemplate/ins-insured-items-container
+    - VlocityUITemplate/ins-insured-items-container-v2
+    - VlocityUITemplate/ins-large-group-csv-upload
+    - VlocityUITemplate/ins-large-group-csv-upload-modal
+    - VlocityUITemplate/ins-large-group-csv-upload-table
+    - VlocityUITemplate/ins-large-group-quote-groups-card-modal
+    - VlocityUITemplate/ins-large-group-quote-groups-config
+    - VlocityUITemplate/ins-large-group-quote-plans-card-container
+    - VlocityUITemplate/ins-large-group-quote-product-config
+    - VlocityUITemplate/ins-large-group-root-attributes-container
+    - VlocityUITemplate/ins-os-attribute-component
+    - VlocityUITemplate/ins-os-census-member-upload
+    - VlocityUITemplate/ins-os-census-upload
+    - VlocityUITemplate/ins-os-confirmation
+    - VlocityUITemplate/ins-os-coverage-component
+    - VlocityUITemplate/ins-os-enrollee-benefits-summary
+    - VlocityUITemplate/ins-os-multi-item
+    - VlocityUITemplate/ins-os-multi-item-modal
+    - VlocityUITemplate/ins-os-multi-person
+    - VlocityUITemplate/ins-os-plan-compare-modal
+    - VlocityUITemplate/ins-os-product-details-compare-modal
+    - VlocityUITemplate/ins-os-product-rules-review
+    - VlocityUITemplate/ins-os-product-selection
+    - VlocityUITemplate/ins-os-quote-confirmation
+    - VlocityUITemplate/ins-os-small-group-plan-renewal
+    - VlocityUITemplate/ins-os-small-group-plan-selection
+    - VlocityUITemplate/ins-policy-revenue-schedule
+    - VlocityUITemplate/ins-product-attributes-config
+    - VlocityUITemplate/ins-product-attributes-config-container
+    - VlocityUITemplate/ins-product-attributes-container
+    - VlocityUITemplate/ins-product-attributes-json-modal
+    - VlocityUITemplate/ins-product-attributes-row
+    - VlocityUITemplate/ins-product-attributes-rules-modal
+    - VlocityUITemplate/ins-product-attributes-variables
+    - VlocityUITemplate/ins-product-methods-helper
+    - VlocityUITemplate/ins-product-model-container
+    - VlocityUITemplate/ins-product-model-insured-item
+    - VlocityUITemplate/ins-product-rating-map-container
+    - VlocityUITemplate/ins-product-rules-container
+    - VlocityUITemplate/ins-product-rules-eligibility
+    - VlocityUITemplate/ins-product-rules-requirements
+    - VlocityUITemplate/ins-product-selection
+    - VlocityUITemplate/ins-product-selection-base-grid
+    - VlocityUITemplate/ins-product-selection-compare-modal
+    - VlocityUITemplate/ins-product-selection-compare-modal-plans
+    - VlocityUITemplate/ins-product-selection-container
+    - VlocityUITemplate/ins-product-selection-details-modal
+    - VlocityUITemplate/ins-product-selection-filter-results
+    - VlocityUITemplate/ins-product-selection-item
+    - VlocityUITemplate/ins-product-selection-item-grid
+    - VlocityUITemplate/ins-product-selection-item-plan
+    - VlocityUITemplate/ins-product-selection-mixins
+    - VlocityUITemplate/ins-product-selection-variables
+    - VlocityUITemplate/ins-product-tags-mixin
+    - VlocityUITemplate/ins-product-taxes-config
+    - VlocityUITemplate/ins-product-taxes-config-container
+    - VlocityUITemplate/ins-product-taxes-container
+    - VlocityUITemplate/ins-product-taxes-modal
+    - VlocityUITemplate/ins-product-taxes-row
+    - VlocityUITemplate/ins-quote-add-class
+    - VlocityUITemplate/ins-quote-census
+    - VlocityUITemplate/ins-quote-class-detail-modal
+    - VlocityUITemplate/ins-quote-classes-and-plans
+    - VlocityUITemplate/ins-quote-container
+    - VlocityUITemplate/ins-quote-coverages-add-modal
+    - VlocityUITemplate/ins-quote-details-modal
+    - VlocityUITemplate/ins-quote-header
+    - VlocityUITemplate/ins-quote-headerfield
+    - VlocityUITemplate/ins-quote-line-card
+    - VlocityUITemplate/ins-quote-line-card-container
+    - VlocityUITemplate/ins-quote-line-card-modal
+    - VlocityUITemplate/ins-quote-line-card-select-action
+    - VlocityUITemplate/ins-quote-line-item
+    - VlocityUITemplate/ins-quote-line-items
+    - VlocityUITemplate/ins-quote-line-items-large-group
+    - VlocityUITemplate/ins-quote-line-items-small-group
+    - VlocityUITemplate/ins-rating-fact-card
+    - VlocityUITemplate/ins-required-documents-category
+    - VlocityUITemplate/ins-required-documents-community-category
+    - VlocityUITemplate/ins-required-documents-container
+    - VlocityUITemplate/ins-small-group-quote-line-card-select-action
+    - VlocityUITemplate/ins-small-group-quote-plans-card-container
+    - VlocityUITemplate/interaction-action-canvas
+    - VlocityUITemplate/interaction-feed
+    - VlocityUITemplate/interaction-feed-canvas
+    - VlocityUITemplate/large-card-active
+    - VlocityUITemplate/large-card-slds
+    - VlocityUITemplate/left-account-info
+    - VlocityUITemplate/left-account-info-slds
+    - VlocityUITemplate/left-profile
+    - VlocityUITemplate/left-profile-slds
+    - VlocityUITemplate/left-profile-tag
+    - VlocityUITemplate/left-story
+    - VlocityUITemplate/list-card
+    - VlocityUITemplate/list-card-canvas
+    - VlocityUITemplate/list-card-canvas-slds
+    - VlocityUITemplate/list-card-slds
+    - VlocityUITemplate/list-table
+    - VlocityUITemplate/list-table-card
+    - VlocityUITemplate/mixin
+    - VlocityUITemplate/mobile-action-grid-card-slds
+    - VlocityUITemplate/mobile-highlight-card
+    - VlocityUITemplate/mobile-home-screen-story-card-canvas
+    - VlocityUITemplate/mobile-policy-card
+    - VlocityUITemplate/offer-card-active-slds
+    - VlocityUITemplate/pie-chart-card
+    - VlocityUITemplate/SearchResult
+    - VlocityUITemplate/story-card
+    - VlocityUITemplate/story-card-canvas
+    - VlocityUITemplate/user-stories
+    - VlocityUITemplate/variables
+    - VlocityUITemplate/VerifyResult
+    - VlocityUITemplate/vlocity-interaction-acuity-sidebar-offer-card
+    - VlocityUITemplate/vlocity-interaction-console-sidebar-slds
+VlocityTypesToFetch:
+    - AttributeAssignmentRule
+    - AttributeCategory
+    - CalculationMatrix
+    - CalculationProcedure
+    - Catalog
+    - ContextAction
+    - ContextDimension
+    - ContextScope
+    - ContractType
+    - CpqConfigurationSetup
+    - CustomFieldMap
+    - DataRaptor
+    - Document
+    - DocumentClause
+    - DocumentTemplate
+    - EntityFilter
+    - IntegrationProcedure
+    - IntegrationRetryPolicy
+    - InterfaceImplementation
+    - ItemImplementation
+    - ManualQueue
+    - ObjectClass
+    - ObjectContextRule
+    - ObjectLayout
+    - OfferingProcedure
+    - OfferMigrationPlan
+    - OmniScript
+    - OrchestrationDependencyDefinition
+    - OrchestrationItemDefinition
+    - OrchestrationPlanDefinition
+    - OrchestrationQueueAssignmentRule
+    - Pricebook2
+    - PriceList
+    - PricingPlan
+    - PricingVariable
+    - Product2
+    - Promotion
+    - RelationshipGraph
+    - Rule
+    - StoryObjectConfiguration
+    - String
+    - System
+    - ThorOrchestrationQueue
+    - TimePlan
+    - TimePolicy
+    - UIFacet
+    - UISection
+    - VlocityAction
+    - VlocityAttachment
+    - VlocityCard
+    - VlocityDataStore
+    - VlocityFunction
+    - VlocityPicklist
+    - VlocityScheduledJob
+    - VlocitySearchWidgetSetup
+    - VlocityStateModel
+    - VlocityUILayout
+    - VlocityUITemplate
+    - VqMachine
+    - VqResource
+SalesforceTypesToFetch:

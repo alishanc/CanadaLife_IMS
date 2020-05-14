@@ -1,0 +1,100 @@
+{
+    "IBDRresp": {
+        "createdObjectsByOrder": {
+            "PrototypePostAttachments": {
+                "1": [
+                    "00P3h000000ucySEAQ",
+                    "00P3h000000ucyTEAQ"
+                ]
+            }
+        },
+        "createdObjectsByType": {
+            "PrototypePostAttachments": {
+                "Attachment": [
+                    "00P3h000000ucySEAQ",
+                    "00P3h000000ucyTEAQ"
+                ]
+            }
+        },
+        "errors": {
+        },
+        "errorsAsJson": {
+            "Case": [
+                {
+                    "CaseNumber": "",
+                    "Id": "",
+                    "RecordTypeId": ""
+                }
+            ],
+            "ContextId": "",
+            "DRId_Case": "",
+            "PlanSponsorManaged": "",
+            "PolicyNumber": "",
+            "Step4": {
+                "Formula2": ""
+            },
+            "contactUs": {
+                "email": "",
+                "fileUploadToContentDocument": [
+                    {
+                        "data": "",
+                        "filename": "",
+                        "size": ""
+                    },
+                    {
+                        "data": "",
+                        "filename": "",
+                        "size": ""
+                    }
+                ],
+                "firstName": "",
+                "lastName": "",
+                "message": "",
+                "name": "",
+                "subTopic": "",
+                "topic": ""
+            },
+            "contactUs:Other": "",
+            "contextId": "",
+            "emailInternalGLH": {
+                "Errors": [
+                ],
+                "Success": ""
+            },
+            "error": "",
+            "id": "",
+            "isdtp": "",
+            "layout": "",
+            "sfdcIFrameHost": "",
+            "sfdcIFrameOrigin": "",
+            "timeStamp": "",
+            "userCurrencyCode": "",
+            "userId": "",
+            "userName": "",
+            "userProfile": "",
+            "userTimeZone": "",
+            "vlcPersistentComponent": {
+            },
+            "vlcTimeTracking": {
+                "MimicAPIValues": "",
+                "OmniScriptSessionToken": "",
+                "PrototypeGetCaseNumber": "",
+                "PrototypeGetContact": "",
+                "PrototypePostAttachments": "",
+                "PrototypePostNewCase": "",
+                "Step4": "",
+                "contactUs": ""
+            }
+        },
+        "errorsByField": {
+        },
+        "hasErrors": false,
+        "interfaceInfo": {
+            "PrototypePostAttachments": "Load"
+        },
+        "responseType": "JSON",
+        "returnResultsData": {
+        }
+    },
+    "error": "OK"
+}

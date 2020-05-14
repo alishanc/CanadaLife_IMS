@@ -1,0 +1,32 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Contact US to be exposed in community internal pages",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "vjPrototypPortal_contactus_English_Element_imsDRGetUserDetails.json",
+        "vjPrototypPortal_contactus_English_Element_VJContactUSStepDataCapture1.json",
+        "vjPrototypPortal_contactus_English_Element_validateAttachment.json",
+        "vjPrototypPortal_contactus_English_Element_attValid.json",
+        "vjPrototypPortal_contactus_English_Element_validateInput.json",
+        "vjPrototypPortal_contactus_English_Element_Messaging1.json",
+        "vjPrototypPortal_contactus_English_Element_Message.json",
+        "vjPrototypPortal_contactus_English_Element_imsDRCreateCase.json",
+        "vjPrototypPortal_contactus_English_Element_processAttachement.json",
+        "vjPrototypPortal_contactus_English_Element_stepConfirmationMessage.json",
+        "vjPrototypPortal_contactus_English_Element_msgBlock.json",
+        "vjPrototypPortal_contactus_English_Element_NavigateToParent.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": true,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__LastPreviewPage__c": "Lightning Universal Page",
+    "%vlocity_namespace%__LwcId__c": "eee9ee4f-f620-ca1f-c86b-0437071a3bfa",
+    "%vlocity_namespace%__PropertySet__c": "vjPrototypPortal_contactus_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "contactus",
+    "%vlocity_namespace%__Type__c": "vjPrototypPortal",
+    "Name": "ContactUS",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/vjPrototypPortal/contactus/English"
+}

@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Fonds de revenu de retraite visé par règlement",
+        "Pricebook2.Name": "Gestion du patrimoine : fonds distincts",
+        "Pricebook2Id": {
+            "Name": "Gestion du patrimoine : fonds distincts",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Gestion du patrimoine : fonds distincts",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "e90dcb-8c1647-21d97c-fa9347-88cfe53db",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "e90dcb-8c1647-21d97c-fa9347-88cfe53db",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/e90dcb-8c1647-21d97c-fa9347-88cfe53db",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Gestion du patrimoine : fonds distincts/Product2/e90dcb-8c1647-21d97c-fa9347-88cfe53db"
+    }
+]

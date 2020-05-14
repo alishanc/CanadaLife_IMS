@@ -1,0 +1,19 @@
+{
+    "%vlocity_namespace%__IsDefault__c": false,
+    "ADV_Price_Book_Language__c": "French",
+    "Description": "Produits pour groupes de grande taille et SÃ©lectpac.",
+    "IsActive": true,
+    "IsArchived": false,
+    "IsStandard": false,
+    "Name": "Collective",
+    "RecordTypeId": {
+        "DeveloperName": "Advisor_Price_Book",
+        "SobjectType": "Pricebook2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Pricebook2/Advisor_Price_Book",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Pricebook2",
+    "VlocityRecordSourceKey": "Pricebook2/Collective"
+}

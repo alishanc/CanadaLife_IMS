@@ -1,0 +1,15 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "json",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Attachments",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "createdObjectsByType:PrototypePostAttachments:Attachment",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "PrototypeTransformAttachmentIdCustom1529",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "PrototypeTransformAttachmentId",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

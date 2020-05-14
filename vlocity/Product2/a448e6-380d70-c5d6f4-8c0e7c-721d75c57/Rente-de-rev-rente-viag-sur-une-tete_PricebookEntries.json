@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Rente de rev. - rente viag. sur une tete",
+        "Pricebook2.Name": "Gestion du patrimoine : produits garantis",
+        "Pricebook2Id": {
+            "Name": "Gestion du patrimoine : produits garantis",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Gestion du patrimoine : produits garantis",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "a448e6-380d70-c5d6f4-8c0e7c-721d75c57",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "a448e6-380d70-c5d6f4-8c0e7c-721d75c57",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/a448e6-380d70-c5d6f4-8c0e7c-721d75c57",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Gestion du patrimoine : produits garantis/Product2/a448e6-380d70-c5d6f4-8c0e7c-721d75c57"
+    }
+]

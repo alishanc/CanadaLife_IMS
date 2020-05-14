@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Third party GIC's/GIO's",
+        "Pricebook2.Name": "Wealth: Guaranteed Products",
+        "Pricebook2Id": {
+            "Name": "Wealth: Guaranteed Products",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Wealth: Guaranteed Products",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "cf8ba4-d3bbce-c6aa37-05fb03-8d4d81503",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "cf8ba4-d3bbce-c6aa37-05fb03-8d4d81503",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/cf8ba4-d3bbce-c6aa37-05fb03-8d4d81503",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Wealth: Guaranteed Products/Product2/cf8ba4-d3bbce-c6aa37-05fb03-8d4d81503"
+    }
+]

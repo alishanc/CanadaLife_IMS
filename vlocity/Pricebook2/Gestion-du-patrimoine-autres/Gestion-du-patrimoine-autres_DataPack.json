@@ -1,0 +1,19 @@
+{
+    "%vlocity_namespace%__IsDefault__c": false,
+    "ADV_Price_Book_Language__c": "French",
+    "Description": "Contient tous les produits ayant trait Ã  la gestion du patrimoine : autres vendus par les conseillers.",
+    "IsActive": true,
+    "IsArchived": false,
+    "IsStandard": false,
+    "Name": "Gestion du patrimoine : autres",
+    "RecordTypeId": {
+        "DeveloperName": "Advisor_Price_Book",
+        "SobjectType": "Pricebook2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Pricebook2/Advisor_Price_Book",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Pricebook2",
+    "VlocityRecordSourceKey": "Pricebook2/Gestion du patrimoine : autres"
+}

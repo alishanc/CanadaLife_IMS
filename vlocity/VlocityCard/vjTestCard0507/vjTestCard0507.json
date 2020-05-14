@@ -1,0 +1,73 @@
+{
+    "GlobalKey__c": "vjTestCard0507/GreatWest Life Co/1/1588891027767",
+    "dataSource": {
+        "type": "Query",
+        "value": {
+        }
+    },
+    "enableLwc": true,
+    "filter": {
+    },
+    "sessionVars": [
+        {
+            "name": "sessionTitle",
+            "val": "Session Title"
+        },
+        {
+            "name": "sessionData",
+            "val": "Session Data"
+        }
+    ],
+    "states": [
+        {
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "customLwc": true,
+            "customLwcAttributes": [
+                {
+                    "name": "bundlename",
+                    "val": "vjPrototypeGetUserDetails"
+                },
+                {
+                    "name": "inputmap",
+                    "val": "{ \"Id\": \"001O000001QGBGRIA5\" }"
+                }
+            ],
+            "customLwcRepeat": false,
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Email']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Email",
+                    "name": "['Email']",
+                    "type": "string"
+                }
+            ],
+            "isSmartAction": false,
+            "lwc": {
+                "DeveloperName": "datasourceDataraptor",
+                "Id": "0Rb4g0000000460CAA",
+                "MasterLabel": "datasourceDataraptor",
+                "name": "datasourceDataraptor"
+            },
+            "name": "Active",
+            "smartAction": {
+            }
+        }
+    ],
+    "title": "VJ Test Card"
+}

@@ -1,0 +1,41 @@
+{
+    "ContextId": null,
+    "confirmation": {
+    },
+    "contactSponsor": {
+    },
+    "contactUs": {
+        "email": null,
+        "fileUploadToContentDocument": [
+            {
+                "data": null,
+                "filename": null,
+                "size": null
+            }
+        ],
+        "message": null,
+        "name": null,
+        "subTopic": null,
+        "topic": null
+    },
+    "contactUs:Other": "Other",
+    "timeStamp": null,
+    "userId": null,
+    "userName": null,
+    "userProfile": null,
+    "userTimeZone": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "MimicAPIValues": null,
+        "NavigateAction1": null,
+        "PrototypeGetContact": null,
+        "PrototypePostAttachments": null,
+        "PrototypePostNewCase": null,
+        "confirmation": null,
+        "contactSponsor": null,
+        "contactUs": null,
+        "emailExternal": null,
+        "emailInternal": null
+    }
+}

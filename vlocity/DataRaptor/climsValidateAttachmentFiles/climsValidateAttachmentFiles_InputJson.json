@@ -1,0 +1,16 @@
+{
+    "File": [
+        {
+            "$$hashKey": "object:145",
+            "data": "12b08662-e398-4257-a445-f926fc9efe22",
+            "filename": "calculator.xml",
+            "size": 6362
+        },
+        {
+            "$$hashKey": "object:146",
+            "data": "0e48a063-d7ce-4176-a4e6-e48213ccfd35",
+            "filename": "parks.xml",
+            "size": 2343
+        }
+    ]
+}

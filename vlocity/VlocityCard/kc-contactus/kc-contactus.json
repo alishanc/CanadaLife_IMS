@@ -1,0 +1,53 @@
+{
+    "GlobalKey__c": "kc-contactus/Great-West Life Co./1/1587578664246",
+    "dataSource": {
+        "type": null
+    },
+    "enableLwc": true,
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Title']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Title",
+                    "name": "['Title']",
+                    "type": "string"
+                }
+            ],
+            "isSmartAction": false,
+            "lwc": {
+                "DeveloperName": "cardActiveState",
+                "Id": "0Rb4g000000045OCAQ",
+                "MasterLabel": "card-active-state",
+                "NamespacePrefix": "%vlocity_namespace%",
+                "attributes": {
+                    "type": "LightningComponentBundle",
+                    "url": "/services/data/v46.0/tooling/sobjects/LightningComponentBundle/0Rb4g000000045OCAQ"
+                }
+            },
+            "name": "Active",
+            "smartAction": {
+            }
+        }
+    ],
+    "title": "contactUs"
+}

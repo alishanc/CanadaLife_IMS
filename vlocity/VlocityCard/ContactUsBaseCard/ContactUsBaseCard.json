@@ -1,0 +1,67 @@
+{
+    "GlobalKey__c": "ContactUsBaseCard/CanadaLife/1/1587657328919",
+    "dataSource": {
+        "type": null
+    },
+    "enableLwc": true,
+    "filter": {
+    },
+    "sessionVars": [
+        {
+            "name": "",
+            "val": ""
+        }
+    ],
+    "states": [
+        {
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "active"
+                    }
+                ]
+            },
+            "customLwc": false,
+            "customLwcAttributes": [
+                {
+                    "name": "record",
+                    "val": "{}"
+                },
+                {
+                    "name": "name",
+                    "val": "Test"
+                }
+            ],
+            "customLwcRepeat": true,
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "disableAddCondition": false,
+            "editMode": false,
+            "fields": [
+            ],
+            "filter": "$scope.data.status === 'active'",
+            "flyoutAttributes": [
+                {
+                    "name": "",
+                    "val": ""
+                }
+            ],
+            "isSmartAction": false,
+            "lwc": {
+                "DeveloperName": "clims_iconCard",
+                "Id": "0Rb4g00000004YWCAY",
+                "MasterLabel": "climsIconCard",
+                "name": "clims_iconCard"
+            },
+            "name": "Active",
+            "smartAction": {
+            }
+        }
+    ],
+    "title": "BaseCard"
+}

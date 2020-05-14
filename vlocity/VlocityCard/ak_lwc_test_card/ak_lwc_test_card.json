@@ -1,0 +1,45 @@
+{
+    "GlobalKey__c": "ak_lwc_test_card/ak/1/1588102361669",
+    "dataSource": {
+        "type": "Custom",
+        "value": {
+            "body": "{\n  \"ContactCenters\": {\n    \"health\": {\n      \"hours\": \"Weekdays 6:00 AM to 6:00 PM CST\",\n      \"address\": {\n        \"line4\": \"London, Ontario, R2C 1C1\",\n        \"line3\": \"No More address info\",\n        \"line2\": \"255 Dufferin Ave\",\n        \"line1\": \"London Benefit Payments\"\n      },\n      \"phone\": \"1-519-445-5667\"\n    },\n    \"wealth\": {\n      \"hours\": \"Weekdays 7:00 AM to 6:00 PM CST\",\n      \"address\": {\n        \"line4\": \"Toronto, Ontario, R2C 1C1\",\n        \"line3\": \"No More address info\",\n        \"line2\": \"155 University Ave\",\n        \"line1\": \"Toronto Benefit Payments\"\n      },\n      \"phone\": \"1-416-445-5667\"\n    }\n  }\n}"
+        }
+    },
+    "enableLwc": true,
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "customLwc": false,
+            "customLwcRepeat": true,
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "lwc": {
+                "DeveloperName": "helloWorld",
+                "Id": "0Rb4g00000004JbCAI",
+                "MasterLabel": "helloWorld",
+                "name": "helloWorld"
+            },
+            "name": "Active",
+            "smartAction": {
+            }
+        }
+    ],
+    "title": "Helloworld"
+}

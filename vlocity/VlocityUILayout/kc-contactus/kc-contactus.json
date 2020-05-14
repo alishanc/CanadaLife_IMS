@@ -1,0 +1,25 @@
+{
+    "Cards": [
+        "kc-contactus"
+    ],
+    "GlobalKey__c": "kc-contactus/1/Great-West Life Co./1587578634605",
+    "componentName": "cfKcContactus",
+    "dataSource": {
+        "type": "Custom",
+        "value": {
+            "body": "{\"Title\":\"Contact us\",\n\"HealthPhone\":\"123-346-7890\"}"
+        }
+    },
+    "enableLwc": true,
+    "lwc": {
+        "DeveloperName": "cardCanvas1x",
+        "Id": "0Rb4g000000045PCAQ",
+        "MasterLabel": "cardCanvas1x",
+        "name": "cardCanvas1x"
+    },
+    "previewType": "runTime",
+    "repeatCards": false,
+    "workspace": [
+        "kc-contactus/kuldeep/1/1587578664246"
+    ]
+}

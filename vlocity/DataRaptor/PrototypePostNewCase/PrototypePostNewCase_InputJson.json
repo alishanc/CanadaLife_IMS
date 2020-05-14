@@ -1,0 +1,23 @@
+{
+    "case": {
+        "email": "brian@soderberg.ws",
+        "fileUploadToContentDocument": [
+            {
+                "$$hashKey": "object:87",
+                "data": "d6941e66-1a98-4a91-b0d2-67af1b3b6561",
+                "filename": "Screen Shot 2020-04-20 at 1.50.26 PM.png",
+                "size": 13227
+            },
+            {
+                "$$hashKey": "object:92",
+                "data": "114e4fc2-6e79-4cc5-bb92-5846e9edc6c5",
+                "filename": "Screen Shot 2020-04-20 at 1.50.21 PM.png",
+                "size": 21849
+            }
+        ],
+        "message": "qwerwqer",
+        "name": "Brian Soderberg",
+        "subTopic": null,
+        "topic": null
+    }
+}

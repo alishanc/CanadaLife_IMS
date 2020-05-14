@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Groupe de grande taille",
+        "Pricebook2.Name": "Collective",
+        "Pricebook2Id": {
+            "Name": "Collective",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Collective",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "7c4247-9657e2-4d5203-3a9fd6-abc604c4a",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "7c4247-9657e2-4d5203-3a9fd6-abc604c4a",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/7c4247-9657e2-4d5203-3a9fd6-abc604c4a",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Collective/Product2/7c4247-9657e2-4d5203-3a9fd6-abc604c4a"
+    }
+]

@@ -1,0 +1,28 @@
+{
+    "ContextId": "",
+    "EmailUs": {
+        "Email": null,
+        "FirstName": null,
+        "LastName": null,
+        "Message": null,
+        "SubTopic": null,
+        "Topic": null
+    },
+    "Origin": "Agent",
+    "Status": "New",
+    "id": "a5C4g0000000AvDEAU",
+    "isdtp": "p1",
+    "layout": "newport",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://lifeco--vlocity1--vlocity-ins.visualforce.com",
+    "timeStamp": "2020-04-17T22:56:19.092Z",
+    "userCurrencyCode": "CAD",
+    "userId": "0054g000000Ld4NAAS",
+    "userName": "athompson@vlocity.com.vlocity1",
+    "userProfile": "System Administrator",
+    "userTimeZone": -240,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+    }
+}

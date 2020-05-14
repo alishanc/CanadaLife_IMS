@@ -1,0 +1,18 @@
+{
+    "StepForTypeNotCallCenter": {
+        "BlockAttachFiles": {
+            "File": [
+                {
+                    "data": "5112b5ba-44e0-49ce-8f24-d3611d7ed024",
+                    "filename": "Middleware localhost testing.postman_collection.json",
+                    "size": 10223
+                }
+            ]
+        },
+        "Email": null,
+        "Message": null,
+        "Name": null,
+        "Subtopic": null,
+        "Topic": null
+    }
+}

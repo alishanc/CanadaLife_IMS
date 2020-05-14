@@ -1,0 +1,20 @@
+{
+    "ContextId": null,
+    "case": {
+        "Email": null,
+        "FirstName": null,
+        "LastName": null,
+        "Message": null,
+        "Topic": null
+    },
+    "timeStamp": null,
+    "userName": null,
+    "userProfile": null,
+    "vlcPersistentComponent": {
+    },
+    "vlcTimeTracking": {
+        "Done": null,
+        "case": null,
+        "postCase": null
+    }
+}

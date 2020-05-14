@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Locked-In Retirement Account",
+        "Pricebook2.Name": "Wealth: Mutual Funds",
+        "Pricebook2Id": {
+            "Name": "Wealth: Mutual Funds",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Wealth: Mutual Funds",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "fe161a-e67172-64d5c7-ae5015-9ca451e9b",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "fe161a-e67172-64d5c7-ae5015-9ca451e9b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/fe161a-e67172-64d5c7-ae5015-9ca451e9b",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Wealth: Mutual Funds/Product2/fe161a-e67172-64d5c7-ae5015-9ca451e9b"
+    }
+]

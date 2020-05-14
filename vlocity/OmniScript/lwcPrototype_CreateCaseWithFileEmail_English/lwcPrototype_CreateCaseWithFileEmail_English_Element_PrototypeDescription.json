@@ -1,0 +1,59 @@
+{
+    "%vlocity_namespace%__Active__c": false,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "CreateCaseWithFileEmail",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/lwcPrototype/CreateCaseWithFileEmail/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "allowSaveForLater": true,
+        "cancelLabel": "Cancel",
+        "cancelMessage": "Are you sure?",
+        "chartLabel": null,
+        "completeLabel": "Complete",
+        "completeMessage": "Are you sure you want to complete the script?",
+        "conditionType": "Hide if False",
+        "disOnTplt": false,
+        "errorMessage": {
+            "custom": [
+            ],
+            "default": null
+        },
+        "instruction": "<p></p>\n<ol>\n<li>Keep this step disabled.&nbsp; It is intended to provide context around how this prototype is configured.</li>\n<li>In some cases, additional notes specific to a component can be found in the \"Internal Notes\" section of a component.</li>\n<li>Salesforce Data:&nbsp; Created Account for Canada Life.&nbsp; Created 3 Contacts associated to that Account for Group Emails.</li>\n<li>Salesforce Custom Field:&nbsp; Created a SubType__c field on Case</li>\n<li>Salesforce Data:&nbsp; Sample Types &amp; SubTypes were used in the dev org and conditional logic configured related to those.&nbsp; Those were not added to the CL sbox.&nbsp; We will add the CL specified Types &amp; SubTypes and update the conditional logic once those are available.</li>\n<li>Contact Record Id for external email is defaulted in the prototype.&nbsp; This should be configured to the the contactId pulled from the PrototypeGetContact DR.&nbsp; I have yet to configure my contacts to be associated to users, which is the case in the CL org.</li>\n<li>If the internal emails end up using the same template, then we can go to a single Email action for the internal emails with a formula or set values that disctates the recipient group email inbox.&nbsp;&nbsp;</li>\n<li>Pending reciept of APIs needed, the prototype uses a set values (MimicAPIValues) to mimic the data coming back from a CL API call.</li>\n<li>Currently the case is closed upon creation.&nbsp; &nbsp;Future iterations may evolve from that, pending when/if CL team members will start working these cases in SF.&nbsp; At that time, the internal email actions can be removed.</li>\n<li>ToDo:&nbsp; Attach uploaded documents to email. If desired.</li>\n<li>ToDo:&nbsp; Multi-language (EN,FR)</li>\n<li>ToDo:&nbsp; Dev UI&nbsp;work</li>\n<li>ToDo:&nbsp; Create CL Specific Email templates.&nbsp; OOB SupportCaseCreatedWebInquiries template used as placeholder for prototype. Noting that external email will have the email HTML in the configured Body section of the Email Action.</li>\n<li>Design Choice:&nbsp; IPs were not used, but can be considered to consolidate/orchestrate DR Actions and HTTP Actions.</li>\n<li>Design Choice:&nbsp; Post Attachments and Post Case were created as separate DRs to demonstrate them as autonomous units.&nbsp; They can be combined.</li>\n<li>PrototypeMessagingFunction Step added to give sample of using Messaging function.&nbsp; It is not specifically related to this prototype.&nbsp; Enable the step to see messaging funtion works.</li>\n</ol>",
+        "instructionKey": "",
+        "knowledgeOptions": {
+            "dataCategoryCriteria": "",
+            "keyword": "",
+            "language": "English",
+            "publishStatus": "Online",
+            "remoteTimeout": 30000,
+            "typeFilter": ""
+        },
+        "label": "Prototype Description",
+        "nextLabel": "Next",
+        "nextWidth": 3,
+        "previousLabel": "Previous",
+        "previousWidth": 3,
+        "remoteClass": "",
+        "remoteMethod": "",
+        "remoteOptions": {
+        },
+        "remoteTimeout": 30000,
+        "saveLabel": "Save for later",
+        "saveMessage": "Are you sure you want to save it for later?",
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "validationRequired": true
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Step",
+    "Name": "PrototypeDescription",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/lwcPrototype/CreateCaseWithFileEmail/English/PrototypeDescription"
+}

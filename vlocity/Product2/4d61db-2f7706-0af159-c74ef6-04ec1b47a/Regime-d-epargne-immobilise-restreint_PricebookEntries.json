@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Regime d'epargne immobilise restreint",
+        "Pricebook2.Name": "Gestion du patrimoine : fonds communs",
+        "Pricebook2Id": {
+            "Name": "Gestion du patrimoine : fonds communs",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Gestion du patrimoine : fonds communs",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "4d61db-2f7706-0af159-c74ef6-04ec1b47a",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "4d61db-2f7706-0af159-c74ef6-04ec1b47a",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/4d61db-2f7706-0af159-c74ef6-04ec1b47a",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Gestion du patrimoine : fonds communs/Product2/4d61db-2f7706-0af159-c74ef6-04ec1b47a"
+    }
+]

@@ -1,0 +1,25 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "This integration procedure is going to accept Case Id as input and it would do following things:- 1. Get Case Details 2. Get Inbox Details 3. Send Email to Member 4. Send Email to Inbox",
+    "%vlocity_namespace%__CustomJavaScript__c": "climsContactUs_ContactUsSendEmails_SampleInput.json",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "climsContactUs_ContactUsSendEmails_Element_drGetCaseWithContentDocument.json",
+        "climsContactUs_ContactUsSendEmails_Element_drGetInboxDetailsFromContact.json",
+        "climsContactUs_ContactUsSendEmails_Element_emailSendEmailToInbox.json",
+        "climsContactUs_ContactUsSendEmails_Element_emailSendEmailToMember.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__LwcId__c": "8fb632f4-4a6c-cf3c-cfe0-468a667e359d",
+    "%vlocity_namespace%__ProcedureKey__c": "climsContactUs_ContactUsSendEmails",
+    "%vlocity_namespace%__PropertySet__c": "climsContactUs_ContactUsSendEmails_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "ContactUsSendEmails",
+    "%vlocity_namespace%__Type__c": "climsContactUs",
+    "Name": "Contact Us Send Emails",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/climsContactUs/ContactUsSendEmails/Procedure"
+}

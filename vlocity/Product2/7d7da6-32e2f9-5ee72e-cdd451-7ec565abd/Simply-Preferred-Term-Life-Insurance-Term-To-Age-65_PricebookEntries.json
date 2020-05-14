@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Simply Preferred Term Life Insurance – Term To Age 65",
+        "Pricebook2.Name": "Individual Life",
+        "Pricebook2Id": {
+            "Name": "Individual Life",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Individual Life",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "7d7da6-32e2f9-5ee72e-cdd451-7ec565abd",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "7d7da6-32e2f9-5ee72e-cdd451-7ec565abd",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/7d7da6-32e2f9-5ee72e-cdd451-7ec565abd",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Individual Life/Product2/7d7da6-32e2f9-5ee72e-cdd451-7ec565abd"
+    }
+]

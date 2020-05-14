@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Sonata Health",
+        "Pricebook2.Name": "Individual Health",
+        "Pricebook2Id": {
+            "Name": "Individual Health",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Individual Health",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "b71b23-01e49b-349cb4-9977b6-35c730b7e",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "b71b23-01e49b-349cb4-9977b6-35c730b7e",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/b71b23-01e49b-349cb4-9977b6-35c730b7e",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Individual Health/Product2/b71b23-01e49b-349cb4-9977b6-35c730b7e"
+    }
+]

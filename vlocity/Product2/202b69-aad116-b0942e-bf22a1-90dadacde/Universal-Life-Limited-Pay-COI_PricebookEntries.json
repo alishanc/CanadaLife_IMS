@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Universal Life: Limited Pay COI",
+        "Pricebook2.Name": "Individual Life",
+        "Pricebook2Id": {
+            "Name": "Individual Life",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Individual Life",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "202b69-aad116-b0942e-bf22a1-90dadacde",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "202b69-aad116-b0942e-bf22a1-90dadacde",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/202b69-aad116-b0942e-bf22a1-90dadacde",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Individual Life/Product2/202b69-aad116-b0942e-bf22a1-90dadacde"
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Investment Loan Or Line Of Credit",
+        "Pricebook2.Name": "Solutions Banking",
+        "Pricebook2Id": {
+            "Name": "Solutions Banking",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Solutions Banking",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "28b6a4-21f28c-b9e406-25b80f-6b37b748e",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "28b6a4-21f28c-b9e406-25b80f-6b37b748e",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/28b6a4-21f28c-b9e406-25b80f-6b37b748e",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Solutions Banking/Product2/28b6a4-21f28c-b9e406-25b80f-6b37b748e"
+    }
+]

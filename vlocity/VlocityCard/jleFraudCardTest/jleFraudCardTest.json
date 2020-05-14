@@ -1,0 +1,42 @@
+{
+    "GlobalKey__c": "jleFraudCardTest/CanadaLife/1/1588349235602",
+    "dataSource": {
+        "type": null
+    },
+    "enableLwc": true,
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+            ],
+            "filter": "$scope.data.status === 'active'",
+            "isSmartAction": false,
+            "lwc": {
+                "DeveloperName": "fraudCard",
+                "Id": "0Rb4g00000004ZZCAY",
+                "MasterLabel": "climsfraudCard",
+                "name": "fraudCard"
+            },
+            "name": "Active",
+            "smartAction": {
+            }
+        }
+    ],
+    "title": "jleFraudCardTest"
+}

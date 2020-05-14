@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Prets hypothecaires",
+        "Pricebook2.Name": "Prets hypothecaires",
+        "Pricebook2Id": {
+            "Name": "Prets hypothecaires",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Prets hypothecaires",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "e659f8-057412-6e8f87-d64cc0-8778dbfff",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "e659f8-057412-6e8f87-d64cc0-8778dbfff",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/e659f8-057412-6e8f87-d64cc0-8778dbfff",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Prets hypothecaires/Product2/e659f8-057412-6e8f87-d64cc0-8778dbfff"
+    }
+]

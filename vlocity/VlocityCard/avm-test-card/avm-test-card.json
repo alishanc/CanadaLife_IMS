@@ -1,0 +1,43 @@
+{
+    "GlobalKey__c": "avm-test-card/CanadaLife/1/1588186077570",
+    "dataSource": {
+        "type": "Custom",
+        "value": {
+            "body": "{\n  \"HealthPhone\": \"1234566788\",\n  \"GeneralPhone\": \"1-888-495-5525\",\n  \"ContactCenters\": {\n    \"health\": {\n      \"hours\": \"Weekdays 6:00 AM to 6:00 PM CST\",\n      \"address\": {\n        \"line4\": \"London, Ontario, R2C 1C1\",\n        \"line3\": \"\",\n        \"line2\": \"255 Dufferin Ave\",\n        \"line1\": \"London Benefit Payments\"\n      },\n      \"phone\": \"1-519-445-5667\"\n    }\n  }\n}"
+        }
+    },
+    "enableLwc": true,
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "lwc": {
+                "DeveloperName": "phoneUs",
+                "Id": "0Rb4g00000004JMCAY",
+                "MasterLabel": "avmPhoneUs",
+                "name": "phoneUs"
+            },
+            "name": "Active",
+            "smartAction": {
+            }
+        }
+    ],
+    "title": "Phone us"
+}

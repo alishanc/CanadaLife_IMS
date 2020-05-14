@@ -1,0 +1,13 @@
+{
+    "%vlocity_namespace%__IsDefault__c": false,
+    "ADV_Price_Book_Language__c": "English",
+    "Description": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "IsStandard": true,
+    "Name": "Standard Price Book",
+    "RecordTypeId": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Pricebook2",
+    "VlocityRecordSourceKey": "Pricebook2/Standard Price Book"
+}

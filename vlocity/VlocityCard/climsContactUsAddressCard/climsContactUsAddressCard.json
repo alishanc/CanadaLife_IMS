@@ -1,0 +1,53 @@
+{
+    "GlobalKey__c": "climsContactUsAddressCard/CanadaLife/1/1589223797478",
+    "dataSource": {
+        "type": null
+    },
+    "enableLwc": true,
+    "filter": {
+    },
+    "sessionVars": [
+    ],
+    "states": [
+        {
+            "collapse": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "customLwc": false,
+            "customLwcAttributes": [
+                {
+                    "name": "cardType",
+                    "val": "mail"
+                }
+            ],
+            "customLwcRepeat": true,
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "disableAddCondition": false,
+            "fields": [
+            ],
+            "filter": "$scope.data.status === 'active'",
+            "isSmartAction": false,
+            "lwc": {
+                "DeveloperName": "clims_3rdPartyContactUsCard",
+                "Id": "0Rb4g00000004rdCAA",
+                "MasterLabel": "clims3rdPartyContactUsCard",
+                "name": "clims_3rdPartyContactUsCard"
+            },
+            "name": "Active",
+            "smartAction": {
+            }
+        }
+    ],
+    "title": "climsContactUsAddressCard"
+}

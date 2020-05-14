@@ -1,0 +1,98 @@
+{
+    "Cards": [
+        "climsContactUsAddressCard"
+    ],
+    "GlobalKey__c": "clims-contactus-3rdParty/1/CanadaLife/1589223726125",
+    "componentName": "cfClimsContactus3rdParty",
+    "dataSource": {
+        "type": "IntegrationProcedures",
+        "value": {
+            "ipMethod": "climsContactUs_ReadContactCentersForCustomer",
+            "optionsMap": {
+                "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+            }
+        }
+    },
+    "enableLwc": true,
+    "lwc": {
+        "DeveloperName": "climsCardCanvas1x",
+        "Id": "0Rb4g00000004rJCAQ",
+        "MasterLabel": "climsCardCanvas1x",
+        "name": "climsCardCanvas1x"
+    },
+    "previewType": "runTime",
+    "repeatCards": false,
+    "workspace": [
+        "climsContactUsAddressCard/CanadaLife/1/1589223797478"
+    ],
+    "xmlObject": {
+        "apiVersion": 46,
+        "isExplicitImport": false,
+        "isExposed": true,
+        "masterLabel": "clims-contactus-3rdParty",
+        "runtimeNamespace": "%vlocity_namespace%",
+        "targetConfig": [
+            {
+                "objects": [
+                ],
+                "property": [
+                    {
+                        "name": "debug",
+                        "value": {
+                            "name": "debug",
+                            "selectedProp": "debug",
+                            "type": "Boolean"
+                        }
+                    },
+                    {
+                        "name": "recordId",
+                        "value": {
+                            "name": "recordId",
+                            "selectedProp": "recordId",
+                            "type": "String"
+                        }
+                    }
+                ],
+                "target": "lightning__AppPage"
+            },
+            {
+                "objects": [
+                ],
+                "property": [
+                    {
+                        "name": "debug",
+                        "value": {
+                            "name": "debug",
+                            "selectedProp": "debug",
+                            "type": "Boolean"
+                        }
+                    }
+                ],
+                "target": "lightning__RecordPage"
+            }
+        ],
+        "targetConfigs": "CiAgICAgICAgICAgICAgICAgICAgICA8dGFyZ2V0Q29uZmlnIHRhcmdldHM9ImxpZ2h0bmluZ19fQXBwUGFnZSI+CiAgICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iICAvPgogICAgICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0icmVjb3JkSWQiIHR5cGU9IlN0cmluZyIgIC8+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPgogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgPHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX1JlY29yZFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIiAgLz4KICAgICAgICAgICAgICAgICAgICAgICAgPC90YXJnZXRDb25maWc+CiAgICAgICAgICAgICAgICAgICAg",
+        "targets": [
+            {
+                "name": "RecordPage",
+                "target": "lightning__RecordPage"
+            },
+            {
+                "name": "AppPage",
+                "target": "lightning__AppPage"
+            },
+            {
+                "name": "HomePage",
+                "target": "lightning__HomePage"
+            },
+            {
+                "name": "CommunityPage",
+                "target": "lightningCommunity__Page"
+            },
+            {
+                "name": "CommunityDefault",
+                "target": "lightningCommunity__Default"
+            }
+        ]
+    }
+}

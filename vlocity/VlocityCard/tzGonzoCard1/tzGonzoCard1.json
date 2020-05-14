@@ -1,0 +1,43 @@
+{
+    "GlobalKey__c": "tzGonzoCard1/CandaLife/1/1588286399007",
+    "dataSource": {
+        "type": "Custom",
+        "value": {
+            "body": "{\n\"icon\": \"mail\",\n\"title\": \"Email us\",\n\"body\": \"<p><a href='mailto:Jenn.Elliott@canadalife.com'>Mercon benefit services</a></p>\"\n}"
+        }
+    },
+    "enableLwc": true,
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "lwc": {
+                "DeveloperName": "clims_iconCard",
+                "Id": "0Rb4g00000004YWCAY",
+                "MasterLabel": "climsIconCard",
+                "name": "clims_iconCard"
+            },
+            "name": "Active",
+            "smartAction": {
+            }
+        }
+    ],
+    "title": "tzGonzoCard1"
+}

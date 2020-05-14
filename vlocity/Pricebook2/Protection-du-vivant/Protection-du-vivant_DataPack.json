@@ -1,0 +1,19 @@
+{
+    "%vlocity_namespace%__IsDefault__c": false,
+    "ADV_Price_Book_Language__c": "French",
+    "Description": "Contient tous les produits de protection du vivant vendus par les conseillers.",
+    "IsActive": true,
+    "IsArchived": false,
+    "IsStandard": false,
+    "Name": "Protection du vivant",
+    "RecordTypeId": {
+        "DeveloperName": "Advisor_Price_Book",
+        "SobjectType": "Pricebook2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Pricebook2/Advisor_Price_Book",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Pricebook2",
+    "VlocityRecordSourceKey": "Pricebook2/Protection du vivant"
+}

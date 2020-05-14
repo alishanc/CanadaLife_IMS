@@ -1,0 +1,69 @@
+{
+    "GlobalKey__c": "vjTestDebugCard0427/GreatWest Life Co/1/1587998755855",
+    "dataSource": {
+        "type": "Query",
+        "value": {
+        }
+    },
+    "enableLwc": true,
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Email']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Email",
+                    "name": "['Email']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Id']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Id",
+                    "name": "['Id']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Name']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Name",
+                    "name": "['Name']",
+                    "type": "string"
+                }
+            ],
+            "isSmartAction": false,
+            "lwc": {
+                "DeveloperName": "vjCardMiniCustom",
+                "Id": "0Rb4g00000004IxCAI",
+                "MasterLabel": "vjCardMiniCustom",
+                "name": "vjCardMiniCustom"
+            },
+            "name": "Active",
+            "smartAction": {
+            }
+        }
+    ],
+    "title": "User Card"
+}

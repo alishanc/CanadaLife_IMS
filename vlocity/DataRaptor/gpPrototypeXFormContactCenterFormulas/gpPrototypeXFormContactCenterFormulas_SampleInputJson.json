@@ -1,0 +1,217 @@
+{
+    "ContactCenters": [
+        {
+            "addresses": [
+                {
+                    "addressId": "A2394234",
+                    "addressLine1": "111 Nowhere Street",
+                    "addressLine2": "C/O Someone",
+                    "addressLine3": "More address info",
+                    "city": "Winnipeg",
+                    "communicationLanguage": "English",
+                    "countryCode": "CA",
+                    "countryName": "Canada",
+                    "postalZipCode": "R2C 1C1",
+                    "provinceStateCode": "MB",
+                    "provinceStateName": "Manitoba",
+                    "type": "MAILING"
+                }
+            ],
+            "contactCentreId": "string",
+            "contactCentreName": "Office Name",
+            "lastUpdated": "2020-12-30 (yyyy-MM-dd)",
+            "phoneNumbers": [
+                {
+                    "areaCode": "1-204",
+                    "communicationLanguage": "English",
+                    "operationalHours": [
+                        {
+                            "close": "22:00",
+                            "day": 0,
+                            "open": "08:00",
+                            "utc_offset_minutes": 300
+                        },
+                        {
+                            "close": "22:00",
+                            "day": 1,
+                            "open": "08:00",
+                            "utc_offset_minutes": 300
+                        },
+                        {
+                            "close": "22:00",
+                            "day": 2,
+                            "open": "08:00",
+                            "utc_offset_minutes": 300
+                        },
+                        {
+                            "close": "22:00",
+                            "day": 3,
+                            "open": "08:00",
+                            "utc_offset_minutes": 300
+                        },
+                        {
+                            "close": "22:00",
+                            "day": 4,
+                            "open": "08:00",
+                            "utc_offset_minutes": 300
+                        }
+                    ],
+                    "phoneNumber": "1234567",
+                    "phoneNumerId": "string",
+                    "type": "business"
+                }
+            ],
+            "servicingType": "group-wealth",
+            "updateStatus": "active",
+            "urls": [
+                {
+                    "type": "business",
+                    "url": "string",
+                    "urlId": "string"
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "addressId": "A2394234",
+                    "addressLine1": "111 Nowhere Street",
+                    "addressLine2": "C/O Someone",
+                    "addressLine3": "More address info",
+                    "city": "Winnipeg",
+                    "communicationLanguage": "English",
+                    "countryCode": "CA",
+                    "countryName": "Canada",
+                    "postalZipCode": "R2C 1C1",
+                    "provinceStateCode": "MB",
+                    "provinceStateName": "Manitoba",
+                    "type": "MAILING"
+                }
+            ],
+            "contactCentreId": "string",
+            "contactCentreName": "Office Name",
+            "lastUpdated": "2020-12-30 (yyyy-MM-dd)",
+            "phoneNumbers": [
+                {
+                    "areaCode": "1-204",
+                    "communicationLanguage": "English",
+                    "operationalHours": [
+                        {
+                            "close": "22:00",
+                            "day": 0,
+                            "open": "08:00",
+                            "utc_offset_minutes": 300
+                        },
+                        {
+                            "close": "22:00",
+                            "day": 1,
+                            "open": "08:00",
+                            "utc_offset_minutes": 300
+                        },
+                        {
+                            "close": "22:00",
+                            "day": 2,
+                            "open": "08:00",
+                            "utc_offset_minutes": 300
+                        },
+                        {
+                            "close": "22:00",
+                            "day": 3,
+                            "open": "08:00",
+                            "utc_offset_minutes": 300
+                        },
+                        {
+                            "close": "22:00",
+                            "day": 4,
+                            "open": "08:00",
+                            "utc_offset_minutes": 300
+                        }
+                    ],
+                    "phoneNumber": "1234567",
+                    "phoneNumerId": "string",
+                    "type": "business"
+                }
+            ],
+            "servicingType": "group-wealth",
+            "updateStatus": "active",
+            "urls": [
+                {
+                    "type": "business",
+                    "url": "string",
+                    "urlId": "string"
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "addressId": "A2394234",
+                    "addressLine1": "111 Nowhere Street",
+                    "addressLine2": "C/O Someone",
+                    "addressLine3": "More address info",
+                    "city": "Winnipeg",
+                    "communicationLanguage": "English",
+                    "countryCode": "CA",
+                    "countryName": "Canada",
+                    "postalZipCode": "R2C 1C1",
+                    "provinceStateCode": "MB",
+                    "provinceStateName": "Manitoba",
+                    "type": "MAILING"
+                }
+            ],
+            "contactCentreId": "string",
+            "contactCentreName": "Office Name",
+            "lastUpdated": "2020-12-30 (yyyy-MM-dd)",
+            "phoneNumbers": [
+                {
+                    "areaCode": "1-111",
+                    "communicationLanguage": "English",
+                    "operationalHours": [
+                        {
+                            "close": "22:00",
+                            "day": 0,
+                            "open": "08:00",
+                            "utc_offset_minutes": 300
+                        },
+                        {
+                            "close": "22:00",
+                            "day": 1,
+                            "open": "08:00",
+                            "utc_offset_minutes": 300
+                        },
+                        {
+                            "close": "22:00",
+                            "day": 2,
+                            "open": "08:00",
+                            "utc_offset_minutes": 300
+                        },
+                        {
+                            "close": "22:00",
+                            "day": 3,
+                            "open": "08:00",
+                            "utc_offset_minutes": 300
+                        },
+                        {
+                            "close": "22:00",
+                            "day": 4,
+                            "open": "08:00",
+                            "utc_offset_minutes": 300
+                        }
+                    ],
+                    "phoneNumber": "1111111",
+                    "phoneNumerId": "string",
+                    "type": "business"
+                }
+            ],
+            "servicingType": "group-wealth",
+            "updateStatus": "active",
+            "urls": [
+                {
+                    "type": "business",
+                    "url": "string",
+                    "urlId": "string"
+                }
+            ]
+        }
+    ]
+}

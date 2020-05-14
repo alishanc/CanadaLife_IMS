@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Estate Achiever Plus, Max 10",
+        "Pricebook2.Name": "Individual Life",
+        "Pricebook2Id": {
+            "Name": "Individual Life",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Individual Life",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "755eb5-9b252f-4985b7-24ce24-2a83e4f94",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "755eb5-9b252f-4985b7-24ce24-2a83e4f94",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/755eb5-9b252f-4985b7-24ce24-2a83e4f94",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Individual Life/Product2/755eb5-9b252f-4985b7-24ce24-2a83e4f94"
+    }
+]

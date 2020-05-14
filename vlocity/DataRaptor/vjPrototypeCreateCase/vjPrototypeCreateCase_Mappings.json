@@ -1,0 +1,81 @@
+[
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Case",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "ContactId",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "contactId",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "vjPrototypeCreateCaseCustoma1X4R00000A09gJUARItem1",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "vjPrototypeCreateCase",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Case",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Description",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "stepContactUs:message",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "vjPrototypeCreateCaseCustoma1X4R00000A09gJUARItem3",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "vjPrototypeCreateCase",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__ConfigurationValue__c": "FAKEMAPPING",
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Case",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Id",
+        "%vlocity_namespace%__FilterOperator__c": "=",
+        "%vlocity_namespace%__IsDisabled__c": true,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "vjPrototypeCreateCaseCustoma1X4R00000A09gJUARItem0",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "vjPrototypeCreateCase",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Case",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Sub_Type__c",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "stepContactUs:subTopic",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "vjPrototypeCreateCaseCustoma1X4R00000A09gJUARItem4",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "vjPrototypeCreateCase",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Case",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Subject",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "stepContactUs:memberName",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "vjPrototypeCreateCaseCustoma1X4R00000A09gJUARItem2",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "vjPrototypeCreateCase",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    },
+    {
+        "%vlocity_namespace%__DomainObjectAPIName__c": "Case",
+        "%vlocity_namespace%__DomainObjectCreationOrder__c": 1,
+        "%vlocity_namespace%__DomainObjectFieldAPIName__c": "Type",
+        "%vlocity_namespace%__InterfaceFieldAPIName__c": "stepContactUs:topic",
+        "%vlocity_namespace%__IsDisabled__c": false,
+        "%vlocity_namespace%__IsRequiredForUpsert__c": false,
+        "%vlocity_namespace%__MapId__c": "vjPrototypeCreateCaseCustoma1X4R00000A09gJUARItem5",
+        "%vlocity_namespace%__UpsertKey__c": false,
+        "Name": "vjPrototypeCreateCase",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DRMapItem__c"
+    }
+]

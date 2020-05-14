@@ -1,0 +1,59 @@
+{
+    "GlobalKey__c": "vjLWCMigrationCard/Great-West Life Co./2/1587585730415",
+    "dataSource": {
+        "type": null
+    },
+    "enableLwc": true,
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['Email']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Email",
+                    "name": "['Email']",
+                    "type": "string"
+                },
+                {
+                    "collapse": true,
+                    "displayLabel": "['Name']",
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "Name",
+                    "name": "['Name']",
+                    "type": "string"
+                }
+            ],
+            "isSmartAction": false,
+            "lwc": {
+                "DeveloperName": "cardActiveState",
+                "Id": "0Rb4g000000045OCAQ",
+                "MasterLabel": "card-active-state",
+                "name": "cardActiveState"
+            },
+            "name": "Active",
+            "smartAction": {
+            },
+            "templateUrl": "card-active"
+        }
+    ],
+    "title": "LWC Migration Test"
+}

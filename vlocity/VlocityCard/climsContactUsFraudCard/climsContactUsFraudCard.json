@@ -1,0 +1,40 @@
+{
+    "GlobalKey__c": "climsContactUsFraudCard/CanadaLife/1/1588781683565",
+    "dataSource": {
+        "type": null
+    },
+    "enableLwc": true,
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "isSmartAction": false,
+            "lwc": {
+                "DeveloperName": "fraudCard",
+                "Id": "0Rb4g00000004ZZCAY",
+                "MasterLabel": "climsfraudCard",
+                "name": "fraudCard"
+            },
+            "name": "Active",
+            "smartAction": {
+            }
+        }
+    ],
+    "title": "climsContactUsFraudCard"
+}

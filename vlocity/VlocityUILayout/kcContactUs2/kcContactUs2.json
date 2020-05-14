@@ -1,0 +1,95 @@
+{
+    "Cards": [
+        "ContactUsBaseCard"
+    ],
+    "GlobalKey__c": "kcContactUs2/1/CanadaLife/1587657266358",
+    "componentName": "cfKcContactUs2",
+    "dataSource": {
+        "type": "Custom",
+        "value": {
+            "body": "{\n\"Title\":\"test\",\n\"phone\":\"123-456-7890\"\n}"
+        }
+    },
+    "enableLwc": true,
+    "lwc": {
+        "DeveloperName": "cardCanvas1x",
+        "Id": "0Rb4g000000045PCAQ",
+        "MasterLabel": "cardCanvas1x",
+        "name": "cardCanvas1x"
+    },
+    "previewType": "runTime",
+    "repeatCards": false,
+    "workspace": [
+        "ContactUsBaseCard/CanadaLife/1/1587657328919"
+    ],
+    "xmlObject": {
+        "apiVersion": 46,
+        "isExplicitImport": false,
+        "isExposed": true,
+        "masterLabel": "kcContactUs2",
+        "runtimeNamespace": "%vlocity_namespace%",
+        "targetConfig": [
+            {
+                "objects": [
+                ],
+                "property": [
+                    {
+                        "name": "debug",
+                        "value": {
+                            "name": "debug",
+                            "selectedProp": "debug",
+                            "type": "Boolean"
+                        }
+                    },
+                    {
+                        "name": "recordId",
+                        "value": {
+                            "name": "recordId",
+                            "selectedProp": "recordId",
+                            "type": "String"
+                        }
+                    }
+                ],
+                "target": "lightning__AppPage"
+            },
+            {
+                "objects": [
+                ],
+                "property": [
+                    {
+                        "name": "debug",
+                        "value": {
+                            "name": "debug",
+                            "selectedProp": "debug",
+                            "type": "Boolean"
+                        }
+                    }
+                ],
+                "target": "lightning__RecordPage"
+            }
+        ],
+        "targetConfigs": "CiAgICAgICAgICAgICAgICAgICAgICA8dGFyZ2V0Q29uZmlnIHRhcmdldHM9ImxpZ2h0bmluZ19fQXBwUGFnZSI+CiAgICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0iZGVidWciIHR5cGU9IkJvb2xlYW4iICAvPgogICAgICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0icmVjb3JkSWQiIHR5cGU9IlN0cmluZyIgIC8+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPgogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgPHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX1JlY29yZFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIiAgLz4KICAgICAgICAgICAgICAgICAgICAgICAgPC90YXJnZXRDb25maWc+CiAgICAgICAgICAgICAgICAgICAg",
+        "targets": [
+            {
+                "name": "RecordPage",
+                "target": "lightning__RecordPage"
+            },
+            {
+                "name": "AppPage",
+                "target": "lightning__AppPage"
+            },
+            {
+                "name": "HomePage",
+                "target": "lightning__HomePage"
+            },
+            {
+                "name": "CommunityPage",
+                "target": "lightningCommunity__Page"
+            },
+            {
+                "name": "CommunityDefault",
+                "target": "lightningCommunity__Default"
+            }
+        ]
+    }
+}

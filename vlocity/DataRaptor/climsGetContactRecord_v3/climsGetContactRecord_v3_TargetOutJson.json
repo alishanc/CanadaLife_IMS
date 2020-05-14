@@ -1,0 +1,10 @@
+{
+    "Contact": {
+        "ContactId": "Text",
+        "Email": "Text",
+        "FirstName": "Text",
+        "LastName": "Text",
+        "Name": "Text",
+        "Phone": "Text"
+    }
+}

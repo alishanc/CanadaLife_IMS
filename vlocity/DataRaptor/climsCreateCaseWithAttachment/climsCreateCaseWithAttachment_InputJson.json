@@ -1,0 +1,17 @@
+{
+    "StepForTypeNotCallCenter": {
+        "Email": "XXXYYYme@mine.com",
+        "File": [
+            {
+                "$$hashKey": "object:121",
+                "data": "15c02e86-76e8-44a6-9363-7fd541e7d91a",
+                "filename": "calculator.xml",
+                "size": 6362
+            }
+        ],
+        "Message": "XXXbbbbbbbbbbbb",
+        "Name": "XXXYYYname value here...",
+        "Subtopic": "XXXsubtopic",
+        "Topic": "XXXYYYtopic"
+    }
+}

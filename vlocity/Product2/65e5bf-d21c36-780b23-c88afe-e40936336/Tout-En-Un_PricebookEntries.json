@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Tout-En-Un",
+        "Pricebook2.Name": "Solutions Bancaires",
+        "Pricebook2Id": {
+            "Name": "Solutions Bancaires",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Solutions Bancaires",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "65e5bf-d21c36-780b23-c88afe-e40936336",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "65e5bf-d21c36-780b23-c88afe-e40936336",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/65e5bf-d21c36-780b23-c88afe-e40936336",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Solutions Bancaires/Product2/65e5bf-d21c36-780b23-c88afe-e40936336"
+    }
+]

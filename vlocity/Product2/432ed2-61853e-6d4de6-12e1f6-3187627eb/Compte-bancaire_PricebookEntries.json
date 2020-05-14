@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Compte bancaire",
+        "Pricebook2.Name": "Solutions Bancaires",
+        "Pricebook2Id": {
+            "Name": "Solutions Bancaires",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Solutions Bancaires",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "432ed2-61853e-6d4de6-12e1f6-3187627eb",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "432ed2-61853e-6d4de6-12e1f6-3187627eb",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/432ed2-61853e-6d4de6-12e1f6-3187627eb",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Solutions Bancaires/Product2/432ed2-61853e-6d4de6-12e1f6-3187627eb"
+    }
+]

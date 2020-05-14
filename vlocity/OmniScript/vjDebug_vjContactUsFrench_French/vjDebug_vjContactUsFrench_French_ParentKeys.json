@@ -1,0 +1,4 @@
+[
+    "IntegrationProcedure/climsContactUs_AggregateContactUsInitialData",
+    "IntegrationProcedure/climsContactUs_ContactUsSendEmails"
+]

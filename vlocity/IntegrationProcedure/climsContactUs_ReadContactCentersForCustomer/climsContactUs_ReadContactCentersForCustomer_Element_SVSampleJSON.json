@@ -1,0 +1,174 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Read contact centers for Customer",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/climsContactUs/ReadContactCentersForCustomer/Procedure",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "actionMessage": "",
+        "chainOnStep": false,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "ContactCenters": [
+                {
+                    "addresses": [
+                        {
+                            "addressId": "A2394234",
+                            "addressLine1": "Toronto Benefit Payments",
+                            "addressLine2": "11th Floor ",
+                            "addressLine3": "155 University Ave ",
+                            "city": "Toronto",
+                            "communicationLanguage": "English",
+                            "countryCode": "CA",
+                            "countryName": "Canada",
+                            "postalZipCode": "R2C 1C1",
+                            "provinceStateCode": "ON",
+                            "provinceStateName": "Ontario",
+                            "type": "MAILING"
+                        }
+                    ],
+                    "contactCentreId": "string",
+                    "contactCentreName": "Toronto Benefit Payments",
+                    "isExternalContactCentre": "false",
+                    "lastUpdated": "2020-12-30 (yyyy-MM-dd)",
+                    "phoneNumbers": [
+                        {
+                            "areaCode": "1-416",
+                            "communicationLanguage": "English",
+                            "operationalHours": [
+                                {
+                                    "close": "22:00",
+                                    "day": 0,
+                                    "open": "08:00",
+                                    "timeZoneAbbreviation": "CST",
+                                    "utc_offset_minutes": 300
+                                },
+                                {
+                                    "close": "22:00",
+                                    "day": 1,
+                                    "open": "08:00",
+                                    "timeZoneAbbreviation": "CST",
+                                    "utc_offset_minutes": 300
+                                },
+                                {
+                                    "close": "22:00",
+                                    "day": 2,
+                                    "open": "08:00",
+                                    "utc_offset_minutes": 300
+                                },
+                                {
+                                    "close": "22:00",
+                                    "day": 3,
+                                    "open": "08:00",
+                                    "utc_offset_minutes": 300
+                                },
+                                {
+                                    "close": "22:00",
+                                    "day": 4,
+                                    "open": "08:00",
+                                    "utc_offset_minutes": 300
+                                }
+                            ],
+                            "phoneNumber": "4533570",
+                            "phoneNumerId": "string",
+                            "type": "business"
+                        }
+                    ],
+                    "servicingType": "group-wealth",
+                    "updateStatus": "active",
+                    "urls": [
+                        {
+                            "url": "mailto:merconsupport@canadalife.com"
+                        }
+                    ]
+                },
+                {
+                    "addresses": [
+                        {
+                            "addressId": "A2394234",
+                            "addressLine1": "London Benefit Payments",
+                            "addressLine2": "10th Floor",
+                            "addressLine3": "255 Dufferin Ave",
+                            "city": "London",
+                            "communicationLanguage": "English",
+                            "countryCode": "CA",
+                            "countryName": "Canada",
+                            "postalZipCode": "L2C 2A3",
+                            "provinceStateCode": "ON",
+                            "provinceStateName": "Ontario",
+                            "type": "MAILING"
+                        }
+                    ],
+                    "contactCentreId": "string",
+                    "contactCentreName": "London Benefit Payments",
+                    "isExternalContactCentre": "true",
+                    "lastUpdated": "2020-12-30 (yyyy-MM-dd)",
+                    "phoneNumbers": [
+                        {
+                            "areaCode": "1-519",
+                            "communicationLanguage": "English",
+                            "operationalHours": [
+                                {
+                                    "close": "22:00",
+                                    "day": 0,
+                                    "open": "08:00",
+                                    "timeZoneAbbreviation": "CST",
+                                    "utc_offset_minutes": 300
+                                },
+                                {
+                                    "close": "22:00",
+                                    "day": 1,
+                                    "open": "08:00",
+                                    "utc_offset_minutes": 300
+                                },
+                                {
+                                    "close": "22:00",
+                                    "day": 2,
+                                    "open": "08:00",
+                                    "utc_offset_minutes": 300
+                                },
+                                {
+                                    "close": "22:00",
+                                    "day": 3,
+                                    "open": "08:00",
+                                    "utc_offset_minutes": 300
+                                },
+                                {
+                                    "close": "22:00",
+                                    "day": 4,
+                                    "open": "08:00",
+                                    "utc_offset_minutes": 300
+                                }
+                            ],
+                            "phoneNumber": "4455667",
+                            "phoneNumerId": "string",
+                            "type": "business"
+                        }
+                    ],
+                    "servicingType": "group-insurance",
+                    "updateStatus": "active",
+                    "urls": [
+                        {
+                            "url": "mailto:merconsupport@canadalife.com"
+                        }
+                    ]
+                }
+            ]
+        },
+        "executionConditionalFormula": "",
+        "failOnStepError": true,
+        "failureConditionalFormula": "",
+        "label": "SetValues1",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "show": null
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SVSampleJSON",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/climsContactUs/ReadContactCentersForCustomer/Procedure/SVSampleJSON"
+}

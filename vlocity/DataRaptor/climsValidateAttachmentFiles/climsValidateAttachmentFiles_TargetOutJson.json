@@ -1,0 +1,6 @@
+{
+    "IsFileNameInvalid": false,
+    "IsFileSizeGreaterThanMax": false,
+    "IsFileSizeLessThanMin": false,
+    "IsTotalFilesSizeGreaterThanMax": false
+}

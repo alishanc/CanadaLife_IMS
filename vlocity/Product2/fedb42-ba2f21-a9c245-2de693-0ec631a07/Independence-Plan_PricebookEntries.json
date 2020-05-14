@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Independence Plan",
+        "Pricebook2.Name": "Living Benefits",
+        "Pricebook2Id": {
+            "Name": "Living Benefits",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Living Benefits",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "fedb42-ba2f21-a9c245-2de693-0ec631a07",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "fedb42-ba2f21-a9c245-2de693-0ec631a07",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/fedb42-ba2f21-a9c245-2de693-0ec631a07",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Living Benefits/Product2/fedb42-ba2f21-a9c245-2de693-0ec631a07"
+    }
+]

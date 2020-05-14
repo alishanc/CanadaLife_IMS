@@ -1,0 +1,28 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "OS Script to test Muli-language functionality",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "tsTesting_tsOSTesting_English_Element_Step2.json",
+        "tsTesting_tsOSTesting_English_Element_CustomLWC1.json",
+        "tsTesting_tsOSTesting_English_Element_Checkbox1.json",
+        "tsTesting_tsOSTesting_English_Element_Radio1.json",
+        "tsTesting_tsOSTesting_English_Element_Password1.json",
+        "tsTesting_tsOSTesting_English_Element_Text1.json",
+        "tsTesting_tsOSTesting_English_Element_File1.json",
+        "tsTesting_tsOSTesting_English_Element_Select1.json",
+        "tsTesting_tsOSTesting_English_Element_Multi-select1.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": true,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__LwcId__c": "eb32ce25-ac4f-a5b6-9591-8dbdd18d4a7c",
+    "%vlocity_namespace%__PropertySet__c": "tsTesting_tsOSTesting_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "tsOSTesting",
+    "%vlocity_namespace%__Type__c": "tsTesting",
+    "Name": "testOS",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/tsTesting/tsOSTesting/English"
+}

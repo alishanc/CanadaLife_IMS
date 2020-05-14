@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Restricted Life Income Fund",
+        "Pricebook2.Name": "Wealth: Segregated Funds",
+        "Pricebook2Id": {
+            "Name": "Wealth: Segregated Funds",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Wealth: Segregated Funds",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "bc7251-1c7251-6a5c8f-a01bd5-574848085",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "bc7251-1c7251-6a5c8f-a01bd5-574848085",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/bc7251-1c7251-6a5c8f-a01bd5-574848085",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Wealth: Segregated Funds/Product2/bc7251-1c7251-6a5c8f-a01bd5-574848085"
+    }
+]

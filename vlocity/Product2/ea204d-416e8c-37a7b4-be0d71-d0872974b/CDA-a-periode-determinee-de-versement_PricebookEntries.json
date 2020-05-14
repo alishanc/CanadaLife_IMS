@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "CDA à période déterminée de versement",
+        "Pricebook2.Name": "Produits d’assurance-vie individuelle",
+        "Pricebook2Id": {
+            "Name": "Produits d’assurance-vie individuelle",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Produits d’assurance-vie individuelle",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "ea204d-416e8c-37a7b4-be0d71-d0872974b",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "ea204d-416e8c-37a7b4-be0d71-d0872974b",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/ea204d-416e8c-37a7b4-be0d71-d0872974b",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Produits d’assurance-vie individuelle/Product2/ea204d-416e8c-37a7b4-be0d71-d0872974b"
+    }
+]

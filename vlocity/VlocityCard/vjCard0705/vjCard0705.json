@@ -1,0 +1,66 @@
+{
+    "GlobalKey__c": "vjCard0705/GreatWest/1/1588888951560",
+    "dataSource": {
+        "type": "Query",
+        "value": {
+        }
+    },
+    "enableLwc": true,
+    "filter": {
+    },
+    "sessionVars": [
+        {
+            "name": "sessionTitle",
+            "val": "My Session"
+        },
+        {
+            "name": "sessionData",
+            "val": "My Session Data"
+        }
+    ],
+    "states": [
+        {
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "customLwc": true,
+            "customLwcAttributes": [
+                {
+                    "name": "myTitle",
+                    "val": "['Name']"
+                },
+                {
+                    "name": "myData",
+                    "val": "['Email']"
+                }
+            ],
+            "customLwcRepeat": true,
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+            ],
+            "flyoutAttributes": [
+            ],
+            "isSmartAction": false,
+            "lwc": {
+                "DeveloperName": "vjCustomCardLayout",
+                "Id": "0Rb4g00000004kwCAA",
+                "MasterLabel": "vjCardCustomLayout",
+                "name": "vjCustomCardLayout"
+            },
+            "name": "Active",
+            "smartAction": {
+            }
+        }
+    ],
+    "title": "Test Layout"
+}

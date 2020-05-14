@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Autre ass. - fonds dist. - Rev.retraite",
+        "Pricebook2.Name": "Gestion du patrimoine : fonds distincts",
+        "Pricebook2Id": {
+            "Name": "Gestion du patrimoine : fonds distincts",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Gestion du patrimoine : fonds distincts",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "696bc1-941351-4aa4ab-5c1782-69e15d987",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "696bc1-941351-4aa4ab-5c1782-69e15d987",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/696bc1-941351-4aa4ab-5c1782-69e15d987",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Gestion du patrimoine : fonds distincts/Product2/696bc1-941351-4aa4ab-5c1782-69e15d987"
+    }
+]

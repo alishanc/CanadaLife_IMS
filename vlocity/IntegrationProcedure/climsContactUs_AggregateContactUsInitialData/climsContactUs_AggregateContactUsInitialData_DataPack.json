@@ -1,0 +1,24 @@
+{
+    "%vlocity_namespace%__AdditionalInformation__c": "Extracts initial data from SF and API supporting ContactUs OS functionality.  NOTE: API call is still outstanding.",
+    "%vlocity_namespace%__CustomJavaScript__c": "climsContactUs_AggregateContactUsInitialData_SampleInput.json",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "climsContactUs_AggregateContactUsInitialData_Element_RAGetUserType.json",
+        "climsContactUs_AggregateContactUsInitialData_Element_DRExtractContactForMember.json",
+        "climsContactUs_AggregateContactUsInitialData_Element_ResponseAction.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__LwcId__c": "6770331a-ec85-3499-3acb-be6f57483bc8",
+    "%vlocity_namespace%__ProcedureKey__c": "climsContactUs_AggregateContactUsInitialData",
+    "%vlocity_namespace%__PropertySet__c": "climsContactUs_AggregateContactUsInitialData_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "AggregateContactUsInitialData",
+    "%vlocity_namespace%__Type__c": "climsContactUs",
+    "Name": "Aggregate Contact Us Initial Data",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/climsContactUs/AggregateContactUsInitialData/Procedure"
+}

@@ -1,0 +1,53 @@
+{
+    "GlobalKey__c": "gpPrototypeAddressCard/CanadaLife/1/1588878938514",
+    "dataSource": {
+        "type": "Custom",
+        "value": {
+            "body": "{\n\"title\": \"Send claims to\",\n\"body\": \"<p>Canada Life Winnipeg Benefit Payments</p><p>Box C.P. 3050</p><p>Winnipeg, Manitoba</p><p>R3C 4E5</p>\"\n}"
+        }
+    },
+    "enableLwc": true,
+    "filter": {
+    },
+    "states": [
+        {
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                ]
+            },
+            "fields": [
+                {
+                    "collapse": true,
+                    "displayLabel": "['icon']",
+                    "editing": false,
+                    "fieldType": "standard",
+                    "group": "Custom Properties",
+                    "label": "mail",
+                    "name": "['icon']",
+                    "type": "string"
+                }
+            ],
+            "isSmartAction": false,
+            "lwc": {
+                "DeveloperName": "clims_iconCard",
+                "Id": "0Rb4g00000004YWCAY",
+                "MasterLabel": "climsIconCard",
+                "name": "clims_iconCard"
+            },
+            "name": "Active",
+            "smartAction": {
+            }
+        }
+    ],
+    "title": "Send Claims To"
+}

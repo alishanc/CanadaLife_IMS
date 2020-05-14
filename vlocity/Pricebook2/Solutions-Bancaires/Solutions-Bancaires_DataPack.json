@@ -1,0 +1,19 @@
+{
+    "%vlocity_namespace%__IsDefault__c": false,
+    "ADV_Price_Book_Language__c": "French",
+    "Description": "Contient les produits Solutions Bancaires.",
+    "IsActive": true,
+    "IsArchived": false,
+    "IsStandard": false,
+    "Name": "Solutions Bancaires",
+    "RecordTypeId": {
+        "DeveloperName": "Advisor_Price_Book",
+        "SobjectType": "Pricebook2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Pricebook2/Advisor_Price_Book",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Pricebook2",
+    "VlocityRecordSourceKey": "Pricebook2/Solutions Bancaires"
+}

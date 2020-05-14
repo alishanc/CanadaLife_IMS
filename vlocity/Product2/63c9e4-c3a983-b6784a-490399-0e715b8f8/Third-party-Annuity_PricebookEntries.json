@@ -1,0 +1,31 @@
+[
+    {
+        "%vlocity_namespace%__FloorPrice__c": "",
+        "%vlocity_namespace%__OverageCharge__c": "",
+        "%vlocity_namespace%__OverageUOM__c": "",
+        "%vlocity_namespace%__RecurringPrice__c": "",
+        "%vlocity_namespace%__RecurringUOM__c": "",
+        "IsActive": true,
+        "IsArchived": false,
+        "Name": "Third party Annuity",
+        "Pricebook2.Name": "Wealth: Guaranteed Products",
+        "Pricebook2Id": {
+            "Name": "Wealth: Guaranteed Products",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Pricebook2/Wealth: Guaranteed Products",
+            "VlocityRecordSObjectType": "Pricebook2"
+        },
+        "Product2.%vlocity_namespace%__GlobalKey__c": "63c9e4-c3a983-b6784a-490399-0e715b8f8",
+        "Product2Id": {
+            "%vlocity_namespace%__GlobalKey__c": "63c9e4-c3a983-b6784a-490399-0e715b8f8",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/63c9e4-c3a983-b6784a-490399-0e715b8f8",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "UnitPrice": 0,
+        "UseStandardPrice": false,
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "PricebookEntry",
+        "VlocityRecordSourceKey": "PricebookEntry/Pricebook2/Wealth: Guaranteed Products/Product2/63c9e4-c3a983-b6784a-490399-0e715b8f8"
+    }
+]

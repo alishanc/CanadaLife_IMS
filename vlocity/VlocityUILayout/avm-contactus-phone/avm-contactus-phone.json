@@ -1,0 +1,26 @@
+{
+    "Cards": [
+        "avm-contactus-phone"
+    ],
+    "componentName": "cfAvmContactusPhone",
+    "dataSource": {
+        "type": "IntegrationProcedures",
+        "value": {
+            "ipMethod": "gpPrototype_ReadContactCentersForCustomer",
+            "optionsMap": {
+                "vlcClass": "%vlocity_namespace%.IntegrationProcedureService"
+            }
+        }
+    },
+    "enableLwc": false,
+    "previewType": "runTime",
+    "repeatCards": false,
+    "templates": {
+        "0": {
+            "templateUrl": "card-canvas-1x-simple-slds"
+        }
+    },
+    "workspace": [
+        "avm-contactus-phone/Great-West Life Co./1/1587559707241"
+    ]
+}
