@@ -10,7 +10,7 @@
     "%vlocity_namespace%__IsProcedure__c": true,
     "%vlocity_namespace%__IsReusable__c": false,
     "%vlocity_namespace%__Language__c": "Procedure",
-    "%vlocity_namespace%__LwcId__c": "31778ecc-bf6a-807b-ec3b-2e9b81fee018",
+    "%vlocity_namespace%__LwcId__c": "9e74e67d-8920-808b-2762-c987bdb6d1f7",
     "%vlocity_namespace%__ProcedureKey__c": "Test_Apex",
     "%vlocity_namespace%__PropertySet__c": "Test_Apex_PropertySet.json",
     "%vlocity_namespace%__SubType__c": "Apex",

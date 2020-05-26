@@ -1,0 +1,3 @@
+let definition = 
+                {"states":[{"fields":[],"conditions":{"group":[{"field":"$scope.data.status","operator":"===","value":"'active'","type":"system"}]},"definedActions":{"actions":[]},"name":"Active","lwc":{"MasterLabel":"phoneUs","DeveloperName":"phoneUs","Id":"0Rb4g00000004JMCAY","name":"phoneUs"},"isSmartAction":false,"smartAction":{}}],"filter":{},"dataSource":{"type":null},"title":"Call us","enableLwc":true,"GlobalKey__c":"clims-contactus-calluscard/CanadaLife/1/1588190144233"}; 
+            export default definition

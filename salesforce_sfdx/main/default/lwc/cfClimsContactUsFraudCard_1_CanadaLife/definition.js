@@ -1,0 +1,3 @@
+let definition = 
+                {"states":[{"fields":[],"conditions":{"group":[{"field":"$scope.data.status","operator":"===","value":"'active'","type":"system"}]},"definedActions":{"actions":[]},"name":"Active","lwc":{"MasterLabel":"climsfraudCard","DeveloperName":"fraudCard","Id":"0Rb4g00000004ZZCAY","name":"fraudCard"},"isSmartAction":false,"smartAction":{}}],"filter":{},"dataSource":{"type":null},"title":"climsContactUsFraudCard","enableLwc":true,"GlobalKey__c":"climsContactUsFraudCard/CanadaLife/1/1588781683565"}; 
+            export default definition

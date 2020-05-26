@@ -12,7 +12,7 @@
     "consoleTabLabel": null,
     "consoleTabTitle": null,
     "currencyCode": "",
-    "disableUnloadWarn": true,
+    "disableUnloadWarn": false,
     "elementTypeToHTMLTemplateMapping": {
     },
     "enableKnowledge": false,

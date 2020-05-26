@@ -1,0 +1,43 @@
+<!--
+  @File Name          : iMSMainmenu.html
+  @Description        : 
+  @Author             : ChangeMeIn@UserSettingsUnder.SFDoc
+  @Group              : 
+  @Last Modified By   : ChangeMeIn@UserSettingsUnder.SFDoc
+  @Last Modified On   : 2020-05-20, 3:06:33 a.m.
+  @Modification Log   : 
+  Ver       Date            Author      		    Modification
+  1.0    2020-05-09   ChangeMeIn@UserSettingsUnder.SFDoc     Initial Version
+-->
+<template>
+  <lightning-vertical-navigation selected-item={currentPageUrl}>
+    <div role="list">
+      <span if:true={menuList}>
+        <span for:each={menuList} for:item="menuItem" key={menuItem.key}>
+          <c-clims-vertical-nav-section-collapse
+            if:true={menuItem.childCount}
+            label={menuItem.label}
+          >
+            <span
+              for:each={menuItem.children}
+              for:item="secondaryMenuItem"
+              key={secondaryMenuItem.key}
+            >
+              <lightning-vertical-navigation-item
+                label={secondaryMenuItem.label}
+                name={secondaryMenuItem.url}
+                href={secondaryMenuItem.url}
+              ></lightning-vertical-navigation-item>
+            </span>
+          </c-clims-vertical-nav-section-collapse>
+          <lightning-vertical-navigation-item
+            if:false={menuItem.childCount}
+            label={menuItem.label}
+            name={menuItem.url}
+            href={menuItem.url}
+          ></lightning-vertical-navigation-item>
+        </span>
+      </span>
+    </div>
+  </lightning-vertical-navigation>
+</template>

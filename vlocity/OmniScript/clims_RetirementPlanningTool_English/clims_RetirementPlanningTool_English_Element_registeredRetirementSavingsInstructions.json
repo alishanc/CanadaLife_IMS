@@ -1,14 +1,14 @@
 {
     "%vlocity_namespace%__Active__c": true,
     "%vlocity_namespace%__OmniScriptId__c": {
-        "Name": "Retirement Planning Tool TZ",
+        "Name": "Retirement Planning Tool - Master",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
     "%vlocity_namespace%__ParentElementId__c": {
         "%vlocity_namespace%__OmniScriptId__c": {
-            "Name": "Retirement Planning Tool TZ",
+            "Name": "Retirement Planning Tool - Master",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
             "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
             "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
@@ -27,7 +27,7 @@
         "disOnTplt": false,
         "label": null,
         "show": null,
-        "text": "<p><strong>Do you have any other registered retirement savings?</strong></p>\n<p>Enter total amount you have with other employers or financial institutions (optional).</p>",
+        "text": "<h2><br />Do you have any other registered retirement savings?</h2>",
         "textKey": ""
     },
     "%vlocity_namespace%__ReusableOmniScript__c": false,

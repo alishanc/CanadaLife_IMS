@@ -14,7 +14,7 @@
     "%vlocity_namespace%__IsProcedure__c": true,
     "%vlocity_namespace%__IsReusable__c": false,
     "%vlocity_namespace%__Language__c": "Procedure",
-    "%vlocity_namespace%__LwcId__c": "bf9cf36a-a9de-577e-e1ba-1eba1e64b133",
+    "%vlocity_namespace%__LwcId__c": "ab45d1f0-cb58-24bb-8289-dc89ec97923e",
     "%vlocity_namespace%__ProcedureKey__c": "CustomerInteractionAccountCMT_Creation",
     "%vlocity_namespace%__PropertySet__c": "CustomerInteractionAccountCMT_Creation_PropertySet.json",
     "%vlocity_namespace%__SubType__c": "Creation",

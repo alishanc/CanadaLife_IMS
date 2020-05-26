@@ -4,6 +4,7 @@
         "Message": "sss",
         "Name": "name value here...",
         "Subtopic": "Subtopic1_1",
-        "Topic": "Topic1"
+        "Topic": "Topic1",
+        "UserType": "Combo"
     }
 }

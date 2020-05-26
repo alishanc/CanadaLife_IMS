@@ -1,14 +1,14 @@
 {
     "%vlocity_namespace%__Active__c": true,
     "%vlocity_namespace%__OmniScriptId__c": {
-        "Name": "Retirement Planning Tool TZ",
+        "Name": "Retirement Planning Tool - Master",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
     "%vlocity_namespace%__ParentElementId__c": {
         "%vlocity_namespace%__OmniScriptId__c": {
-            "Name": "Retirement Planning Tool TZ",
+            "Name": "Retirement Planning Tool - Master",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
             "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
             "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
@@ -25,7 +25,7 @@
         "controlWidth": 12,
         "disOnTplt": false,
         "hideLabel": true,
-        "label": "maxRegisteredRetirementSavingsMessage",
+        "label": null,
         "messages": [
             {
                 "active": false,
@@ -35,7 +35,7 @@
             },
             {
                 "active": true,
-                "text": "Too high...",
+                "text": "Sorry, the maximum registered savings amount you can enter is $9,999,999.",
                 "type": "Requirement",
                 "value": false
             }

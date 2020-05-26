@@ -6,8 +6,8 @@
     "%vlocity_namespace%__Element__c": [
         "climsContactUs_ReadContactCentersForCustomer_Element_SVSampleJSON.json",
         "climsContactUs_ReadContactCentersForCustomer_Element_HTTPAction1.json",
-        "climsContactUs_ReadContactCentersForCustomer_Element_XFormedContactCenter.json",
         "climsContactUs_ReadContactCentersForCustomer_Element_IPGetUserInfo.json",
+        "climsContactUs_ReadContactCentersForCustomer_Element_XFormedContactCenter.json",
         "climsContactUs_ReadContactCentersForCustomer_Element_SVOutput.json",
         "climsContactUs_ReadContactCentersForCustomer_Element_ResponseActionContactCenter.json"
     ],
@@ -15,7 +15,7 @@
     "%vlocity_namespace%__IsProcedure__c": true,
     "%vlocity_namespace%__IsReusable__c": false,
     "%vlocity_namespace%__Language__c": "Procedure",
-    "%vlocity_namespace%__LwcId__c": "3cbc5de7-6d70-44a6-88ca-41ab979e41a8",
+    "%vlocity_namespace%__LwcId__c": "a0214f57-e26c-38b4-daf1-c99979b784b5",
     "%vlocity_namespace%__ProcedureKey__c": "climsContactUs_ReadContactCentersForCustomer",
     "%vlocity_namespace%__PropertySet__c": "climsContactUs_ReadContactCentersForCustomer_PropertySet.json",
     "%vlocity_namespace%__SubType__c": "ReadContactCentersForCustomer",

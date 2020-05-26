@@ -13,7 +13,7 @@
     "%vlocity_namespace%__IsProcedure__c": true,
     "%vlocity_namespace%__IsReusable__c": false,
     "%vlocity_namespace%__Language__c": "Procedure",
-    "%vlocity_namespace%__LwcId__c": "8fb632f4-4a6c-cf3c-cfe0-468a667e359d",
+    "%vlocity_namespace%__LwcId__c": "d534b273-1c70-4f32-7426-59838a3ef7b7",
     "%vlocity_namespace%__ProcedureKey__c": "climsContactUs_ContactUsSendEmails",
     "%vlocity_namespace%__PropertySet__c": "climsContactUs_ContactUsSendEmails_PropertySet.json",
     "%vlocity_namespace%__SubType__c": "ContactUsSendEmails",

@@ -27,7 +27,7 @@
         "disOnTplt": false,
         "label": "TextBlockConfirmationMessage",
         "show": null,
-        "text": "<p>Case number<strong> %CaseNumber%</strong></p>\n<p>We'll do our best to get back to you within a few business days.<br /><a href=\"https://vlocity1-lifeco.cs142.force.com/identity/s/contactus\" title=\"Send another message?\">Send another message?</a></p>\n<p></p>",
+        "text": "<p>We'll do our best to get back to you within a few business days.<br /><a href=\"https://vlocity1-lifeco.cs142.force.com/identity/s/contactus\" title=\"Send another message?\">Send another message?</a></p>\n<p></p>",
         "textKey": null
     },
     "%vlocity_namespace%__ReusableOmniScript__c": false,

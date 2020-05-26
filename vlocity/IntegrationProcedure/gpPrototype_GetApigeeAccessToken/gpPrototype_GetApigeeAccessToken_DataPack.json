@@ -16,7 +16,7 @@
     "%vlocity_namespace%__IsProcedure__c": true,
     "%vlocity_namespace%__IsReusable__c": false,
     "%vlocity_namespace%__Language__c": "Procedure",
-    "%vlocity_namespace%__LwcId__c": "e4e47220-96a5-9da1-7cb3-c72156d8475b",
+    "%vlocity_namespace%__LwcId__c": "44f8b24c-e148-df3b-29d1-066ecc594396",
     "%vlocity_namespace%__ProcedureKey__c": "gpPrototype_GetApigeeAccessToken",
     "%vlocity_namespace%__ProcedureResponseCacheType__c": "Session Cache",
     "%vlocity_namespace%__PropertySet__c": "gpPrototype_GetApigeeAccessToken_PropertySet.json",

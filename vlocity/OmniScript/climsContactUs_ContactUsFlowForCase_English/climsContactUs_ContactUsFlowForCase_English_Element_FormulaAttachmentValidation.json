@@ -26,7 +26,7 @@
         "dataType": "Number",
         "dateFormat": "MM-dd-yyyy",
         "disOnTplt": false,
-        "expression": "IF ( (COUNT(%StepForTypeNotCallCenter:File%) > 0) && (MIN(%StepForTypeNotCallCenter:File:size%) < 1) , 1, \nIF ( (COUNT(%StepForTypeNotCallCenter:File%) > 0) && (MAX(%StepForTypeNotCallCenter:File:size%) > 7340032) , 2, \nIF ( (COUNT(%StepForTypeNotCallCenter:File%) > 0) && (SUM(%StepForTypeNotCallCenter:File:size%) > 29360128) , 3, \n0\n)\n)\n)",
+        "expression": "IF((COUNT(%StepForTypeNotCallCenter:File%) > 0) && (%FormulaContentIDs% == %listVIDs%) , NUMBER(%validateAttachmentFlag%) , 0)",
         "hide": true,
         "hideGroupSep": false,
         "inputWidth": 12,

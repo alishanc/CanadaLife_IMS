@@ -1,14 +1,14 @@
 {
     "%vlocity_namespace%__Active__c": true,
     "%vlocity_namespace%__OmniScriptId__c": {
-        "Name": "Retirement Planning Tool TZ",
+        "Name": "Retirement Planning Tool - Master",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
     "%vlocity_namespace%__ParentElementId__c": {
         "%vlocity_namespace%__OmniScriptId__c": {
-            "Name": "Retirement Planning Tool TZ",
+            "Name": "Retirement Planning Tool - Master",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
             "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
             "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
@@ -27,7 +27,7 @@
         "disOnTplt": false,
         "label": null,
         "show": null,
-        "text": "<p><strong>Will you have other income?</strong></p>\n<p>Enter the monthly amount you expect to recieve. (e.g. other pensions) (optional).</p>",
+        "text": "<h2><br />Will you have other income?</h2>\n<p>Enter the monthly income you expect to receive during reiterment in today's dollars. Include income from sources such as rental properties, sposal support, and other pension plans.</p>",
         "textKey": ""
     },
     "%vlocity_namespace%__ReusableOmniScript__c": false,

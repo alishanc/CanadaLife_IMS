@@ -1,14 +1,14 @@
 {
     "%vlocity_namespace%__Active__c": true,
     "%vlocity_namespace%__OmniScriptId__c": {
-        "Name": "Retirement Planning Tool TZ",
+        "Name": "Retirement Planning Tool - Master",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
     "%vlocity_namespace%__ParentElementId__c": {
         "%vlocity_namespace%__OmniScriptId__c": {
-            "Name": "Retirement Planning Tool TZ",
+            "Name": "Retirement Planning Tool - Master",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
             "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
             "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
@@ -25,7 +25,7 @@
         "accessibleInFutureSteps": false,
         "allowNegative": false,
         "conditionType": "Hide if False",
-        "controlWidth": 2,
+        "controlWidth": 4,
         "debounceValue": 0,
         "defaultValue": 0,
         "disOnTplt": false,
@@ -34,10 +34,11 @@
         "hide": false,
         "hideGroupSep": false,
         "inputWidth": 12,
-        "label": null,
-        "mask": null,
+        "label": "Enter the monthly amount you expect to recieve. (e.g. other pensions) (optional):",
+        "mask": 0,
         "max": null,
         "min": 0,
+        "placeholder": "0",
         "readOnly": false,
         "repeat": false,
         "repeatClone": false,

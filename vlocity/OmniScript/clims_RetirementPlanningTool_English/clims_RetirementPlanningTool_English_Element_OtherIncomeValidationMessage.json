@@ -1,14 +1,14 @@
 {
     "%vlocity_namespace%__Active__c": true,
     "%vlocity_namespace%__OmniScriptId__c": {
-        "Name": "Retirement Planning Tool TZ",
+        "Name": "Retirement Planning Tool - Master",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
     "%vlocity_namespace%__ParentElementId__c": {
         "%vlocity_namespace%__OmniScriptId__c": {
-            "Name": "Retirement Planning Tool TZ",
+            "Name": "Retirement Planning Tool - Master",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
             "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
             "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
@@ -35,7 +35,7 @@
             },
             {
                 "active": true,
-                "text": "Other income must be less than $99,999",
+                "text": "Sorry, the maximum amount you can enter is $99,999.",
                 "type": "Requirement",
                 "value": false
             }
@@ -46,9 +46,9 @@
                 "operator": "AND",
                 "rules": [
                     {
-                        "condition": "=",
-                        "data": "true",
-                        "field": "OtherIncomeFormulaValidation"
+                        "condition": "<=",
+                        "data": "99999",
+                        "field": "estimatedMonthlyRetirementIncome"
                     }
                 ]
             }

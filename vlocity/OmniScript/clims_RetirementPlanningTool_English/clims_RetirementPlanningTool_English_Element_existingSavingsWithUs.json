@@ -1,14 +1,14 @@
 {
     "%vlocity_namespace%__Active__c": true,
     "%vlocity_namespace%__OmniScriptId__c": {
-        "Name": "Retirement Planning Tool TZ",
+        "Name": "Retirement Planning Tool - Master",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
     "%vlocity_namespace%__ParentElementId__c": {
         "%vlocity_namespace%__OmniScriptId__c": {
-            "Name": "Retirement Planning Tool TZ",
+            "Name": "Retirement Planning Tool - Master",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
             "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
             "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
@@ -27,7 +27,7 @@
         "disOnTplt": false,
         "label": null,
         "show": null,
-        "text": "<table>\n<tbody>\n<tr>\n<td>Group retirement savings with us</td>\n</tr>\n<tr>\n<td>Includes all of your registered Canada Life group retirement and savings plans, including tax-free savings accounts (TFSA).</td>\n</tr>\n<tr>\n<td><strong>%existingSavingsWithUsFromApi%</strong></td>\n</tr>\n</tbody>\n</table>",
+        "text": "<p>Group retirement savings with us:&nbsp;<strong>%existingSavingsWithUsFromApi%</strong></p>",
         "textKey": ""
     },
     "%vlocity_namespace%__ReusableOmniScript__c": false,

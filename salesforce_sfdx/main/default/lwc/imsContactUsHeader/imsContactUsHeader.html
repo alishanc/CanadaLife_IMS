@@ -1,0 +1,11 @@
+<template>
+    <div if:true={isCombo}>
+        <h1 class="h1">{label.header}</h1>
+        <p>{label.comboHeaderMessage1}&nbsp;<a href="">{label.makeClaim}</a>&nbsp;{label.comboHeaderMessage2}</p>
+        <p>{label.comboHeaderMessage5}&nbsp;<a href="">{label.comboHeaderMessage3}</a>&nbsp;{label.or}&nbsp;<a href="">{label.comboHeaderMessage4}.</a></p>
+    </div>
+    <div if:false={isCombo}>
+        <h1 class="h1">{label.header}</h1>
+        <p>{label.grsglhHeaderMessage1}&nbsp;<a href="">{label.grsglhHeaderMessage2}</a>&nbsp;{label.grsglhHeaderMessage3}</p>
+    </div>
+</template>

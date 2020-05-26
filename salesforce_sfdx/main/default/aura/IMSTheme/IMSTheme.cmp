@@ -1,0 +1,51 @@
+<aura:component
+                implements="forceCommunity:themeLayout"
+                access="global"
+                description="IMS Custom Theme Layout"
+                >
+    <div>
+        <div class="slds-grid slds-gutters_direct">
+            <div class="slds-col">
+                <span>Canada Life</span>
+            </div>
+            <div class="slds-grid">
+                <div class="slds-col">
+                    <span>Overview</span>
+                </div>
+            </div>
+            <div class="slda-col slds-col_bump-left">
+                <span>Sponsor Logo</span>
+            </div>
+            <div>
+                <span>Messages</span>
+            </div>
+            <div>
+                <span>Offers</span>
+            </div>
+            <div>
+                <div class="profileMenuRegion">
+                    <c:vjCustomProfile />
+                </div>
+            </div>
+        </div>
+        <div class="slds-grid slds-gutters_direct">
+  <div class="slds-col">
+    <span>1</span>
+  </div>
+  <div class="slds-grid">
+    <div class="slds-col">
+      <span>Nested Column 1</span>
+    </div>
+    <div class="slds-col">
+      <span>Nested Column 2</span>
+    </div>
+  </div>
+  <div class="slds-col">
+    <span>3</span>
+  </div>
+</div>
+        <div class="mainContentArea">
+            {!v.body}
+        </div>
+    </div>
+</aura:component>

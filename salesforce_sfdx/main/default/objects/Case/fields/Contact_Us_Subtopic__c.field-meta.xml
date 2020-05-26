@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Us_Subtopic__c</fullName>
+    <description>IMS project: This object supports IMS ContactUs functionality of Vlocity custom OmniScript. We do not create records of this type; we just consume its picklist attributes.</description>
+    <externalId>false</externalId>
+    <label>Contact Us Subtopic</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Contact_Us_Topic__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Health coverage</fullName>
+                <default>false</default>
+                <label>Health coverage</label>
+            </value>
+            <value>
+                <fullName>Dental coverage</fullName>
+                <default>false</default>
+                <label>Dental coverage</label>
+            </value>
+            <value>
+                <fullName>Vision coverage</fullName>
+                <default>false</default>
+                <label>Vision coverage</label>
+            </value>
+            <value>
+                <fullName>Drug coverage</fullName>
+                <default>false</default>
+                <label>Drug coverage</label>
+            </value>
+            <value>
+                <fullName>Out of country coverage</fullName>
+                <default>false</default>
+                <label>Out of country coverage</label>
+            </value>
+            <value>
+                <fullName>Personal or dependant information</fullName>
+                <default>false</default>
+                <label>Personal or dependant information</label>
+            </value>
+            <value>
+                <fullName>Pending claims</fullName>
+                <default>false</default>
+                <label>Pending claims</label>
+            </value>
+            <value>
+                <fullName>Forms or cards</fullName>
+                <default>false</default>
+                <label>Forms or cards</label>
+            </value>
+            <value>
+                <fullName>Report suspected fraud</fullName>
+                <default>false</default>
+                <label>Report suspected fraud</label>
+            </value>
+            <value>
+                <fullName>Fund information</fullName>
+                <default>false</default>
+                <label>Fund information</label>
+            </value>
+            <value>
+                <fullName>Transaction information</fullName>
+                <default>false</default>
+                <label>Transaction information</label>
+            </value>
+            <value>
+                <fullName>Tax receipts</fullName>
+                <default>false</default>
+                <label>Tax receipts</label>
+            </value>
+            <value>
+                <fullName>Enroling in plans</fullName>
+                <default>false</default>
+                <label>Enroling in plans</label>
+            </value>
+            <value>
+                <fullName>Email ID reset</fullName>
+                <default>false</default>
+                <label>Email ID reset</label>
+            </value>
+            <value>
+                <fullName>Password reset</fullName>
+                <default>false</default>
+                <label>Password reset</label>
+            </value>
+            <value>
+                <fullName>Available optional benefits plans</fullName>
+                <default>false</default>
+                <label>Available optional benefits plans</label>
+            </value>
+            <value>
+                <fullName>Available optional savings plans</fullName>
+                <default>false</default>
+                <label>Available optional savings plans</label>
+            </value>
+            <value>
+                <fullName>Feedback</fullName>
+                <default>false</default>
+                <label>Feedback</label>
+            </value>
+            <value>
+                <fullName>Multiple topics</fullName>
+                <default>false</default>
+                <label>Multiple topics</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Claims history/details</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Claims history/details</label>
+            </value>
+            <value>
+                <fullName>Coverage balances</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Coverage balances</label>
+            </value>
+            <value>
+                <fullName>Direct deposit</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Direct deposit</label>
+            </value>
+            <value>
+                <fullName>Other coverage</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other coverage</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Benefits</controllingFieldValue>
+            <valueName>Health coverage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Benefits</controllingFieldValue>
+            <valueName>Dental coverage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Benefits</controllingFieldValue>
+            <valueName>Vision coverage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Benefits</controllingFieldValue>
+            <valueName>Drug coverage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Benefits</controllingFieldValue>
+            <valueName>Out of country coverage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Benefits</controllingFieldValue>
+            <valueName>Personal or dependant information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Benefits</controllingFieldValue>
+            <valueName>Pending claims</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Benefits</controllingFieldValue>
+            <valueName>Forms or cards</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Benefits</controllingFieldValue>
+            <valueName>Report suspected fraud</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Benefits</controllingFieldValue>
+            <controllingFieldValue>Savings</controllingFieldValue>
+            <valueName>Feedback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Benefits</controllingFieldValue>
+            <controllingFieldValue>Savings</controllingFieldValue>
+            <valueName>Multiple topics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Benefits</controllingFieldValue>
+            <controllingFieldValue>Savings</controllingFieldValue>
+            <controllingFieldValue>Technical support</controllingFieldValue>
+            <controllingFieldValue>Additional financial needs</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Savings</controllingFieldValue>
+            <valueName>Fund information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Savings</controllingFieldValue>
+            <valueName>Transaction information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Savings</controllingFieldValue>
+            <valueName>Tax receipts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Savings</controllingFieldValue>
+            <valueName>Enroling in plans</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical support</controllingFieldValue>
+            <valueName>Email ID reset</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical support</controllingFieldValue>
+            <valueName>Password reset</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Additional financial needs</controllingFieldValue>
+            <valueName>Available optional benefits plans</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Additional financial needs</controllingFieldValue>
+            <valueName>Available optional savings plans</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

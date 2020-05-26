@@ -103,7 +103,7 @@
                     ],
                     "contactCentreId": "string",
                     "contactCentreName": "London Benefit Payments",
-                    "isExternalContactCentre": "true",
+                    "isExternalContactCentre": "false",
                     "lastUpdated": "2020-12-30 (yyyy-MM-dd)",
                     "phoneNumbers": [
                         {

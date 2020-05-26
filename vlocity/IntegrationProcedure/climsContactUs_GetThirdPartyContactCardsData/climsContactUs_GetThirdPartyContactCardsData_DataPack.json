@@ -12,7 +12,7 @@
     "%vlocity_namespace%__IsProcedure__c": true,
     "%vlocity_namespace%__IsReusable__c": false,
     "%vlocity_namespace%__Language__c": "Procedure",
-    "%vlocity_namespace%__LwcId__c": "5c494a15-2228-04c0-a26f-33a46d65ee0a",
+    "%vlocity_namespace%__LwcId__c": "178d359e-c4ff-86b7-9fce-d0a680a1bbb9",
     "%vlocity_namespace%__ProcedureKey__c": "climsContactUs_GetThirdPartyContactCardsData",
     "%vlocity_namespace%__PropertySet__c": "climsContactUs_GetThirdPartyContactCardsData_PropertySet.json",
     "%vlocity_namespace%__SubType__c": "GetThirdPartyContactCardsData",

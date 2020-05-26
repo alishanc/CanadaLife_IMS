@@ -1,0 +1,93 @@
+<!--
+  @File Name          : climsTheme.cmp
+  @Description        : 
+  @Author             : ChangeMeIn@UserSettingsUnder.SFDoc
+  @Group              : 
+  @Last Modified By   : ChangeMeIn@UserSettingsUnder.SFDoc
+  @Last Modified On   : 2020-05-26, 12:20:00 a.m.
+  @Modification Log   : 
+  Ver       Date            Author      		    Modification
+  1.0    2020-05-26   ChangeMeIn@UserSettingsUnder.SFDoc     Initial Version
+-->
+<aura:component
+  implements="forceCommunity:themeLayout"
+  access="global"
+  description="IMS Theme Layout"
+>
+  <aura:attribute name="profileMenu" type="Aura.Component[]" required="false" />
+  <aura:attribute name="currentUrl" type="String" />
+  <aura:handler
+    event="forceCommunity:routeChange"
+    action="{!c.handleMenuClick}"
+  />
+
+  <!-- Including the styling for newportNest so that it loads before OS or if no Newport items are on the page -->
+  <link
+    href="/identity/resource/1590082776000/newportNest/assets/styles/vlocity-newport-design-system.min.css"
+    charset="utf-8"
+    type="text/css"
+    rel="stylesheet"
+  />
+
+  <div id="ims-theme" class="ims-page is-menu-closed">
+    <a href="#main" class="is-sr-only-skip-link">Skip to main content</a>
+
+    <div id="ims-header-bar" class="slds-grid slds-gutters header-bar">
+      <div class="slds-col slds-size_6-of-12">
+        <div class="ims-navigation__menu-button">
+          <div class="menu-open">
+            <lightning:buttonIcon
+              iconName="utility:rows"
+              variant="bare"
+              onclick="{! c.handleMenuClick }"
+              alternativeText="Menu"
+              name="open"
+              title="Menu"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="ims-navigation__right slds-col slds-size_6-of-12 slds-align_absolute-center"
+      >
+        <div class="profileMenuRegion ims-navigation__section">
+          <c:imsCustomProfile />
+        </div>
+      </div>
+    </div>
+    <div id="ims-navigation" class="ims-navigation">
+      <img
+        class="cl-logo"
+        alt="{!$Label.c.IMS_Company_Name}"
+        src="{!$Label.c.IMS_LogoPath}"
+      />
+      <div class="ims-navigation__menu-button">
+        <div class="menu-close">
+          <lightning:buttonIcon
+            iconName="utility:close"
+            variant="bare"
+            onclick="{! c.handleMenuClick }"
+            alternativeText="{!$Label.c.IMS_MENU_Close}"
+            name="close"
+            title="{!$Label.c.IMS_MENU_Close}"
+          />
+        </div>
+      </div>
+      <c:climsLeftNavComponent
+        currentPageUrl="{!v.currentUrl}"
+      ></c:climsLeftNavComponent>
+    </div>
+    <div
+      id="ims-page-overlay"
+      aria-hidden="true"
+      tabindex="-1"
+      class="page-overlay"
+    ></div>
+    <div id="main" class="mainContentArea">
+      {!v.body}
+    </div>
+    <div id="footer" class="footerarea">
+      <c:imsFooter />
+    </div>
+  </div>
+</aura:component>

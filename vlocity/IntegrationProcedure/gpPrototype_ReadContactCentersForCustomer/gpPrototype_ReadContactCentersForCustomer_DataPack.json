@@ -13,7 +13,7 @@
     "%vlocity_namespace%__IsProcedure__c": true,
     "%vlocity_namespace%__IsReusable__c": false,
     "%vlocity_namespace%__Language__c": "Procedure",
-    "%vlocity_namespace%__LwcId__c": "65b6d6d6-1e18-60f0-f468-a75dbe64e94b",
+    "%vlocity_namespace%__LwcId__c": "b65a3f78-35f6-8b4d-20b7-450182d7b943",
     "%vlocity_namespace%__ProcedureKey__c": "gpPrototype_ReadContactCentersForCustomer",
     "%vlocity_namespace%__PropertySet__c": "gpPrototype_ReadContactCentersForCustomer_PropertySet.json",
     "%vlocity_namespace%__SubType__c": "ReadContactCentersForCustomer",

@@ -1,14 +1,14 @@
 {
     "%vlocity_namespace%__Active__c": true,
     "%vlocity_namespace%__OmniScriptId__c": {
-        "Name": "Retirement Planning Tool TZ",
+        "Name": "Retirement Planning Tool - Master",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
     "%vlocity_namespace%__ParentElementId__c": {
         "%vlocity_namespace%__OmniScriptId__c": {
-            "Name": "Retirement Planning Tool TZ",
+            "Name": "Retirement Planning Tool - Master",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
             "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
             "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
@@ -40,7 +40,28 @@
                 "value": false
             }
         ],
-        "show": null,
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "<>",
+                        "data": "NULL",
+                        "field": "retirementAge"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "retirementAge"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "$",
+                        "field": "retirementAge"
+                    }
+                ]
+            }
+        },
         "validateExpression": {
             "group": {
                 "operator": "AND",
@@ -48,7 +69,17 @@
                     {
                         "condition": ">=",
                         "data": "%Contact:Age%",
-                        "field": "%retirementAge%"
+                        "field": "retirementAge"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": "NULL",
+                        "field": "retirementAge"
+                    },
+                    {
+                        "condition": "<>",
+                        "data": null,
+                        "field": "retirementAge"
                     }
                 ]
             }

@@ -1,14 +1,14 @@
 {
     "%vlocity_namespace%__Active__c": true,
     "%vlocity_namespace%__OmniScriptId__c": {
-        "Name": "Retirement Planning Tool TZ",
+        "Name": "Retirement Planning Tool - Master",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
     "%vlocity_namespace%__ParentElementId__c": {
         "%vlocity_namespace%__OmniScriptId__c": {
-            "Name": "Retirement Planning Tool TZ",
+            "Name": "Retirement Planning Tool - Master",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
             "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
             "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
@@ -24,7 +24,7 @@
         "HTMLTemplateId": "",
         "accessibleInFutureSteps": false,
         "conditionType": "Hide if False",
-        "controlWidth": 3,
+        "controlWidth": 5,
         "controllingField": {
             "element": "",
             "source": "",
@@ -36,23 +36,23 @@
         "helpText": "",
         "hide": false,
         "inputWidth": 12,
-        "label": null,
+        "label": "Select and amount (optional):",
         "optionSource": {
             "source": "",
             "type": ""
         },
         "options": [
             {
-                "name": "None",
-                "value": "None"
-            },
-            {
-                "name": "Maximum",
+                "name": "601",
                 "value": "Maximum ($601/month)"
             },
             {
-                "name": "Custom amount",
+                "name": "Custom",
                 "value": "Custom amount"
+            },
+            {
+                "name": "None",
+                "value": "None"
             }
         ],
         "readOnly": false,

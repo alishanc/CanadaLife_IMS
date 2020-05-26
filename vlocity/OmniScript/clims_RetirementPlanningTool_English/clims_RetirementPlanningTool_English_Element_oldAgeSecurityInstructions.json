@@ -1,14 +1,14 @@
 {
     "%vlocity_namespace%__Active__c": true,
     "%vlocity_namespace%__OmniScriptId__c": {
-        "Name": "Retirement Planning Tool TZ",
+        "Name": "Retirement Planning Tool - Master",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
     "%vlocity_namespace%__ParentElementId__c": {
         "%vlocity_namespace%__OmniScriptId__c": {
-            "Name": "Retirement Planning Tool TZ",
+            "Name": "Retirement Planning Tool - Master",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
             "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
             "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
@@ -27,7 +27,7 @@
         "disOnTplt": false,
         "label": null,
         "show": null,
-        "text": "<p>What's your expected income from Old Age Security (OAS)?</p>\n<p>Select and amount (optional).</p>",
+        "text": "<h2><br />What's your expected income from Old Age Security (OAS)?</h2>\n<p>The amount is based on how long you live in Canada after age 18. If you'll have lived here at least 40 years, shoose Maximum. If you know your amount, or don't qualify for the max, choose custom and enter the number.</p>",
         "textKey": ""
     },
     "%vlocity_namespace%__ReusableOmniScript__c": false,

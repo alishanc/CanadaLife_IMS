@@ -1,0 +1,49 @@
+<template>
+  <div class="nds-card ims-contactus__fraudcard" if:true={isVisible}>
+    <div class="nds-card__body nds-card__body_inner">
+      <div if:true={isEnglish}>
+        <h2 class="h3">Report suspected fraud</h2>
+        <p>
+          If you notice suspicious activity, such as a provider or an individual
+          involved in submitting fraudulent claims, let us know.
+        </p>
+        <div class="fraudCard-col-12">
+          <div class="fraudCard-col-6">
+            <h3 class="h4">Email us</h3>
+            <p>
+              From the Subject list, select <strong>Benefits</strong> and then
+              select <strong>Report suspected fraud</strong> from Detailed subject
+              and enter your message.
+            </p>
+          </div>
+          <div class="fraudCard-col-6">
+            <h3 class="h4">Or call our confidential tip line</h3>
+            <p>1-866-810-8477</p>
+          </div>
+        </div>
+      </div>
+      <div if:false={isEnglish}>
+        <h2 class="h3">Signaler un cas présumé de fraude</h2>
+        <p>
+          Si vous avez des soupçons quant aux activités d’un prestataire de
+          soins ou d’un particulier, veuillez nous en informer.
+        </p>
+        <div class="fraudCard-col-12">
+          <div class="fraudCard-col-6">
+            <h3 class="h4">Par courriel</h3>
+            <p>
+              Dans le menu Objet, sélectionnez <strong>Garanties</strong>, puis <strong>Signaler un cas présumé de fraude</strong> dans le menu <strong>Précisions sur l’objet.</strong>
+            </p>
+          </div>
+          <div class="fraudCard-col-6">
+            <h3 class="h4">
+              Vous pouvez aussi communiquer avec notre ligne info-fraude
+              confidentielle au
+            </h3>
+            <p>1-866-810-8477</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

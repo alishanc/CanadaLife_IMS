@@ -9,11 +9,12 @@
     "%vlocity_namespace%__PropertySet__c": {
         "actionMessage": "",
         "additionalInput": {
-            "ContactCenters": "%SVSampleJSON:ContactCenters%"
+            "ContactCenters": "%SVSampleJSON:ContactCenters%",
+            "user": "%IPGetUserInfo:user%"
         },
         "additionalOutput": {
         },
-        "bundle": "climsXFormContactCenterAPIResponse",
+        "bundle": "climsXFormContactCenterAPIResponse-2",
         "chainOnStep": false,
         "disOnTplt": false,
         "executionConditionalFormula": "",

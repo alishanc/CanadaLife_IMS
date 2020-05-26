@@ -12,7 +12,7 @@
     "%vlocity_namespace%__IsProcedure__c": true,
     "%vlocity_namespace%__IsReusable__c": false,
     "%vlocity_namespace%__Language__c": "Procedure",
-    "%vlocity_namespace%__LwcId__c": "cbc8ca2d-fdbb-dacc-3484-f2b58ae7fcd3",
+    "%vlocity_namespace%__LwcId__c": "e30c9871-478b-c124-c316-3eafe3584a19",
     "%vlocity_namespace%__ProcedureKey__c": "CustomerInteractionContact_Creation",
     "%vlocity_namespace%__PropertySet__c": "CustomerInteractionContact_Creation_PropertySet.json",
     "%vlocity_namespace%__SubType__c": "Creation",

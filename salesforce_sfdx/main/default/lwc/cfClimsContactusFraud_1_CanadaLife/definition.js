@@ -1,0 +1,3 @@
+let definition = 
+                {"Cards":["climsContactUsFraudCard"],"dataSource":{"type":"IntegrationProcedures","value":{"ipMethod":"clims_GetUserInfo","optionsMap":{"vlcClass":"vlocity_ins.IntegrationProcedureService"}}},"enableLwc":true,"repeatCards":false,"lwc":{"MasterLabel":"cardCanvas1x","DeveloperName":"cardCanvas1x","Id":"0Rb4g000000045PCAQ","name":"cardCanvas1x"},"previewType":"designTime","componentName":"cfClimsContactusFraud_1_CanadaLife","workspace":["climsContactUsFraudCard/CanadaLife/1/1588781683565"],"GlobalKey__c":"clims-contactus-fraud/1/CanadaLife/1588781569801"}; 
+            export default definition

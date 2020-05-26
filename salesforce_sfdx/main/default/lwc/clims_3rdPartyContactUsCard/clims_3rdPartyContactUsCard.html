@@ -1,0 +1,182 @@
+<template>
+  <!--c-clims_icon-card label={labels.IMS_SEND_CLAIMS_TO}>
+        <span slot="icon">
+            <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="m3.10657738 5.5539486 8.89342262 6.2253958 8.8934226-6.2253958c-.1653801-.32702538-.5054614-.5539486-.8934226-.5539486h-16c-.38796123 0-.72804246.22692322-.89342262.5539486zm-.10657738 2.36670696v10.07934444c0 .5477153.45228475 1 1 1h16c.5477153 0 1-.4522847 1-1v-10.07934444l-8.4265377 5.89857634c-.3443201.2410241-.8026045.2410241-1.1469246 0zm19.9999505-1.93800412c.0001622.00987025.0001785.01973747.0000495.02959829v11.98775027c0 1.6522847-1.3477153 3-3 3h-16c-1.65228475 0-3-1.3477153-3-3v-11.98775027c-.00012904-.00986082-.00011272-.01972804.00004955-.02959829.00939408-1.64435955 1.3534523-2.98265144 2.99995045-2.98265144h16c1.6464981 0 2.9905564 1.33829189 2.9999505 2.98265144z"></path></svg>
+        </span>
+        <div if:true={health}>
+            <p>
+                <vlocity_ins-output-field record={health.address} field-name="line1" type="STRING">
+                </vlocity_ins-output-field> 
+            </p>
+            <p>
+                <vlocity_ins-output-field record={health.address} field-name="line2" type="STRING">
+                </vlocity_ins-output-field> 
+            </p>
+            <p>
+                <vlocity_ins-output-field record={health.address} field-name="line3" type="STRING">
+                </vlocity_ins-output-field> 
+            </p>
+            <p>
+                <vlocity_ins-output-field record={health.address} field-name="line4" type="STRING">
+                </vlocity_ins-output-field> 
+            </p>
+        </div>
+    </c-clims_icon-card-->
+
+  <div class="slds-grid slds-wrap slds-medium-nowrap slds-large-nowrap">
+    <div
+      class="slds-col--padded slds-size--12-of-12 slds-medium-size--4-of-12 slds-large-size--4-of-12 comm-layout-column"
+    >
+      <div class="nds-card">
+        <div class="nds-card__body nds-card__body_inner">
+          <div class="nds-card__iconCard--icon">
+            <div>
+              <svg
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m3.10657738 5.5539486 8.89342262 6.2253958 8.8934226-6.2253958c-.1653801-.32702538-.5054614-.5539486-.8934226-.5539486h-16c-.38796123 0-.72804246.22692322-.89342262.5539486zm-.10657738 2.36670696v10.07934444c0 .5477153.45228475 1 1 1h16c.5477153 0 1-.4522847 1-1v-10.07934444l-8.4265377 5.89857634c-.3443201.2410241-.8026045.2410241-1.1469246 0zm19.9999505-1.93800412c.0001622.00987025.0001785.01973747.0000495.02959829v11.98775027c0 1.6522847-1.3477153 3-3 3h-16c-1.65228475 0-3-1.3477153-3-3v-11.98775027c-.00012904-.00986082-.00011272-.01972804.00004955-.02959829.00939408-1.64435955 1.3534523-2.98265144 2.99995045-2.98265144h16c1.6464981 0 2.9905564 1.33829189 2.9999505 2.98265144z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div>
+            <h2 class="h3">
+              {labels.IMS_SEND_CLAIMS_TO}
+            </h2>
+          </div>
+          <div if:true={health}>
+            <p>
+              <vlocity_ins-output-field
+                record={health.address}
+                field-name="line1"
+                type="STRING"
+              >
+              </vlocity_ins-output-field>
+            </p>
+            <p>
+              <vlocity_ins-output-field
+                record={health.address}
+                field-name="line2"
+                type="STRING"
+              >
+              </vlocity_ins-output-field>
+            </p>
+            <p>
+              <vlocity_ins-output-field
+                record={health.address}
+                field-name="line3"
+                type="STRING"
+              >
+              </vlocity_ins-output-field>
+            </p>
+            <p>
+              <vlocity_ins-output-field
+                record={health.address}
+                field-name="line4"
+                type="STRING"
+              >
+              </vlocity_ins-output-field>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="slds-col--padded slds-size--12-of-12 slds-medium-size--4-of-12 slds-large-size--4-of-12 comm-layout-column"
+    >
+      <div class="nds-card">
+        <div class="nds-card__body nds-card__body_inner">
+          <div class="nds-card__iconCard--icon">
+            <div>
+             <svg
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m21 16.92.0003077-.024805c.012595-.5076037-.3572187-.9440699-.8510652-1.0137806-1.034838-.1364846-2.0509143-.3895997-3.0311034-.7553621-.3654375-.1373675-.7774031-.0495075-1.0510323.2210545l-1.27 1.27c-.318313.318313-.8100775.3847006-1.2014013.1621877-2.6600175-1.5125277-4.86247232-3.7149825-6.37500001-6.375-.22251288-.3913238-.15612528-.88308828.16218773-1.20140128l1.26605447-1.26603234c.27450754-.27759686.36236751-.68956248.22415506-1.05725604-.36491741-.97793302-.61803251-1.99400937-.7532611-3.01965327-.07024958-.49701626-.49806797-.86494008-1.00984165-.86000169h-2.99905827c-.28070288.00031402-.54837023.11854452-.73761711.3258602-.18924689.20731569-.28264629.48462564-.25891589.74859035.3116567 2.93480483 1.31024698 5.75492788 2.91960506 8.23927807 1.45660096 2.2922656 3.40004206 4.2357068 5.70008741 5.6973019 2.4657713 1.5990437 5.272246 2.5974073 8.175907 2.9130786.280432.025344.5585539-.0687143.766039-.2590676.207485-.1903532.3251039-.4593599.3239528-.7449914zm1.9999918 2.995941c.0034287.8447177-.3494281 1.6517376-.9718832 2.2227973-.6224552.5710598-1.4568209.8532349-2.3161309.7754102-3.2326571-.3512546-6.3378519-1.4558836-9.0582992-3.2201347-2.54007811-1.6140713-4.69362095-3.7676142-6.30295838-6.3003142-1.77541972-2.7406199-2.88029955-5.86091575-3.22666185-9.12369916-.07579018-.8386915.20440802-1.67062136.77214867-2.29256841.56774066-.62194705 1.3707427-.97663855 2.21379306-.97753108h2.99015835c1.50579608-.01467276 2.78925127 1.0890987 3.00125605 2.58934156.1167614.88529492.3332992 1.75453943.6446379 2.58889661.4121025 1.09631254.1485226 2.33220939-.6789455 3.16896766l-.71709259.71709262c1.17585599 1.8446487 2.74114299 3.409935 4.58579229 4.5857901l.7210544-.7210418c.8327906-.8235226 2.0686874-1.0871025 3.1627439-.6758449.8366133.3121836 1.7058578.5287214 2.6000875.6467022 1.5038425.2121555 2.6111595 1.5143832 2.5803077 3.0313718z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div>
+            <h2 class="h3">
+              {labels.IMS_CALL_US}
+            </h2>
+            <div if:true={health}>
+              <p>
+                <vlocity_ins-output-field
+                  record={health}
+                  field-name="contactCentreName"
+                  type="STRING"
+                >
+                </vlocity_ins-output-field>
+              </p>
+              <p>
+                <vlocity_ins-output-field
+                  record={health}
+                  field-name="phone"
+                  type="STRING"
+                >
+                </vlocity_ins-output-field>
+              </p>
+              <p>
+                <vlocity_ins-output-field
+                  record={health}
+                  field-name="hours"
+                  type="STRING"
+                >
+                </vlocity_ins-output-field>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="slds-col--padded slds-size--12-of-12 slds-medium-size--4-of-12 slds-large-size--4-of-12 comm-layout-column"
+    >
+      <div class="nds-card">
+        <div class="nds-card__body nds-card__body_inner">
+          <div class="nds-card__iconCard--icon">
+            <div>
+              <svg
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m3.10657738 5.5539486 8.89342262 6.2253958 8.8934226-6.2253958c-.1653801-.32702538-.5054614-.5539486-.8934226-.5539486h-16c-.38796123 0-.72804246.22692322-.89342262.5539486zm-.10657738 2.36670696v10.07934444c0 .5477153.45228475 1 1 1h16c.5477153 0 1-.4522847 1-1v-10.07934444l-8.4265377 5.89857634c-.3443201.2410241-.8026045.2410241-1.1469246 0zm19.9999505-1.93800412c.0001622.00987025.0001785.01973747.0000495.02959829v11.98775027c0 1.6522847-1.3477153 3-3 3h-16c-1.65228475 0-3-1.3477153-3-3v-11.98775027c-.00012904-.00986082-.00011272-.01972804.00004955-.02959829.00939408-1.64435955 1.3534523-2.98265144 2.99995045-2.98265144h16c1.6464981 0 2.9905564 1.33829189 2.9999505 2.98265144z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div>
+            <h2 class="h3">
+              {labels.IMS_EMAIL_US}
+            </h2>
+
+            <div if:true={health}>
+              <p>
+                <a href={hrefvalue} target="_blank">
+                  <vlocity_ins-output-field
+                    record={health}
+                    field-name="contactCentreName"
+                    type="STRING"
+                  >
+                  </vlocity_ins-output-field>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

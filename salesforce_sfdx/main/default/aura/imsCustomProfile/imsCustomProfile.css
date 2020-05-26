@@ -1,0 +1,113 @@
+.THIS {
+  z-index: 1000;
+}
+
+.THIS .menu-circle .slds-button_neutral {
+  font-weight: bold;
+  color: #6d6c5e;
+  border: 2px solid #525146;
+  border-radius: 50%;
+  padding: 18px;
+  font-size: 20px;
+  line-height: 1rem;
+  cursor: pointer;
+}
+
+.THIS .menu-circle .slds-m-left_xx-small {
+  display: none;
+}
+
+.THIS .slds-dropdown__item > a {
+  padding: 12px 16px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.THIS .slds-dropdown__item > a:hover,
+.THIS .slds-dropdown__item > a:focus {
+  background: rgba(0, 0, 0, 0.05);
+  color: #525146;
+}
+
+.THIS .slds-dropdown__item > a:hover:before,
+.THIS .slds-dropdown__item > a:focus:before {
+  content: "";
+  width: 4px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  background: #9d0a28;
+}
+
+.THIS .slds-dropdown__item > a:active {
+  color: #850922;
+}
+
+.THIS .slds-dropdown {
+  padding: 0;
+  min-width: 300px;
+  top: 70px;
+  right: 0;
+  left: auto;
+  transform: none;
+  border-radius: 0;
+  border: 0;
+  font-size: 18px;
+  /* Omniscript spinners are set to 9060 */
+  z-index: 1000000000;
+}
+
+.THIS .slds-dropdown::before {
+  content: "\A";
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #f0f0ef;
+  position: absolute;
+  right: 15px;
+  top: -15px;
+}
+
+.THIS .menu-profile-info > a,
+.THIS .menu-profile-info > a:hover,
+.THIS .menu-profile-info > a:focus,
+.THIS .menu-profile-info > a:active {
+  background: #f0f0ef;
+  padding: 16px;
+  color: #525146;
+  cursor: pointer;
+}
+
+.THIS .menu-profile-info > a:hover:before,
+.THIS .menu-profile-info > a:focus:before,
+.THIS .menu-profile-info > a:active:before {
+  width: 0;
+}
+
+.THIS .dropdown__list li:first-child > a {
+  padding-bottom: 0;
+}
+
+.THIS .dropdown__list li:nth-child(2) > a {
+  padding-top: 0;
+}
+
+.THIS .ims-custom-profile-signout span {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+
+.THIS .ims-custom-profile-signout.slds-dropdown__item > a {
+  background: #ba0c2f;
+}
+
+.THIS .ims-custom-profile-signout.slds-dropdown__item > a:hover,
+.THIS .ims-custom-profile-signout.slds-dropdown__item > a:focus {
+  background: #9d0a28;
+}
+
+.THIS .ims-custom-profile-signout.slds-dropdown__item > a:active {
+  background: #850922;
+}

@@ -1,9 +1,10 @@
 {
     "StepForTypeNotCallCenter": {
-        "Email": "BBBme@mine.com",
-        "Message": "BBB 1",
-        "Name": "BBBname value here...",
-        "Subtopic": "Other",
-        "Topic": "Additional financial needs"
+        "Email": "ioan.todoran@canadalife.com",
+        "Message": "my message",
+        "Name": "Ioan Todoran",
+        "Subtopic": "Health coverage",
+        "Topic": "Benefits",
+        "UserType": "Combo"
     }
 }

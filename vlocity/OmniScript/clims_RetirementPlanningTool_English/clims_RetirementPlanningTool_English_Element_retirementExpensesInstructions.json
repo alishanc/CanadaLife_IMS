@@ -1,14 +1,14 @@
 {
     "%vlocity_namespace%__Active__c": true,
     "%vlocity_namespace%__OmniScriptId__c": {
-        "Name": "Retirement Planning Tool TZ",
+        "Name": "Retirement Planning Tool - Master",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
     "%vlocity_namespace%__ParentElementId__c": {
         "%vlocity_namespace%__OmniScriptId__c": {
-            "Name": "Retirement Planning Tool TZ",
+            "Name": "Retirement Planning Tool - Master",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
             "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
             "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
@@ -27,7 +27,7 @@
         "disOnTplt": false,
         "label": null,
         "show": null,
-        "text": "<p><strong>Will you need more or less money in retirement?</strong></p>\n<p>For example, more travel and entertainment could mean higher expenses.&nbsp; No mortgage or daycare could mean lower expenses.&nbsp;&nbsp;</p>",
+        "text": "<h2><br />Will you need more or less money in retirement?</h2>",
         "textKey": ""
     },
     "%vlocity_namespace%__ReusableOmniScript__c": false,

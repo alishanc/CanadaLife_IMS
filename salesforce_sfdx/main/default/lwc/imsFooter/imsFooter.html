@@ -1,0 +1,42 @@
+<!--
+  @File Name          : imsFooter.html
+  @Description        : 
+  @Author             : ChangeMeIn@UserSettingsUnder.SFDoc
+  @Group              : 
+  @Last Modified By   : ChangeMeIn@UserSettingsUnder.SFDoc
+  @Last Modified On   : 2020-05-22, 3:20:49 p.m.
+  @Modification Log   : 
+  Ver       Date            Author      		    Modification
+  1.0    2020-05-22   ChangeMeIn@UserSettingsUnder.SFDoc     Initial Version
+-->
+<template>
+    <div class="footer">
+        <div class="container slds-grid">
+            <div class="copy">
+                &copy; {label.CustomerCommunityFooter_Copyright} - {currentYear}
+             </div>
+             <div class="right-align">
+                    <div class="copy">
+                      <a href={label.CustomerCommunity_footer_privacyLink} class="footer__legal-link  new-window-icon" target="_blank">
+                          {label.CustomerCommunityFooter_Privacy}<span class="sr-only">{label.CustomerCommunityFooter_NewTab}</span>
+                      </a>
+                    </div>
+                    <div class="copy">
+                      <a href={label.CustomerCommunity_footer_legalLink} class="footer__legal-link new-window-icon" target="_blank">
+                        {label.CustomerCommunityFooter_Legal}<span class="sr-only">{label.CustomerCommunityFooter_NewTab}</span>
+                      </a>
+                    </div>
+                    <div class="copy">
+                      <a href={label.CustomerCommunity_footer_securityLink} class="footer__legal-link new-window-icon" target="_blank">
+                        {label.CustomerCommunityFooter_Internet_Security}<span class="sr-only">{label.CustomerCommunityFooter_NewTab}</span>
+                      </a>
+                    </div>
+                    <div class="copy">
+                      <a href={label.CustomerCommunity_footer_accessibilityLink} class="footer__legal-link new-window-icon" target="_blank">
+                        {label.CustomerCommunityFooter_Accessibility}<span class="sr-only">{label.CustomerCommunityFooter_NewTab}</span>
+                      </a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</template>

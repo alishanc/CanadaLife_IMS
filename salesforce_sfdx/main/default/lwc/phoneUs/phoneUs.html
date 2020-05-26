@@ -1,0 +1,38 @@
+<template>
+    <div class="nds-card">
+        <div class="nds-card__body nds-card__body_inner">
+            <h2 class="h3">
+                {labels.IMS_CALL_US}
+            </h2>
+            <h3 class="h4">{labels.IMS_ISSUES_WITH_WEBSITE}</h3>
+            <p>
+                <vlocity_ins-output-field record={obj.data} field-name="technicalPhone" type="STRING">
+                </vlocity_ins-output-field>
+            </p>
+            <br />
+            <h3 class="h4">{labels.IMS_GENERAL_INQUIRIES}</h3>
+            <div if:true={health}>
+                <h4 class="h5">{labels.IMS_BENEFITS}</h4>
+                <p>
+                    <vlocity_ins-output-field record={health} field-name="phone" type="STRING">
+                    </vlocity_ins-output-field>
+                </p>
+                <p>
+                    <vlocity_ins-output-field record={health} field-name="hours" type="STRING">
+                    </vlocity_ins-output-field>
+                </p>
+            </div>
+            <div if:true={wealth}>
+                <h4 class="h5">{labels.IMS_SAVINGS}</h4>
+                <p>
+                    <vlocity_ins-output-field record={wealth} field-name="phone" type="STRING">
+                    </vlocity_ins-output-field>
+                </p>
+                <p>
+                    <vlocity_ins-output-field record={wealth} field-name="hours" type="STRING">
+                    </vlocity_ins-output-field>
+                </p>
+            </div>
+        </div>
+    </div>
+</template>

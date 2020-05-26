@@ -2,7 +2,7 @@
     "%vlocity_namespace%__Active__c": true,
     "%vlocity_namespace%__InternalNotes__c": "Need to see what the instructions do/show.",
     "%vlocity_namespace%__OmniScriptId__c": {
-        "Name": "Retirement Planning Tool TZ",
+        "Name": "Retirement Planning Tool - Master",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
@@ -12,7 +12,7 @@
         "allowSaveForLater": true,
         "cancelLabel": null,
         "cancelMessage": null,
-        "chartLabel": "Retirement Age",
+        "chartLabel": "Age",
         "completeLabel": null,
         "completeMessage": null,
         "conditionType": "Hide if False",

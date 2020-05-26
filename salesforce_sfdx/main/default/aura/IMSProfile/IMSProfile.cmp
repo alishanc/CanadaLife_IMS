@@ -1,0 +1,31 @@
+<aura:component
+  controller="UserActions"              
+  implements="forceCommunity:profileMenuInterface"
+  access="global"
+>
+  <aura:attribute name="identityUser" type="User"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+  <div class="slds-align_absolute-center" style="height:5rem">
+    <ui:menu>
+      <ui:menuTriggerLink class="menu-circle" aura:id="trigger" label="{!v.identityUser.FirstName}" />
+      <ui:menuList class="actionMenu" aura:id="actionMenu">
+        <ui:actionMenuItem label="{!v.identityUser.Name}" click="{!c.handleClick}" />
+          <div class="dropdown-heading">
+		    <div>Test MSSE102</div>
+            <div>hanand.info+102@gmail.com</div>
+          </div>
+        <ui:actionMenuItem label="Account info" click="{!c.handleClick}" />
+        <ui:actionMenuItem label="Personal info" click="{!c.handleClick}" />
+        <ui:actionMenuItem label="Help center" click="{!c.handleClick}" />
+        <ui:actionMenuItem label="Contact us" click="{!c.handleClick}" />
+        <div class="slds-align_absolute-center" style="height:5rem">
+          <lightning:button
+            variant="brand"
+            label="Sign out"
+            title="Sign out"
+            onclick="/identity/secur/logout.jsp" />          
+        </div>
+      </ui:menuList>
+    </ui:menu>
+  </div>
+</aura:component>

@@ -1,0 +1,180 @@
+.THIS {
+  background: #f7f7f7;
+  position: relative;
+  z-index: 1;
+}
+
+.THIS .profileMenuRegion {
+  float: right;
+}
+
+.THIS .ims-navigation__right {
+  justify-content: flex-end;
+}
+
+.THIS .ims-navigation__section {
+  margin: 0 16px;
+}
+
+.THIS .is-sr-only-skip-link {
+  position: fixed;
+  background: #000 !important;
+  color: #fff !important;
+  font-size: 12px !important;
+  left: -100%;
+  padding: 16px;
+  text-decoration: underline;
+  top: 8px;
+  z-index: 0;
+}
+
+.THIS .is-sr-only-skip-link:focus {
+  left: 8px;
+  z-index: 9065;
+}
+
+.THIS .mainContentArea {
+  padding: 0 16px;
+}
+
+.THIS .ims-navigation__menu-button {
+  margin: 20px 16px;
+}
+
+.THIS.is-menu-closed .ims-navigation__menu-button .menu-close {
+  display: none;
+}
+
+.THIS.is-menu-open .ims-navigation__menu-button .menu-open {
+  display: none;
+}
+
+.THIS .ims-navigation .ims-navigation__menu-button {
+  float: right;
+}
+
+.THIS .ims-navigation .ims-navigation__menu-button .slds-button_icon {
+  min-height: 24px;
+  min-width: 24px;
+}
+
+.THIS
+  .ims-navigation
+  .ims-navigation__menu-button
+  .slds-button_icon
+  .slds-assistive-text {
+  font-size: 14px;
+}
+
+/* Need to override assistive text to have it appear on screen */
+.THIS .ims-navigation__menu-button .slds-assistive-text {
+  display: block;
+  height: 18px !important;
+  width: auto !important;
+  color: #525146;
+  clip: unset !important;
+  overflow: visible !important;
+  font-weight: normal;
+}
+
+.THIS .ims-navigation__menu-button .slds-button__icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.THIS .header-bar {
+  background: white;
+  position: relative;
+  height: 98px;
+  z-index: 9062;
+}
+
+.THIS .header-bar::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-box-shadow: 0 0 2px 1px rgba(147, 148, 142, 0.3);
+  -moz-box-shadow: 0 0 2px 1px rgba(147, 148, 142, 0.3);
+  box-shadow: 0 0 2px 1px rgba(147, 148, 142, 0.3);
+}
+
+.THIS .slds-col {
+  position: relative;
+}
+
+.THIS .header-title {
+  margin-left: 32px;
+  position: absolute;
+  bottom: 0;
+}
+
+.THIS .ims-navigation {
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  left: -300px;
+  top: 0;
+  bottom: 0;
+  background: white;
+  /* omniscript spinners are set to 9060 */
+  z-index: 9063;
+  transition: left 0.4s ease-in-out;
+  overflow: scroll;
+}
+
+.THIS .page-overlay {
+  display: none;
+}
+
+.THIS.is-menu-open .page-overlay,
+.THIS #ims-page-overlay.is-visible {
+  background: rgba(0, 0, 0, 0.5);
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9061;
+}
+
+.THIS.is-menu-open .ims-navigation {
+  left: 0;
+}
+
+.THIS .ims-navigation::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  -webkit-box-shadow: 0 2px 0 1px rgba(147, 148, 142, 0.3);
+  -moz-box-shadow: 0 2px 0 1px rgba(147, 148, 142, 0.3);
+  box-shadow: 0 2px 0 1px rgba(147, 148, 142, 0.3);
+}
+
+.THIS .cl-logo {
+  margin: 24px;
+  height: 48px;
+}
+
+/* Desktop with nav always appearing on left */
+@media only screen and (min-width: 1200px) {
+  .THIS .ims-navigation {
+    left: 0;
+  }
+
+  .THIS {
+    padding-left: 300px;
+  }
+
+  .THIS .ims-navigation__menu-button {
+    display: none;
+  }
+
+  .THIS.is-menu-open .page-overlay {
+    display: none;
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Retirement Planning Tool - Master",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/qatest/RetirementPlanningTool/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "disOnTplt": false,
+        "elementValueMap": {
+            "currentExpenses": "=IF(%currentExpenses%, %currentExpenses%, 0)",
+            "monthlyContributions": "=IF(%monthlyContributions%, %monthlyContributions%, 0)",
+            "otherSavings": "=IF(%otherSavings%, %otherSavings%, 0)",
+            "registeredRetirementSavings": "=IF(%registeredRetirementSavings%, %registeredRetirementSavings%, 0)",
+            "retirementExpenses": "=IF(%retirementExpenses%, %retirementExpenses%, 0)"
+        },
+        "label": "SetValues5",
+        "message": {
+        },
+        "pubsub": false,
+        "show": null,
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "setDefaultsIfNull",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/qatest/RetirementPlanningTool/English/setDefaultsIfNull"
+}

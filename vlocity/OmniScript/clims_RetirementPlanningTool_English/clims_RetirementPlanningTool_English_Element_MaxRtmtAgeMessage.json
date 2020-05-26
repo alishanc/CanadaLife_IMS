@@ -1,14 +1,14 @@
 {
     "%vlocity_namespace%__Active__c": true,
     "%vlocity_namespace%__OmniScriptId__c": {
-        "Name": "Retirement Planning Tool TZ",
+        "Name": "Retirement Planning Tool - Master",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
     "%vlocity_namespace%__ParentElementId__c": {
         "%vlocity_namespace%__OmniScriptId__c": {
-            "Name": "Retirement Planning Tool TZ",
+            "Name": "Retirement Planning Tool - Master",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
             "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
             "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
@@ -35,7 +35,7 @@
             },
             {
                 "active": true,
-                "text": "Retirement age must be no more than %maxRetirementAge%",
+                "text": "Retirement age must be not greater than %maxRetirementAge%.",
                 "type": "Requirement",
                 "value": false
             }
@@ -46,9 +46,9 @@
                 "operator": "AND",
                 "rules": [
                     {
-                        "condition": "=",
-                        "data": "true",
-                        "field": "MaxRtmtAgeFormula"
+                        "condition": "<=",
+                        "data": "%maxRetirementAge%",
+                        "field": "retirementAge"
                     }
                 ]
             }

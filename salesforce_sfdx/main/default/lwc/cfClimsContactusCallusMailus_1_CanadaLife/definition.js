@@ -1,0 +1,3 @@
+let definition = 
+                {"Cards":["clims-contactus-calluscard","clims-contactus-mailuscard"],"dataSource":{"type":"IntegrationProcedures","value":{"ipMethod":"climsContactUs_ReadContactCentersForCustomer","optionsMap":{"vlcClass":"vlocity_ins.IntegrationProcedureService"}}},"enableLwc":true,"repeatCards":false,"lwc":{"MasterLabel":"cardCanvas1x","DeveloperName":"cardCanvas1x","Id":"0Rb4g000000045PCAQ","name":"cardCanvas1x"},"previewType":"designTime","componentName":"cfClimsContactusCallusMailus_1_CanadaLife","workspace":["clims-contactus-calluscard/CanadaLife/1/1588190144233","clims-contactus-mailuscard/CanadaLife/1/1588187723116"],"GlobalKey__c":"clims-contactus-callus-mailus/1/CanadaLife/1588278260200"}; 
+            export default definition

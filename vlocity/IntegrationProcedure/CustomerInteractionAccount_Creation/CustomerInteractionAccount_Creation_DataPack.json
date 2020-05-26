@@ -12,7 +12,7 @@
     "%vlocity_namespace%__IsProcedure__c": true,
     "%vlocity_namespace%__IsReusable__c": false,
     "%vlocity_namespace%__Language__c": "Procedure",
-    "%vlocity_namespace%__LwcId__c": "22416376-cebb-c8a3-a878-9e75a9471cc2",
+    "%vlocity_namespace%__LwcId__c": "2da50289-1568-9241-e207-547cd1baf5c3",
     "%vlocity_namespace%__ProcedureKey__c": "CustomerInteractionAccount_Creation",
     "%vlocity_namespace%__PropertySet__c": "CustomerInteractionAccount_Creation_PropertySet.json",
     "%vlocity_namespace%__SubType__c": "Creation",

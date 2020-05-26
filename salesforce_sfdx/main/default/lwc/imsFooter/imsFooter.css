@@ -1,0 +1,27 @@
+.footer {
+    width: 100%;
+    background-color: #F0F0EF;
+    border-top: groove;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+    line-height: 58px;
+}
+
+.copy {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.57);
+    padding: 0 10px;
+}
+
+ .right-align {
+    margin-left: auto;
+    display: flex;
+}
+
+.a {
+    text-decoration: underline !important;
+    color: rgba(0, 0, 0, 0.57) !important;
+}

@@ -36,7 +36,7 @@
             },
             {
                 "active": true,
-                "text": "Looks like this file is too large. Max file size is 7 MB.",
+                "text": "Sorry, we only accept files that are less than 7 MB.",
                 "type": "Requirement",
                 "value": false
             }

@@ -26,9 +26,9 @@
         "conditionType": "Hide if False",
         "controlWidth": 6,
         "controllingField": {
-            "element": "",
-            "source": "",
-            "type": ""
+            "element": "UserType",
+            "source": "Case.IMS_User_Type__c",
+            "type": "SObject"
         },
         "defaultValue": null,
         "disOnTplt": false,

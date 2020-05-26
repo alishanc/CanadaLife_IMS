@@ -1,0 +1,49 @@
+<template>
+    <div class="nds-card">
+        <div class="nds-card__body nds-card__body_inner">
+            <h2 class="h3">
+                {labels.IMS_MAIL_US}
+            </h2>
+            <div if:true={health}>
+                <h4 class="h5">{labels.IMS_BENEFITS}</h4>
+                <p>
+                    <vlocity_ins-output-field if:true={health.address.line1} record={health.address} field-name="line1"
+                        type="STRING">
+                    </vlocity_ins-output-field>
+                    <br />
+                    <vlocity_ins-output-field if:true={health.address.line2} record={health.address} field-name="line2"
+                        type="STRING">
+                    </vlocity_ins-output-field>
+                    <br />
+                    <vlocity_ins-output-field if:true={health.address.line3} record={health.address} field-name="line3"
+                        type="STRING">
+                    </vlocity_ins-output-field>
+                    <br />
+                    <vlocity_ins-output-field if:true={health.address.line4} record={health.address} field-name="line4"
+                        type="STRING">
+                    </vlocity_ins-output-field>
+                </p>
+            </div>
+            <div if:true={wealth}>
+                <h4 class="h5">{labels.IMS_SAVINGS}</h4>
+                <p>
+                    <vlocity_ins-output-field if:true={wealth.address.line1} record={wealth.address} field-name="line1"
+                        type="STRING">
+                    </vlocity_ins-output-field>
+                    <br />
+                    <vlocity_ins-output-field if:true={wealth.address.line2} record={wealth.address} field-name="line2"
+                        type="STRING">
+                    </vlocity_ins-output-field>
+                    <br />
+                    <vlocity_ins-output-field if:true={wealth.address.line3} record={wealth.address} field-name="line3"
+                        type="STRING">
+                    </vlocity_ins-output-field>
+                    <br />
+                    <vlocity_ins-output-field if:true={wealth.address.line4} record={wealth.address} field-name="line4"
+                        type="STRING">
+                    </vlocity_ins-output-field>
+                </p>
+            </div>
+        </div>
+    </div>
+</template>

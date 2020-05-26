@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Us_Topic__c</fullName>
+    <description>IMS project: This object supports IMS ContactUs functionality of Vlocity custom OmniScript. We do not create records of this type; we just consume its picklist attributes.</description>
+    <externalId>false</externalId>
+    <label>Contact Us Topic</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>IMS_User_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Benefits</fullName>
+                <default>false</default>
+                <label>Benefits</label>
+            </value>
+            <value>
+                <fullName>Savings</fullName>
+                <default>false</default>
+                <label>Savings</label>
+            </value>
+            <value>
+                <fullName>Technical support</fullName>
+                <default>false</default>
+                <label>Technical support</label>
+            </value>
+            <value>
+                <fullName>Additional financial needs</fullName>
+                <default>false</default>
+                <label>Additional financial needs</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>GLH</controllingFieldValue>
+            <controllingFieldValue>Combo</controllingFieldValue>
+            <valueName>Benefits</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GLH</controllingFieldValue>
+            <controllingFieldValue>GRS</controllingFieldValue>
+            <controllingFieldValue>Combo</controllingFieldValue>
+            <valueName>Technical support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GLH</controllingFieldValue>
+            <controllingFieldValue>GRS</controllingFieldValue>
+            <controllingFieldValue>Combo</controllingFieldValue>
+            <valueName>Additional financial needs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GRS</controllingFieldValue>
+            <controllingFieldValue>Combo</controllingFieldValue>
+            <valueName>Savings</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

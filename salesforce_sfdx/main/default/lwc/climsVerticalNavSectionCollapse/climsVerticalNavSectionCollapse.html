@@ -1,0 +1,43 @@
+<template>
+  <section class={computedSectionClasses}>
+    <div class="clims-vertical-nav-section-collapse__summary">
+      <div
+        onkeydown={handleKeyDown}
+        class="cclims-vertical-nav-section-collapse__summary-heading"
+      >
+        <button
+          class="section-control slds-button slds-button_reset clims-vertical-nav-section-collapse__summary-action slds-nav-vertical__action"
+          type="button"
+          aria-expanded={computedAriaExpanded}
+          aria-controls="clims-vertical-nav-collapse-section"
+          onclick={handleSelectSection}
+        >
+          <span class="slds-truncate" title={label}>{label}</span>
+          <lightning-icon
+            class="clims-vertical-nav-section-collapse__summary-action-icon clims-vertical-nav-section-collapse__summary-action-icon--closed"
+            icon-name="utility:add"
+            svg-class="slds-button__icon slds-button__icon_right"
+            size="x-small"
+          >
+          </lightning-icon>
+          <lightning-icon
+            class="clims-vertical-nav-section-collapse__summary-action-icon clims-vertical-nav-section-collapse__summary-action-icon--open"
+            icon-name="utility:dash"
+            svg-class="slds-button__icon slds-button__icon_right"
+            size="x-small"
+          >
+          </lightning-icon>
+        </button>
+      </div>
+    </div>
+    <div
+      id="clims-vertical-nav-collapse-section"
+      hidden={computedHidden}
+      aria-hidden={computedAriaHidden}
+      class="clims-vertical-nav-section-collapse__content"
+      role="list"
+    >
+      <slot></slot>
+    </div>
+  </section>
+</template>

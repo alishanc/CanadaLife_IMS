@@ -1,17 +1,4 @@
 {
-    "File": [
-        {
-            "$$hashKey": "object:100",
-            "data": "1ad1e403-ba2f-4b72-909c-7378b88af716",
-            "filename": "IMS flows.pdf",
-            "size": 52500050
-        },
-        {
-            "$$hashKey": "object:105",
-            "data": "cc6e3320-5364-4f94-98c3-ac86823c8ae1",
-            "filename": "UX Discovery Notes_ Empathy Map .xlsx",
-            "size": 5665
-        }
-    ],
-    "fileCheckFlag": "false"
+    "expensesCurrent": "5000",
+    "retirementAge": 44
 }

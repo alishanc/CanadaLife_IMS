@@ -1,0 +1,41 @@
+.nds-card__iconCard--icon {
+    margin-top: 18px;
+}
+
+.nds-card__body {
+    min-height: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+} 
+
+.c-container-title {
+    padding-left: 12px;
+}
+.c-container-message {
+    padding-left: 12px;
+}
+
+.custom-tile-content {
+    color: cyan;
+}
+
+.c-container-top-line {
+	width: 100%;
+    border-top: 2px solid #dddddd;
+    padding-top: 10px;
+}
+
+.c-container-left-line {
+	height: 100%;
+    border-left: 2px solid #dddddd;
+    padding-left: 10px;
+}
+
+.c-container-list-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.c-container-card-min-height {
+    min-height: 7em;
+}

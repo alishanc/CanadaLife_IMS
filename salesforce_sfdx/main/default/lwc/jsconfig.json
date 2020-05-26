@@ -1,0 +1,128 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/cfClimsContactUsAddressCard": [
+                "cfClimsContactUsAddressCard/cfClimsContactUsAddressCard.js"
+            ],
+            "c/cfClimsContactUsAddressCard_1_CanadaLife": [
+                "cfClimsContactUsAddressCard_1_CanadaLife/cfClimsContactUsAddressCard_1_CanadaLife.js"
+            ],
+            "c/cfClimsContactUsFraudCard": [
+                "cfClimsContactUsFraudCard/cfClimsContactUsFraudCard.js"
+            ],
+            "c/cfClimsContactUsFraudCard_1_CanadaLife": [
+                "cfClimsContactUsFraudCard_1_CanadaLife/cfClimsContactUsFraudCard_1_CanadaLife.js"
+            ],
+            "c/cfClimsContactUsNav": [
+                "cfClimsContactUsNav/cfClimsContactUsNav.js"
+            ],
+            "c/cfClimsContactUsNav_1_CanadaLife": [
+                "cfClimsContactUsNav_1_CanadaLife/cfClimsContactUsNav_1_CanadaLife.js"
+            ],
+            "c/cfClimsContactus3rdParty": [
+                "cfClimsContactus3rdParty/cfClimsContactus3rdParty.js"
+            ],
+            "c/cfClimsContactus3rdParty_1_CanadaLife": [
+                "cfClimsContactus3rdParty_1_CanadaLife/cfClimsContactus3rdParty_1_CanadaLife.js"
+            ],
+            "c/cfClimsContactusCallusMailus": [
+                "cfClimsContactusCallusMailus/cfClimsContactusCallusMailus.js"
+            ],
+            "c/cfClimsContactusCallusMailus_1_CanadaLife": [
+                "cfClimsContactusCallusMailus_1_CanadaLife/cfClimsContactusCallusMailus_1_CanadaLife.js"
+            ],
+            "c/cfClimsContactusCalluscard": [
+                "cfClimsContactusCalluscard/cfClimsContactusCalluscard.js"
+            ],
+            "c/cfClimsContactusCalluscard_1_CanadaLife": [
+                "cfClimsContactusCalluscard_1_CanadaLife/cfClimsContactusCalluscard_1_CanadaLife.js"
+            ],
+            "c/cfClimsContactusFraud": [
+                "cfClimsContactusFraud/cfClimsContactusFraud.js"
+            ],
+            "c/cfClimsContactusFraud_1_CanadaLife": [
+                "cfClimsContactusFraud_1_CanadaLife/cfClimsContactusFraud_1_CanadaLife.js"
+            ],
+            "c/cfClimsContactusMailuscard": [
+                "cfClimsContactusMailuscard/cfClimsContactusMailuscard.js"
+            ],
+            "c/cfClimsContactusMailuscard_1_CanadaLife": [
+                "cfClimsContactusMailuscard_1_CanadaLife/cfClimsContactusMailuscard_1_CanadaLife.js"
+            ],
+            "c/cfClimsContactusNavigation": [
+                "cfClimsContactusNavigation/cfClimsContactusNavigation.js"
+            ],
+            "c/cfClimsContactusNavigation_1_CanadaLife": [
+                "cfClimsContactusNavigation_1_CanadaLife/cfClimsContactusNavigation_1_CanadaLife.js"
+            ],
+            "c/cfClimsDashboardBenefits": [
+                "cfClimsDashboardBenefits/cfClimsDashboardBenefits.js"
+            ],
+            "c/cfClimsDashboardBenefitsCard": [
+                "cfClimsDashboardBenefitsCard/cfClimsDashboardBenefitsCard.js"
+            ],
+            "c/cfClimsDashboardBenefitsCard_1_CanadaLife": [
+                "cfClimsDashboardBenefitsCard_1_CanadaLife/cfClimsDashboardBenefitsCard_1_CanadaLife.js"
+            ],
+            "c/cfClimsDashboardBenefits_1_CanadaLife": [
+                "cfClimsDashboardBenefits_1_CanadaLife/cfClimsDashboardBenefits_1_CanadaLife.js"
+            ],
+            "c/climsAttachmentValidationService": [
+                "climsAttachmentValidationService/climsAttachmentValidationService.js"
+            ],
+            "c/climsCardCanvas1x": [
+                "climsCardCanvas1x/climsCardCanvas1x.js"
+            ],
+            "c/climsContactUsContactUsFlowForCaseEnglish": [
+                "climsContactUsContactUsFlowForCaseEnglish/climsContactUsContactUsFlowForCaseEnglish.js"
+            ],
+            "c/climsContactUsContactUsFlowForCaseFrench": [
+                "climsContactUsContactUsFlowForCaseFrench/climsContactUsContactUsFlowForCaseFrench.js"
+            ],
+            "c/climsDashboardBenefitsCard": [
+                "climsDashboardBenefitsCard/climsDashboardBenefitsCard.js"
+            ],
+            "c/climsLeftNavComponent": [
+                "climsLeftNavComponent/climsLeftNavComponent.js"
+            ],
+            "c/climsVerticalNavSectionCollapse": [
+                "climsVerticalNavSectionCollapse/climsVerticalNavSectionCollapse.js"
+            ],
+            "c/clims_3rdPartyContactUsCard": [
+                "clims_3rdPartyContactUsCard/clims_3rdPartyContactUsCard.js"
+            ],
+            "c/fraudCard": [
+                "fraudCard/fraudCard.js"
+            ],
+            "c/imsContactUsHeader": [
+                "imsContactUsHeader/imsContactUsHeader.js"
+            ],
+            "c/imsContactUsNavigation": [
+                "imsContactUsNavigation/imsContactUsNavigation.js"
+            ],
+            "c/imsFooter": [
+                "imsFooter/imsFooter.js"
+            ],
+            "c/inputUtils": [
+                "inputUtils/inputUtils.js"
+            ],
+            "c/mailUs": [
+                "mailUs/mailUs.js"
+            ],
+            "c/phoneUs": [
+                "phoneUs/phoneUs.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}

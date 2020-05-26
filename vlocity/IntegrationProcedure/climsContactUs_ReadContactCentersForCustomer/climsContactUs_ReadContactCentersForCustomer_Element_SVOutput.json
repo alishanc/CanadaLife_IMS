@@ -12,7 +12,7 @@
         "disOnTplt": false,
         "elementValueMap": {
             "data": "%XFormedContactCenter%",
-            "user": "%IPGetUserInfo%"
+            "user": "%IPGetUserInfo:user%"
         },
         "executionConditionalFormula": "",
         "failOnStepError": true,

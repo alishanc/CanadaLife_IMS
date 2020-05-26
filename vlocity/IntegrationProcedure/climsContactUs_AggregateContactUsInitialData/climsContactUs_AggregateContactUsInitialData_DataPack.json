@@ -12,7 +12,7 @@
     "%vlocity_namespace%__IsProcedure__c": true,
     "%vlocity_namespace%__IsReusable__c": false,
     "%vlocity_namespace%__Language__c": "Procedure",
-    "%vlocity_namespace%__LwcId__c": "6770331a-ec85-3499-3acb-be6f57483bc8",
+    "%vlocity_namespace%__LwcId__c": "461517fa-d6f5-ef10-0d44-45bccb317bf9",
     "%vlocity_namespace%__ProcedureKey__c": "climsContactUs_AggregateContactUsInitialData",
     "%vlocity_namespace%__PropertySet__c": "climsContactUs_AggregateContactUsInitialData_PropertySet.json",
     "%vlocity_namespace%__SubType__c": "AggregateContactUsInitialData",

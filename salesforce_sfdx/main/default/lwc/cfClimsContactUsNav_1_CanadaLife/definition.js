@@ -1,0 +1,3 @@
+let definition = 
+                {"states":[{"fields":[],"conditions":{"group":[{"field":"$scope.data.status","operator":"===","value":"'active'","type":"system"}]},"definedActions":{"actions":[]},"name":"Active","lwc":{"MasterLabel":"climsContactUsNavCard","DeveloperName":"imsContactUsNavigation","Id":"0Rb4g00000004oKCAQ","name":"imsContactUsNavigation"},"isSmartAction":false,"smartAction":{}}],"filter":{},"dataSource":{"type":null},"title":"climsContactUsNav","enableLwc":true,"GlobalKey__c":"climsContactUsNav/CanadaLife/1/1589213500573"}; 
+            export default definition

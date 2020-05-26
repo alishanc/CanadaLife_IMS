@@ -1,0 +1,150 @@
+{
+    "ContactCenters": [
+        {
+            "addresses": [
+                {
+                    "addressId": "A2394234",
+                    "addressLine1": "Toronto Benefit Payments",
+                    "addressLine2": "155 University Ave",
+                    "addressLine3": "No More address info",
+                    "city": "Toronto",
+                    "communicationLanguage": "English",
+                    "countryCode": "CA",
+                    "countryName": "Canada",
+                    "postalZipCode": "R2C 1C1",
+                    "provinceStateCode": "ON",
+                    "provinceStateName": "Ontario",
+                    "type": "MAILING"
+                }
+            ],
+            "contactCentreId": "string",
+            "contactCentreName": "Office Name",
+            "isExternalContactCentre": "false",
+            "lastUpdated": "2020-12-30 (yyyy-MM-dd)",
+            "phoneNumbers": [
+                {
+                    "areaCode": "1-416",
+                    "communicationLanguage": "English",
+                    "operationalHours": [
+                        {
+                            "close": "00:00",
+                            "day": 0,
+                            "open": "08:00",
+                            "timeZoneAbbreviation": "CST",
+                            "utc_offset_minutes": 300
+                        },
+                        {
+                            "close": "22:00",
+                            "day": 1,
+                            "open": "08:00",
+                            "utc_offset_minutes": 300
+                        },
+                        {
+                            "close": "22:00",
+                            "day": 2,
+                            "open": "08:00",
+                            "utc_offset_minutes": 300
+                        },
+                        {
+                            "close": "22:00",
+                            "day": 3,
+                            "open": "08:00",
+                            "utc_offset_minutes": 300
+                        },
+                        {
+                            "close": "22:00",
+                            "day": 4,
+                            "open": "08:00",
+                            "utc_offset_minutes": 300
+                        }
+                    ],
+                    "phoneNumber": "4455667",
+                    "phoneNumerId": "string",
+                    "type": "business"
+                }
+            ],
+            "servicingType": "group-wealth",
+            "updateStatus": "active",
+            "urls": [
+                {
+                    "url": "mailto:merconsupport@canadalife.com"
+                }
+            ]
+        },
+        {
+            "addresses": [
+                {
+                    "addressId": "A2394234",
+                    "addressLine1": "London Benefit Payments",
+                    "addressLine2": "255 Dufferin Ave",
+                    "addressLine3": "No More address info",
+                    "city": "London",
+                    "communicationLanguage": "English",
+                    "countryCode": "CA",
+                    "countryName": "Canada",
+                    "postalZipCode": "R2C 1C1",
+                    "provinceStateCode": "ON",
+                    "provinceStateName": "Ontario",
+                    "type": "MAILING"
+                }
+            ],
+            "contactCentreId": "string",
+            "contactCentreName": "WINNIPEG BENEFIT PAYMENTS",
+            "isExternalContactCentre": "false",
+            "lastUpdated": "2020-12-30 (yyyy-MM-dd)",
+            "phoneNumbers": [
+                {
+                    "areaCode": "1-519",
+                    "communicationLanguage": "English",
+                    "operationalHours": [
+                        {
+                            "close": "22:00",
+                            "day": 0,
+                            "open": "08:00",
+                            "timeZoneAbbreviation": "CST",
+                            "utc_offset_minutes": 300
+                        },
+                        {
+                            "close": "22:00",
+                            "day": 1,
+                            "open": "08:00",
+                            "utc_offset_minutes": 300
+                        },
+                        {
+                            "close": "22:00",
+                            "day": 2,
+                            "open": "08:00",
+                            "utc_offset_minutes": 300
+                        },
+                        {
+                            "close": "22:00",
+                            "day": 3,
+                            "open": "08:00",
+                            "utc_offset_minutes": 300
+                        },
+                        {
+                            "close": "22:00",
+                            "day": 4,
+                            "open": "08:00",
+                            "utc_offset_minutes": 300
+                        }
+                    ],
+                    "phoneNumber": "4455667",
+                    "phoneNumerId": "string",
+                    "type": "business"
+                }
+            ],
+            "servicingType": "group-insurance",
+            "updateStatus": "active",
+            "urls": [
+                {
+                    "url": "mailto:merconsupport@canadalife.com"
+                }
+            ]
+        }
+    ],
+    "user": {
+        "language": "en_US",
+        "type": "Combo"
+    }
+}

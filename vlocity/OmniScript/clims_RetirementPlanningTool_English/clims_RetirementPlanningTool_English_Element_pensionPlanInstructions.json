@@ -1,14 +1,14 @@
 {
     "%vlocity_namespace%__Active__c": true,
     "%vlocity_namespace%__OmniScriptId__c": {
-        "Name": "Retirement Planning Tool TZ",
+        "Name": "Retirement Planning Tool - Master",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
     "%vlocity_namespace%__ParentElementId__c": {
         "%vlocity_namespace%__OmniScriptId__c": {
-            "Name": "Retirement Planning Tool TZ",
+            "Name": "Retirement Planning Tool - Master",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
             "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
             "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
@@ -27,7 +27,7 @@
         "disOnTplt": false,
         "label": null,
         "show": null,
-        "text": "<p><strong>What's your expected income from CPP or QPP?</strong></p>\n<p>Select an amount for Canada Pension Plan (CPP) or Quebec Pension Plan (QPP) (optional).</p>",
+        "text": "<h2><br />What's your expected income from CPP or QPP?</h2>\n<p>The amount is based on years worked in Canada and yours earnings during those years. Not sure? Choose CPP average or QPP average. If you know your CPP or QPP pension amount, choose custom and enter the number.</p>",
         "textKey": ""
     },
     "%vlocity_namespace%__ReusableOmniScript__c": false,

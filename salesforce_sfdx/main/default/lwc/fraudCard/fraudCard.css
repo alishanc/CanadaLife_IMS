@@ -1,0 +1,14 @@
+@media only screen and (min-width: 768px) {
+  .fraudCard-col-12 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+    grid-gap: 32px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .ims-contactus__fraudcard {
+    max-width: 66%;
+  }
+}

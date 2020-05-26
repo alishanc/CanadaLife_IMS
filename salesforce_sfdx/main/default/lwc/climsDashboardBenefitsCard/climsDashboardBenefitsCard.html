@@ -1,0 +1,74 @@
+<template>
+  <div class="c-container-title">
+    <h2 class="h3">
+      <img src="https://www.canadalife.com/content/dam/canadalife/logos/CanadaLife_E_TM.svg" width="120" aria-hidden="true" alt="Home – Canada Life logo" /> {labels.IMS_Dashborad_Benefits_Title}
+    </h2>
+  </div>
+
+  <div if:true={isBenefitWaived} class="c-container-message">
+    You have waived all your benefits
+  </div>
+
+  <div if:false={isBenefitWaived} class="slds-grid slds-wrap slds-large-nowrap">
+
+    <template for:each={plans} for:item="plan">
+
+      <div key={plan.planNumber} class="slds-grid_align-center slds-col slds-col--padded slds-size--12-of-12 slds-small-size--12-of-12 slds-medium-size--12-of-12 slds-large-size--2-of-12 comm-layout-column">
+        <div>
+          <div>
+            <div if:true={plan.isShowPlanNumber}>
+              {labels.IMS_Dashborad_Benefits_PlanNumber} <b>{plan.planNumber}</b>
+            </div>
+            <div if:false={plan.isShowPlanNumber} class="slds-show_medium">
+              &nbsp;
+            </div>
+          </div>
+          <div class="slds-card c-container-card-min-height">
+<!--
+              <vlocity_ins-action navigate="true" url="https://www.cnn.com" >
+                <div slot="action">{plan.coverageName}</div>
+              </vlocity_ins-action>
+-->
+
+<!-- -->
+                <div if:false={plan.isShowMoreLink}>
+
+                  <a href="https://www.cnn.com/target_IMS_">
+
+                    <div class="slds-align_absolute-center" style="height:4em">
+
+                      <lightning-icon
+                        class=""
+                        icon-name="utility:add"
+                        svg-class="slds-button__icon"
+                        size="x-large"
+                      >          
+                      </lightning-icon>
+
+                    </div>
+
+                    <!--
+                    <div class="slds-align_absolute-center">[{plan.iconURL}]</div>
+                    <div class="slds-align_absolute-center">{plan.coverageCode}</div>
+                    -->
+                    <div class="slds-align_absolute-center" style="height:3em">{plan.coverageName}</div>
+                  </a>
+                </div>
+
+                <div if:true={plan.isShowMoreLink} class="slds-align_absolute-center">
+                  <a href="https://www.cnn.com/target_IMS_viewMore">
+                    <div class="slds-align_absolute-center" style="height:6em">
+                      {labels.IMS_Dashborad_Benefits_LinkViewNore} 
+                    </div>
+                  </a>
+                </div>
+<!-- -->
+            </div>
+        </div>
+      </div>
+
+    </template>
+
+  </div>
+
+</template>

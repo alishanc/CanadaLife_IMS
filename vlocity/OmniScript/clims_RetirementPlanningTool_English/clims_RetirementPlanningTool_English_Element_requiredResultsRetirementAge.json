@@ -1,14 +1,14 @@
 {
     "%vlocity_namespace%__Active__c": true,
     "%vlocity_namespace%__OmniScriptId__c": {
-        "Name": "Retirement Planning Tool TZ",
+        "Name": "Retirement Planning Tool - Master",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
         "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
     "%vlocity_namespace%__ParentElementId__c": {
         "%vlocity_namespace%__OmniScriptId__c": {
-            "Name": "Retirement Planning Tool TZ",
+            "Name": "Retirement Planning Tool - Master",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
             "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/clims/RetirementPlanningTool/English",
             "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
@@ -35,7 +35,7 @@
             },
             {
                 "active": true,
-                "text": "REQUIRED",
+                "text": "Enter your retirement age.",
                 "type": "Requirement",
                 "value": false
             }
@@ -48,11 +48,6 @@
                     {
                         "condition": "<>",
                         "data": "NULL",
-                        "field": "resultsRetirementAge"
-                    },
-                    {
-                        "condition": "<>",
-                        "data": "$",
                         "field": "resultsRetirementAge"
                     },
                     {

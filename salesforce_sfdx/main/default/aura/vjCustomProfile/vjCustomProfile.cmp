@@ -1,0 +1,73 @@
+<!--
+  @File Name          : vjCustomProfile.cmp
+  @Description        : 
+  @Author             : ChangeMeIn@UserSettingsUnder.SFDoc
+  @Group              : 
+  @Last Modified By   : ChangeMeIn@UserSettingsUnder.SFDoc
+  @Last Modified On   : 2020-05-10, 12:47:27 a.m.
+  @Modification Log   : 
+  Ver       Date            Author      		    Modification
+  1.0    2020-05-10   ChangeMeIn@UserSettingsUnder.SFDoc     Initial Version
+-->
+
+<aura:component
+  implements="forceCommunity:profileMenuInterface"
+  access="global"
+  controller="currentUserInfoCtrl"
+>
+  <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+  <aura:attribute name="identityUser" type="User" />
+  <aura:attribute name="initials" type="String" />
+
+  <!--div class="slds-align_absolute-center" style="height:5rem">
+    <lightning:buttonMenu
+      class="menu-circle"
+      aura:id="trigger"
+      label="{!v.initials}"
+      onselect-="{!c.navigate}-->
+
+  <div class="slds-align_absolute-center" style="height:5rem">
+    <ui:menu class="slds-align_absolute-center">
+      <ui:menuTriggerLink
+        class="menu-circle"
+        aura:id="trigger"
+        label="{!v.initials}"
+      />
+      <ui:menuList class="actionMenu" aura:id="actionMenu">
+        <li class="menu-profile-info">
+          <span>{!v.identityUser.Name}</span>
+          <span>{!v.identityUser.Email}</span>
+        </li>
+        <lightning:menuItem
+          label="{!$Label.c.IMS_PRO_Summery}"
+          href="{!$Site.Prefix + '/identity/s/detail/' + v.identityUser.Id}"
+        />
+        <lightning:menuItem
+          label="{!$Label.c.IMS_PRO_ACC_INFO}"
+          href="{!$Site.Prefix + '/identity/s/settings/' + v.identityUser.Id}"
+        />
+        <lightning:menuItem
+          label="{!$Label.c.IMS_PRO_PER_INFO}"
+          href="{!$Site.Prefix + '/identity/s/profile/' + v.identityUser.Id}"
+        />
+        <lightning:menuItem
+          label="{!$Label.c.IMS_PRO_Change_Pass}"
+          href="{!$Site.Prefix + '/identity/s/ims-comingsoon'}"
+        />
+        <lightning:menuItem
+          label="{!$Label.c.IMS_PRO_Contact}"
+          href="{!$Site.Prefix + '/identity/s/contactus-navigation'}"
+        />
+        <li>
+          <lightning:button
+            variant="brand"
+            label="{!$Label.c.IMS_Sign_Out}"
+            title="{!$Label.c.IMS_Sign_Out}"
+            onclick="{!c.signout}"
+          />
+        </li>
+      </ui:menuList>
+    </ui:menu>
+  </div>
+</aura:component>
